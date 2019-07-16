@@ -1,5 +1,5 @@
 # 目录
-* [Meta Python(中文)]
+* [Meta Python(中文)](README.md)
   * [第一天](README.md)
     * [第1章](Chapter1/README.md)
       * [简介](Day1/Chapter1/Page1.md)
