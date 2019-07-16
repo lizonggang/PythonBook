@@ -1,46 +1,39 @@
 {
-    "title": "MetaBook",
-    "description": "当下最流行的教育图书。",
-    "structure": {
-      "readme": "README.md"
-    },
-    "links": {
-      "gitbook": false,
-      "sharing": {
-        "google": false,
-        "facebook": false,
-        "twitter": false,
-        "all": false
-      }
-    },
-  
-    "plugins": ["disqus","advanced-emoji"],
-    "pluginsConfig": {
-      "disqus": {
-          "shortName": "Metabookuse"
-      }
-    },
+	"title": "MetaBook",
+	"description": "当下最流行的教育图书。",
+	"structure": {
+		"readme": "README.md"
+	},
+	"links": {
+		"gitbook": false,
+		"sharing": {
+			"google": false,
+			"facebook": false,
+			"twitter": false,
+			"all": false
+		}
+	},
 
-    "plugins": [
-        "-lunr", "-search", "search-pro",
-        "back-to-top-button",
-        "chapter-fold",
-        "code",
-        "splitter",
-        "tbfed-pagefooter",
-        "popup",
-        "page-toc-button"
-    ],
-    "pluginsConfig": {
-        "tbfed-pagefooter": {
-            "copyright": "Copyright &copy Meta 2019",
-            "modify_label": "该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "page-toc-button": {
-            "maxTocDepth": 2,
-            "minTocSize": 2
-        }
-    }
-//    "plugins": ["expandable-chapters"]
+	"plugins": [
+		"-lunr", "-search", "search-pro",
+		"back-to-top-button",
+		"chapter-fold",
+		"code",
+		"splitter",
+		"tbfed-pagefooter",
+		"popup",
+        "page-toc-button",
+        "advanced-emoji"
+	],
+	"pluginsConfig": {
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy Meta 2019",
+			"modify_label": "该文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"page-toc-button": {
+			"maxTocDepth": 2,
+			"minTocSize": 2
+		}
+	}
 }
