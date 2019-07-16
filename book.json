@@ -23,7 +23,9 @@
 		"tbfed-pagefooter",
 		"popup",
         "page-toc-button",
-        "advanced-emoji"
+		"advanced-emoji",
+		"flexible-alerts"
+		
 	],
 	"pluginsConfig": {
 		"tbfed-pagefooter": {
@@ -34,6 +36,9 @@
 		"page-toc-button": {
 			"maxTocDepth": 2,
 			"minTocSize": 2
-		}
+		},
+	    "flexible-alerts": {
+			"style": "flat"
+		}	
 	}
 }
