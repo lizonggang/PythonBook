@@ -19,7 +19,8 @@
       "disqus": {
           "shortName": "Metabookuse"
       }
-    }
+    },
+
     "plugins": [
         "-lunr", "-search", "search-pro",
         "back-to-top-button",
