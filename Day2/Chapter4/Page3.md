@@ -44,8 +44,8 @@
 
 <br>
 
-> [!Warning]
-> 问题：如果用户输入5，循环重复多少次？
+> [!Warning|style:flat|label:问题：|iconVisibility:hidden]]
+> 如果用户输入5，循环重复多少次？
 
 下表显示了每个变量、计数器和输出的值
 
