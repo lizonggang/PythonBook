@@ -30,7 +30,7 @@ x = int(input())            # 从键盘读取x
 counter = 1                 # 设置默认计数器的值为1
 while counter <= 100:       # 在计数器小于或等于100执行此循环   
     print(x + counter)
-    counter = counter + 1   # 将计数器增加1
+        counter = counter + 1   # 将计数器增加1
 
 ```
 
