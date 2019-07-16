@@ -14,11 +14,11 @@
 <table><tr><td bgcolor=#87CEFA>
 while循环的一般格式是：
 
-while 条件:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
-
+while 条件:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+<br>
 while循环在满足条件时重复括号之间的表达式。
 </td></tr></table>
 
