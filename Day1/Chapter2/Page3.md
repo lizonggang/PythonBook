@@ -2,8 +2,7 @@
 ---
 
 <table><tr><td bgcolor=#FFE4C4>
-secondsInADay = 86400
-
+secondsInADay = 86400<br>
 print("There are", secondsInADay, "seconds in one day.")
 </td></tr></table>
 
