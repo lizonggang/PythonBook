@@ -17,7 +17,7 @@
     "plugins": ["disqus","advanced-emoji"],
     "pluginsConfig": {
       "disqus": {
-          "shortName": "gitbookuse"
+          "shortName": "Metabookuse"
       }
     }
     "plugins": [
@@ -41,5 +41,5 @@
             "minTocSize": 2
         }
     }
-    "plugins": ["expandable-chapters"]
+//    "plugins": ["expandable-chapters"]
 }
