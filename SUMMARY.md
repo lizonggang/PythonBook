@@ -34,6 +34,8 @@
     * [第4章](Day2/Chapter4/RM.md)
       * [while循环a](Day2/Chapter4/Page1.md)
       * [while循环b](Day2/Chapter4/Page2.md)
+      * [while循环c](Day2/Chapter4/Page3.md)
+
 
 
 

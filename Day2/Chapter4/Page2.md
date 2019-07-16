@@ -31,7 +31,7 @@ number = 1
 while number != 0:              # number不等于1时，运行此循环
     number = int(input())       # 从键盘读取数字
         if number > 5:          # 如果数字大于5
-        print(number)
+            print(number)
 ```
 
 <br>
