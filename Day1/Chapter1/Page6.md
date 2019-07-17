@@ -9,6 +9,6 @@
 ![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.5.png)
 
 
-祝贺 - 课程训练结束了。
-做得好！
+**祝贺 - 达到了教训的结束** <br>
+**做得好！**
 
