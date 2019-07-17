@@ -35,6 +35,13 @@
       * [while循环a](Day2/Chapter4/Page1.md)
       * [while循环b](Day2/Chapter4/Page2.md)
       * [while循环c](Day2/Chapter4/Page3.md)
+      * [while循环练习](Day2/Chapter4/Page4.md)
+      * [for循环](Day2/Chapter4/Page5.md)
+      * [无限循环](Day2/Chapter4/Page6.md)
+      * [for循环练习a](Day2/Chapter4/Page7.md)
+      * [for循环练习b](Day2/Chapter4/Page8.md)
+      * [for循环练习c](Day2/Chapter4/Page9.md)
+      * [for循环练习d](Day2/Chapter4/Page10.md)
 
 
 
