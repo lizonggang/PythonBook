@@ -42,6 +42,10 @@
       * [for循环练习b](Day2/Chapter4/Page8.md)
       * [for循环练习c](Day2/Chapter4/Page9.md)
       * [for循环练习d](Day2/Chapter4/Page10.md)
+      * [练习](Day2/Chapter4/Exercises.md)
+      * [参考答案](Day1/Chapter4/Solutions.md)
+      * [for循环视频](Day1/Chapter4/for_loop.md)
+      * [while循环视频](Day1/Chapter4/while_loop.md)
 
 
 
