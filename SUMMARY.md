@@ -47,13 +47,16 @@
       * [视频-for循环](Day2/Chapter4/for_loop.md)
       * [视频-while循环](Day2/Chapter4/while_loop.md)
   * [第3天](README.md)  
-    * [第4章](Day3/Chapter4/RM.md)
-      * [练习2](Day3/Chapter4/Exercises-Part2.md)
-      * [参考答案2](Day3/Chapter4/Solutions-Part2.md)
-      * [通用游戏流程图](Day3/Chapter4/Generic-Game-Flowchart.md)
-      * [项目：火柴棍游戏](Day3/Chapter4/Project-MatchstickGame.md)
-      * [练习3](Day3/Chapter4/Exercises-Part3.md)
-      * [参考答案3](Day3/Chapter4/Solutions-Part3.md)
+    * [第4章:练习2](Day3/Chapter4/Exercises-Part2.md)
+    * [第4章:参考答案2](Day3/Chapter4/Solutions-Part2.md)
+    * [通用游戏流程图](Day3/Chapter4/Generic-Game-Flowchart.md)
+    * [项目：火柴棍游戏](Day3/Chapter4/Project-MatchstickGame.md)
+    * [练习3(选做)](Day3/Chapter4/Exercises-Part3.md)
+    * [参考答案3](Day3/Chapter4/Solutions-Part3.md)
+  * [第4天](README.md)
+    * [项目:猜我的数字](Day3/Chapter4/Project-GuessmyNumber.md)
+    * [比赛:猜我的数字(5分)](Day3/Chapter4/Tournament-GuessmyNumber.md)
+
 
       
       
