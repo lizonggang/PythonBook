@@ -55,7 +55,7 @@
     * [参考答案3](Day3/Chapter4/Solutions-Part3.md)
   * [第4天](README.md)
     * [项目：猜我的数字](Day4/Project-GuessmyNumber.md)
-    * [比赛：猜我的数字(5分)](Day/Tournament-GuessmyNumber.md)
+    * [比赛：猜我的数字(5分)](Day4/Tournament-GuessmyNumber.md)
 
 
 
