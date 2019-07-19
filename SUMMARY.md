@@ -58,9 +58,5 @@
     * [比赛：猜我的数字(5分)](Day3/Chapter4/Tournament-GuessmyNumber.md)
 
 
-      
-      
-
-
 
 
