@@ -1,13 +1,13 @@
 
-D1-变量&算术运算符 https://www.youtube.com/embed/D48iCw3WWpI?start=144
-D1-条件 https://www.youtube.com/watch?v=Zp5MuPOtsSY Python中的控制语句 - if elif else
+D1-变量&算术运算符 https://www.youtube.com/embed/D48iCw3WWpI?start=144 让我们学习Python-基础知识-整数浮点数和数学运算
+D1-条件 https://www.youtube.com/watch?v=Zp5MuPOtsSY Python中的控制语句-if elif else
 
 D2-for循环 https://www.youtube.com/watch?v=9LgyKiq_hU0&amp;start=3
 D2-while循环 https://www.youtube.com/watch?v=D0Nb2Fs3Q8c
 
 D6-数组 https://www.youtube.com/embed/Eaz5e6M8tL4?end=244
 
-D8-嵌套条件 https://www.youtube.com/watch?v=IRiJdLN-Ers
+D8-嵌套条件 https://www.youtube.com/watch?v=IRiJdLN-Ers  ok
 
 D8-嵌套循环 https://www.youtube.com/watch?v=shO5VbD2rNI
 
@@ -19,4 +19,17 @@ D11-函数 https://www.youtube.com/watch?v=NSbOtYzIQI0
 D12-矩阵 https://www.youtube.com/watch?v=mYBK8tQP2TY
 
 
+台服
+
+aos2-db1 aos2-db2
+原配置 r4.xlarge
+修改成 r4.large
+
+
+
+aos2-game1 aos2-game2
+原配置 m5.xlarge 修改成m5.2xlarge
+
+aos2-stat
+原配置m5.xlarge 修改成 m5.large
 

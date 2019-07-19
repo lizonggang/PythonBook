@@ -42,14 +42,20 @@
       * [for循环练习b](Day2/Chapter4/Page8.md)
       * [for循环练习c](Day2/Chapter4/Page9.md)
       * [for循环练习d](Day2/Chapter4/Page10.md)
-      * [练习](Day2/Chapter4/Exercises-Part1.md)
-      * [参考答案](Day2/Chapter4/Solutions-Part1.md)
+      * [练习1](Day2/Chapter4/Exercises-Part1.md)
+      * [参考答案1](Day2/Chapter4/Solutions-Part1.md)
       * [视频-for循环](Day2/Chapter4/for_loop.md)
       * [视频-while循环](Day2/Chapter4/while_loop.md)
   * [第3天](README.md)  
     * [第4章](Day3/Chapter4/RM.md)
-      * [练习](Day3/Chapter4/Exercises-Part2.md)
-      * [参考答案](Day3/Chapter4/Solutions-Part2.md)
+      * [练习2](Day3/Chapter4/Exercises-Part2.md)
+      * [参考答案2](Day3/Chapter4/Solutions-Part2.md)
+      * [通用游戏流程图](Day3/Chapter4/Generic-Game-Flowchart.md)
+      * [项目：火柴棍游戏](Day3/Chapter4/Project-MatchstickGame.md)
+      * [练习3](Day3/Chapter4/Exercises-Part3.md)
+      * [参考答案3](Day3/Chapter4/Solutions-Part3.md)
+
+      
       
 
 
