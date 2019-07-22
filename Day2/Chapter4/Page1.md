@@ -26,9 +26,9 @@ while循环在满足条件时重复括号之间的表达式。
 例4.1：编写一个程序，输出从x + 1到x + 100的数字，从键盘输入x的值。
 
 ```python
-x = int(input())            # 从键盘读取x
-counter = 1                 # 设置默认计数器的值为1
-while counter <= 100:       # 在计数器小于或等于100执行此循环   
+x = int(input())                # 从键盘读取x
+counter = 1                     # 设置默认计数器的值为1
+while counter <= 100:           # 在计数器小于或等于100执行此循环   
     print(x + counter)
         counter = counter + 1   # 将计数器增加1
 

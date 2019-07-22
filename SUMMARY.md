@@ -56,6 +56,20 @@
   * [第4天](README.md)
     * [项目：猜我的数字](Day4/Project-GuessmyNumber.md)
     * [比赛：猜我的数字(5分)](Day4/Tournament-GuessmyNumber.md)
+  * [第5天](README.md)
+    * [挑战：循环问题集](Day5/Challenge-Looping-Problem-Set.md)
+  * [第6天](README.md)
+    * [第5章：数组](Day6/Chapter5-Arrays.md)
+    * [第5章：数组-2](Day6/Chapter5-2.md)
+    * [第5章：数组-3](Day6/Chapter5-3.md)
+    * [第5章：数组-4](Day6/Chapter5-4.md)
+    * [第5章：数组-5](Day6/Chapter5-5.md)
+    * [第5章：数组-6](Day6/Chapter5-6.md)
+    * [第5章：练习](Day6/Chapter5-Exercises-Part1.md)
+    * [第5章：参考答案](Day6/Chapter5-Solutions-Part1.md)
+
+
+
 
 
 

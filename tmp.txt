@@ -19,17 +19,9 @@ D11-函数 https://www.youtube.com/watch?v=NSbOtYzIQI0
 D12-矩阵 https://www.youtube.com/watch?v=mYBK8tQP2TY
 
 
-台服
-
-aos2-db1 aos2-db2
-原配置 r4.xlarge
-修改成 r4.large
 
 
 
-aos2-game1 aos2-game2
-原配置 m5.xlarge 修改成m5.2xlarge
 
-aos2-stat
-原配置m5.xlarge 修改成 m5.large
+
 
