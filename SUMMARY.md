@@ -85,6 +85,21 @@
     * [第7章：嵌套循环-3](Day8/Chapter7-NestedLoops-3.md)
     * [第7章：嵌套循环-4](Day8/Chapter7-NestedLoops-4.md)
     * [第7章：嵌套循环-5](Day8/Chapter7-NestedLoops-5.md)
+  * [第9天](README.md)
+    * [第8章：变量-字符和字符串](Day9/Chapter8-VariablesCharandString.md)
+    * [第8章：变量-字符和字符串-2](Day9/Chapter8-VariablesCharandString-2.md)
+    * [第8章：变量-字符和字符串-3](Day9/Chapter8-VariablesCharandString-3.md)
+    * [第8章：变量-字符和字符串-4](Day9/Chapter8-VariablesCharandString-4.md)
+    * [第8章：变量-字符和字符串-5](Day9/Chapter8-VariablesCharandString-5.md)
+    * [第8章：变量-字符和字符串-6](Day9/Chapter8-VariablesCharandString-6.md)
+    * [第8章：变量-字符和字符串-7](Day9/Chapter8-VariablesCharandString-7.md)
+    * [第8章：变量-字符和字符串-8](Day9/Chapter8-VariablesCharandString-8.md)
+    * [第8章：变量-字符和字符串-9](Day9/Chapter8-VariablesCharandString-9.md)
+    * [第8章：变量-字符和字符串-10](Day9/Chapter8-VariablesCharandString-10.md)
+    * [第8章：变量-字符和字符串-11](Day9/Chapter8-VariablesCharandString-11.md)
+    * [第8章：变量-字符和字符串-12](Day9/Chapter8-VariablesCharandString-12.md)
+    * [第8章：练习-1](Day9/Chapter8-ExercisesPart1.md)
+    * [第8章：参考答案-1](Day9/Chapter8-SolutionsPart1.md)
 
 
 
