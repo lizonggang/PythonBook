@@ -51,7 +51,7 @@
     * [第4章：参考答案2](Day3/Chapter4/Solutions-Part2.md)
     * [通用游戏流程图](Day3/Chapter4/Generic-Game-Flowchart.md)
     * [项目：火柴棍游戏](Day3/Chapter4/Project-MatchstickGame.md)
-    * [练习3(选做)](Day3/Chapter4/Exercises-Part3.md)
+    * [练习3(可选)](Day3/Chapter4/Exercises-Part3.md)
     * [参考答案3](Day3/Chapter4/Solutions-Part3.md)
   * [第4天](README.md)
     * [项目：猜我的数字](Day4/Project-GuessmyNumber.md)
@@ -102,8 +102,18 @@
     * [第8章：参考答案-1](Day9/Chapter8-SolutionsPart1.md)
     * [第8章：练习-2](Day9/Chapter8-ExercisesPart2.md)
     * [第8章：参考答案-2](Day9/Chapter8-SolutionsPart2.md)
-    * [第8章：字符串-问题集(可选)](Day9/CharandString-ProblemSet(optional).md)
+    * [第8章：字符串-问题集(可选)](Day9/CharandString-ProblemSet-optional.md)
     * [第8章：视频：字符串](Day9/video-CharandString.md)
+  * [第10天](README.md)
+    * [第9章：python技巧](Day10/Chapter9-PythonTipsTricks.md)
+    * [第9章：python技巧-2](Day10/Chapter9-PythonTipsTricks-2.md)
+    * [第9章：python技巧-3](Day10/Chapter9-PythonTipsTricks-3.md)
+    * [第10章：读和写文件](Day10/Chapter10-ReadingandWritingFiles.md)
+    * [第10章：读和写文件-2](Day10/Chapter10-ReadingandWritingFiles-2.md)
+    * [第10章：读和写文件-3](Day10/Chapter10-ReadingandWritingFiles-3.md)
+  * [第11天](README.md)
+    * [第9章：python技巧](Day11/Chapter11-Functions.md)
+
 
 
 
