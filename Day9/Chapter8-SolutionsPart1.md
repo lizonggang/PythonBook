@@ -108,11 +108,11 @@ if word3 < word2 and word2 < wordl:
 ```python
 # 问题1:
 """
-str = input()
-rev = ""
-for ch in str :
-    rev = ch + rev
-print(rev)
+    str = input()
+    rev = ""
+    for ch in str :
+        rev = ch + rev
+    print(rev)
 """
 ############################
 # 问题2:
@@ -123,8 +123,8 @@ for counter in range(len(str)-l,-l,-l):
 ############################
 # 问题3:
 """
-str = input()
-print(str[::-1])
+    str = input()
+    print(str[::-1])
 """
 ```
 
