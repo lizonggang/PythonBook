@@ -112,7 +112,18 @@
     * [第10章：读和写文件-2](Day10/Chapter10-ReadingandWritingFiles-2.md)
     * [第10章：读和写文件-3](Day10/Chapter10-ReadingandWritingFiles-3.md)
   * [第11天](README.md)
-    * [第9章：python技巧](Day11/Chapter11-Functions.md)
+    * [第11章：函数](Day11/Chapter11-Functions.md)
+    * [第11章：函数-2](Day11/Chapter11-Functions-2.md)
+    * [第11章：函数-3](Day11/Chapter11-Functions-3.md)
+    * [第11章：函数-4](Day11/Chapter11-Functions-4.md)
+    * [第11章：函数-5](Day11/Chapter11-Functions-5.md)
+    * [第11章：函数-6](Day11/Chapter11-Functions-6.md)
+    * [第11章：练习](Day11/Chapter11-Exercises.md)
+    * [第11章：参考答案](Day11/Chapter11-Functions.md)
+    * [第11章：函数](Day11/Chapter11-Solutions.md)
+    * [第11章：视频](Day11/video-Functions.md)
+    * [第11章：项目-猜字游戏](Day11/Project-WordGuessingGame.md)
+
 
 
 
