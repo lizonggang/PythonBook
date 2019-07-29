@@ -123,6 +123,18 @@
     * [第11章：函数](Day11/Chapter11-Solutions.md)
     * [第11章：视频](Day11/video-Functions.md)
     * [第11章：项目-猜字游戏](Day11/Project-WordGuessingGame.md)
+  * [第12天](README.md)
+    * [第12章：矩阵](Day12/Chapter12-Matrices.md)
+    * [第12章：矩阵-2](Day12/Chapter12-Matrices-2.md)
+    * [第12章：矩阵-3](Day12/Chapter12-Matrices-3.md)
+    * [第12章：矩阵-4](Day12/Chapter12-Matrices-4.md)
+    * [第12章：矩阵-5](Day12/Chapter12-Matrices-5.md)
+    * [第12章：练习](Day12/Chapter12-Exercises.md)
+    * [第12章：参考答案](Day12/Chapter12-Solutions.md)
+    * [第12章：视频-矩阵](Day12/video-Matrices.md)
+    * [第12章：项目-猜字游戏](Day12/Project-WordGuessingGame.md)
+
+
 
 
 
