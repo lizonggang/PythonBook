@@ -40,9 +40,9 @@
     * [第4章：for循环练习d](Day2/Chapter4/Page10.md)
     * [第4章：练习1](Day2/Chapter4/Exercises-Part1.md)
     * [第4章：参考答案1](Day2/Chapter4/Solutions-Part1.md)
-    * [第4章：视频-for循环](Day2/Chapter4/for_loop.md)
-    * [第4章：视频-while循环](Day2/Chapter4/while_loop.md)
-  * [第3天](README.md)  
+    * [第4章：视频-for循环](Day2/Chapter4/video-for_loop.md)
+    * [第4章：视频-while循环](Day2/Chapter4/video-while_loop.md)
+  * [第3天](README.md)
     * [第4章：练习2](Day3/Chapter4/Exercises-Part2.md)
     * [第4章：参考答案2](Day3/Chapter4/Solutions-Part2.md)
     * [通用游戏流程图](Day3/Chapter4/Generic-Game-Flowchart.md)
@@ -135,7 +135,7 @@
     * [第12章：项目：AlphaMan游戏](Day14/Project-AlphamanGame.md)
   * [第15天](README.md)
     * [第12章：项目：期末考试](Day15/Exam-Finalexam.md)
-
+* [Meta Python(English)](README.md)
 
 
 
