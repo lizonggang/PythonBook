@@ -42,6 +42,6 @@ else:
 
 > [!NOTE]
 > 大写字母在计算机中的小写字母之前。
-例如，如果string1为'zinc'且string2为'about'，则打印该程序
-'string1 is before string2'，因为 'Z'是在'a'前。
+> 例如，如果string1为'zinc'且string2为'about'，则打印该程序
+> 'string1 is before string2'，因为 'Z'是在'a'前。
 
