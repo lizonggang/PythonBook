@@ -13,5 +13,10 @@ Thonny编辑器是上面图片所示。
 ## 1.4. 写在屏幕上
 使用 'print' 命令显示在屏幕上。
 
+<!-- 
 <table><tr><td bgcolor=#87CEFA>注意：小心，python区分大小写。</td></tr></table>
+-->
+
+> [!NOTE]
+> 小心，python区分大小写。
 
