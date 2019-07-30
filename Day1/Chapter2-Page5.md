@@ -29,6 +29,6 @@ print("you will be", age + 40, "years old after 40 years")
 
 例如，如果用户从键盘输入14，则输出如下（红色是用户输入）：
 
-please enter your age: <font color=red>14</font>
+please enter your age: <font color=red>14</font> <br>
 you will be 54 years old after 40 years
 
