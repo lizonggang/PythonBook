@@ -134,7 +134,6 @@
     * [项目：AlphaMan游戏](cn/Day14/Project-AlphamanGame.md)
   * [第15天](cn/README.md)
     * [考试：期末考试](cn/Day15/Exam-Finalexam.md)
-
 * [Meta Python(English)](en/README.md)
   * [Day 1](en/README.md)
     * [Chapter1: Machine Language](en/Day1/Chapter1-Page1.md)
@@ -269,6 +268,8 @@
     * [Project: AlphaMan Game](en/Day14/Project-AlphamanGame.md)
   * [Day 15](en/README.md)
     * [Exam: Final exam](en/Day15/Exam-Finalexam.md)
+
+
 
 
 
