@@ -8,8 +8,9 @@
 ```python
 print("hello world!")
 ```
-<table><tr><td bgcolor=#87CEFA>注意：屏幕指的是底部的 "shell" 标签。</td></tr></table>
 
+> [!NOTE]
+> 注意：屏幕指的是底部的 "shell" 标签。
 
 ![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.4.1.png)
 

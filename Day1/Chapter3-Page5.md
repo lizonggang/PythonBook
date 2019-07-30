@@ -34,7 +34,7 @@ else:
     print("awesome")
 ```
 
-<table><tr><td bgcolor=#87CEFA>
-注意：不要忘记if，elif和else行末尾的冒号(:)。
-</td></tr></table>
+> [!NOTE] 
+> 注意：不要忘记if，elif和else行末尾的冒号(:)。
+
 

@@ -15,11 +15,11 @@
 ![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/2.1-2.png)
 
 
+> [!NOTE]
+> 注意：我们必须小心变量名称;它们不包含空格，它们区分大小写。 MyBox和myBox被认为是两个不同的变量。
 
-<table><tr><td bgcolor=#87CEFA>注意：我们必须小心变量名称;它们不包含空格，它们区分大小写。 MyBox和myBox被认为是两个不同的变量。</td></tr></table>
-
-<table><tr><td bgcolor=#87CEFA>注意：变量名称的第一个字符必须是字母，其余字符可以是字母，数字或下划线。</td></tr></table>
-
+> [!NOTE]
+> 注意：变量名称的第一个字符必须是字母，其余字符可以是字母，数字或下划线。
 
 
 例如，'My_3rd_Box' 是一个有效的变量名，而 '3rdMyBox' 则不是，因为它以数字开头。
@@ -32,8 +32,7 @@
 nicebox = 10
 ```
 
-<table><tr><td bgcolor=#87CEFA>注意：python中的等号（=）与数学中的等号不同。在数学中，等号意味着“等号两边的结果是相等的”。另一方面，在python中等号意味着 '将右边的数字放左侧的盒子里' 。</td></tr></table>
-
-
+> [!NOTE]
+> 注意：python中的等号（=）与数学中的等号不同。在数学中，等号意味着 “等号两边的结果是相等的”。另一方面，在python中等号意味着 '将右边的数字放左侧的盒子里' 。
 
 

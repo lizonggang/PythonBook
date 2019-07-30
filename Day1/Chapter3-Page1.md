@@ -9,14 +9,16 @@
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 如果x大于5，则写'x大于5'
 例3.1：编写一个从键盘读取数字并写入的程序
 如果给定的数字大于5，则输出'x大于5'。
+
 ```python
 x = int(input())
 if x > 5:
     print("x is greater than 5")
 ```
-<table><tr><td bgcolor=#87CEFA>注意：以print开头的行是缩进的（通常有4个空格或制表符）。<br>
-如果没有缩进，那将是一个错误。
-</td></tr></table>
+
+> [!NOTE]
+> 注意：以print开头的行是缩进的（通常有4个空格或制表符）。
+> 如果没有缩进，那将是一个错误。
 
 
 ### 3.2. if - else
