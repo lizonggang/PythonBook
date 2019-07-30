@@ -24,7 +24,7 @@ print("There are "+ secondsInADay + str(secondsInADay) \
 *=|number *= 10|number = number * 10
 /=|number /= 10|number = number / 10
 
-> [!INFO]
+> [!NOTE]
 > 小心不要将变量或数字除以零否则程序将失败。
 
 <br>
