@@ -1,49 +1,61 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-以下代码也执行相同的操作。这个时间计数器从零开始。一旦循环开始，计数器counter就会递增1.因此，第一步 x + 1 输出在屏幕上。条件是计数器 counter < 100，因为循环当计数器达到100时必须结束。
+The following code also does the same work. This time counter starts from zero.
+As soon as loop starts, ``counter`` is incremented by 1. So, x + 1 is written on screen in the first step. The condition is counter < 100 since the loop must end as soon as counter reaches to 100.
 
 ```python
-x = int(input())            # 从键盘选取x
-counter = 0                 # 最初计数器为0
-while counter < 100:        # 当counter小于100
+x = int(input())            # read x from keyboard
+counter = 0                 # initially the counter is 0
+while counter < 100:        # while counter is less than 100
     counter = counter + 1
     print(x + counter)
 ```
 
-例4.2：写一个程序，则读取和输出，如果它大于5。
+Example 4.2: Write a program that reads numbers and outputs if they are greater
+than 5. Program will stop when 0 is given.
 
-样本输入:|样本输出:
--|-
-11|11
-8|8
-2|7
-2|
-4|
-7|
-5|
-0|
-<br>
-解决方案：
+```
+Sample input:               Sample output:
+11                          11
+8                           8
+2                           7
+2
+4
+7
+5
+0
+```
+
+Solution：
 
 ```python
 number = 1
-while number != 0:              # number不等于1时，运行此循环
-    number = int(input())       # 从键盘读取数字
-        if number > 5:          # 如果数字大于5
-            print(number)
+while number != 0:              # while number is not equal to 0
+    number = int(input())       # run this loop
+        if number > 5:          # read the number from keyboard   
+            print(number)       # if the number is greater than 5
 ```
 
 <br>
-练习4.2：编写一个程序，输出 **输入数字的次数**。当输入0时，程序将停止。
 
-样本输入:|样本输出:
--|-
-11|7
-8|
-2|
-2|
-4|
-7|
-5|
-0|
+Exercise 4.2: Write a program that finds the count of the given numbers. Program
+will stop when 0 is given.
+
+```
+Sample input:               Sample output:
+11                          7
+8
+2
+2
+4
+7
+5
+0
+```
+
+<br>
+
+<center> - 30 - </center>
+
+

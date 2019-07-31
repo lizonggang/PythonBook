@@ -1,52 +1,60 @@
-###### 循环
+###### Looping
 ---
 
-# <center>第4章: 循环</center>
+# <center>Chapter 4: Looping</center>
 ---
 
+### 4.1. While Loop
 
-### 4.1 while循环
+Exercise 4.1: Write a program that outputs your name 10 times.
 
-练习4.1：编写一个程序，输出你的名字10次。
-
-**问题：** 如果要求我们写100次会怎么样？我们应该写的同一行100次？
+**Question:** What happens if we are asked to write 100 times? Should we write the
+same line 100 times?
 
 <table><tr><td bgcolor=#87CEFA>
-while循环的一般格式是：
+General form of while loop is:
 
-while 条件:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
+while condition:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(expression)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(expression)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>
 <br>
-while循环在满足条件时重复括号之间的表达式。
+while loop repeats the expressions between the curly braces while the condition
+is satisfied.
 </td></tr></table>
 
 
-例4.1：编写一个程序，输出从x + 1到x + 100的数字，从键盘输入x的值。
+Example 4.1: Write a program that outputs numbers starting from x + 1 to x + 100
 
 ```python
-x = int(input())                # 从键盘读取x
-counter = 1                     # 设置默认计数器的值为1
-while counter <= 100:           # 在计数器小于或等于100执行此循环   
-    print(x + counter)
-        counter = counter + 1   # 将计数器增加1
+x = int(input())                # read x from keyboard
+counter = 1                     # initially the counter is 1
+while counter <= 100:           # while counter is less than or 
+    print(x + counter)          # equal to 100 execute this loop
+        counter = counter + 1   # increase the counter by 1
 
 ```
 
 > [!NOTE]
-> 注意：请注意第一步和最后一步。在上面的例子中，最初计数器是1.在最后一步，将x + 100写入屏幕后，计数器变为101并且违反了条件。
+> Be careful about the first and the last steps. In the above example, initially
+counter is 1. In the last step, after writing x + 100 to screen, counter becomes
+101 and violates the condition.
 
 <br>
-下表显示了计数器counter在每一步的输出和值。假设用户从键盘输入6。
+The following table shows the output and the value of counter at each step in the loop. Suppose user inputs 6 from the keyboard.
 
-步输|输出|计数器
--|-|-
-Initial||1
-1|7|2
-2|8|3
-:|:|:
-:|:|:
-99|105|100
-100|106|101
+```
+Step        Output      counter
+Initial                 1
+1           7           2
+2           8           3
+:           :           :
+:           :           :
+99          105         100
+100         106         101
+```
+
+<br>
+
+<center> - 29 - </center>
 
