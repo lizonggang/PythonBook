@@ -14,8 +14,7 @@ computer fulfills specific actions accordingly.
 
 * A computer program has purposes, makes a process.
    
-   - Analogy: Stomach, eating process - Internet Explorer, shows
-                Web pages.
+   - Analogy: Stomach, eating process - Internet Explorer, shows Web pages.
 
 ### 1.2. What is ‘machine language’ and ‘compiler’?
 #### 1.2.1. In-class Activity.

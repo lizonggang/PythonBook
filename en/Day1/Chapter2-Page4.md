@@ -34,16 +34,13 @@ Output.
 607.0
 ```
 
-Note that in this example both box1 and box2 became decimal; not integer. The
+Note that in this example both ``box1`` and ``box2`` became decimal; not integer. The
 reason is that the result of division operation (‘/’) is <u>always</u> decimal in Python.
 
-Exercise 2.3: Write a program that puts the result of‘363 / 3’into box1. Next,
-it adds 2 to box1, multiply by 11 and puts the result into box2. Finally, it writes
-box2 then box1 to the screen.
+Exercise 2.3: Write a program that puts the result of‘``363 / 3``’into ``box1``. Next, it adds ``2`` to ``box1``, multiply by ``11`` and puts the result into ``box2``. Finally, it writes ``box2`` then ``box1`` to the screen.
 
 
-> [!NOTE]
-> Division and Remainder Operations
+> [!NOTE|label:Division and Remainder Operations]
 > In Python, division operator is ‘/’ whereas remainder is ‘%’ for integers.
 > Example. ‘6 / 3’is equal to 2. ‘7 % 3’is equal to 1 since the remainder of division of 7 by 3 is 1.
 

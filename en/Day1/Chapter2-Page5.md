@@ -10,12 +10,12 @@ Example 2.6: The following Python program puts two numbers read from
 keyboard into ``box1`` and ``box2``. Then it puts the half of the sum of ``box1`` and ``box2``
 into ``box3`` and it writes ``box3`` to the screen.
 
-``python
+```python
 box1 = int(input())
 box2 = int(input())
 box3 = (box1 + box2) / 2
 print(box3)
-``
+```
 
 In this code above, ``input()`` read one line of keyboard input and ``int()`` converts it
 to an integer.
@@ -31,10 +31,10 @@ them into ``box1`` and ``box2``. Then it puts the multiplication of ``box1`` and
 
 We can also ask our question when reading input from keyboard as follows:
 
-``python
+```python
 age = int(input("please enter your age: "))
 print("you will be", age + 40, "years old after 40 years")
-``
+```
 
 For instance, if the user enters 14 from the keyboard, the output will be as
 follows (red is the user input):
