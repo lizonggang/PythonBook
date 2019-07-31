@@ -1,40 +1,51 @@
-###### 条件语句
+###### Conditionals
 ---
 
-3.11**) 编写一个程序，对从最小到最大的三个给定数字进行排序。
+3.11**) Write a program that sorts three given numbers from smallest to largest.
 
 ```
-样本输入:                       样本输出:
+Sample input:                      Sample output:
 12                              7
 1                               11
 11                              12
 ```
 
-3.12) 每天早上10点，露西看着温度计和湿度，根据温度和温度计算并决定吃什么或喝什么。下表显示了露西吃什么或喝什么的条件。例如，如果温度为45°F，则湿度为53％
+3.12) Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
+
 
 ```
-                  温度 < 60°F             温度 >= 60°F
-湿度 < 40%         露西喝咖啡              露西喝冰茶
-湿度 >= 40%        露西吃蛋糕              露西吃冰淇淋
+                      Temperature < 60°F                 Temperature > 60°F
+Humidity < 40%        Lucv drinks coffee                 Lucv drinks iced tea
+Humidity >= 40%       Lucy eats cake                     Lucy eats ice cream
 ```
 
 
-编写一个程序，读取两个整数，温度和湿度，相应写下露西的所作所为。
+Write a program that reads two integers, the temperature and the humidity
+accordingly, and writes what Lucy does.
 
 ```
-样本输入:                       样本输出:
-45                              露西吃蛋糕
+Sample input:                      Sample output:
+45                                  Lucy eats cake
 53
 ```
 
-3.13) 使用以下条件编写相同的程序。
+3.13) Write the same program with the conditions below.
 
 ```
-                           温度 < 60°F             温度 >= 60°F
-湿度 < 40％                 露西喝咖啡              露西喝冰茶
-40％ =< 湿度 < 60％         露西打网球              露西打高尔夫球
-湿度 >= 60％                露西吃蛋糕              露西吃冰淇淋
+                        Temperature < 60°F                 Temperature > 60°F
+Humidity < 40%          Lucv drinks coffee                 Lucv drinks iced tea
+40% =< Humiditv < 60%   Lucy plays tennis                  Lucv plays golf
+Humidity >= 60%         Lucy eats cake                     Lucy eats ice cream
+
 ```
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+#### **Congratulations - end of lesson reached**
+
+Well done!
+
+<br>
+
+<center> - 27 - </center>
+
+
+

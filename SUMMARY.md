@@ -18,6 +18,7 @@
     * [第2章：课堂练习](cn/Day1/Chapter2-Page6.md)
     * [第2章：练习](cn/Day1/Chapter2-Exercises.md)
     * [第2章：参考答案](cn/Day1/Chapter2-Solutions.md)
+    * [视频：变量 & 算术运算](en/Day1/video-Variablesarithmeticoperations.md)
     * [第3章：if语句](cn/Day1/Chapter3-Page1.md)
     * [第3章：关系运算符](cn/Day1/Chapter3-Page2.md)
     * [第3章：逻辑运算符-1](cn/Day1/Chapter3-Page3.md)
@@ -27,6 +28,7 @@
     * [第3章：练习-2](cn/Day1/Chapter3-Page7.md)
     * [第3章：练习](cn/Day1/Chapter3-Exercises.md)
     * [第3章：参考答案](cn/Day1/Chapter3-Solutions.md)
+    * [视频：条件](en/Day1/video-Conditions.md)
   * [第2天](cn/README.md)
     * [第4章：while循环-1](cn/Day2/Chapter4-Page1.md)
     * [第4章：while循环-2](cn/Day2/Chapter4-Page2.md)
@@ -152,6 +154,7 @@
     * [Chapter2: Exercises](en/Day1/Chapter2-Page6.md)
     * [Chapter2: Exercises](en/Day1/Chapter2-Exercises.md)
     * [Chapter2: Solutions](en/Day1/Chapter2-Solutions.md)
+    * [video: Variables & arithmetic operations](en/Day1/video-Variablesarithmeticoperations.md)
     * [Chapter3: if statement](en/Day1/Chapter3-Page1.md)
     * [Chapter3: Relational Operators](en/Day1/Chapter3-Page2.md)
     * [Chapter3: Logical Operators-1](en/Day1/Chapter3-Page3.md)
@@ -161,6 +164,7 @@
     * [Chapter3: Exercises-2](en/Day1/Chapter3-Page7.md)
     * [Chapter3: Exercises](en/Day1/Chapter3-Exercises.md)
     * [Chapter3: Solutions](en/Day1/Chapter3-Solutions.md)
+    * [video: Conditions](en/Day1/video-Conditions.md)
   * [Day 2](en/README.md)
     * [Chapter4: while Looping-1](en/Day2/Chapter4-Page1.md)
     * [Chapter4: while Looping-2](en/Day2/Chapter4-Page2.md)
@@ -261,25 +265,12 @@
     * [Chapter12: Exercises](en/Day12/Chapter12-Exercises.md)
     * [Chapter12: Solutions](en/Day12/Chapter12-Solutions.md)
     * [Chapter12: video-Matrices](en/Day12/video-Matrices.md)
-    * [Project: Toads and Frogs(en/Day12/Project-ToadsandFrogs.md)
+    * [Project: Toads and Frogs](en/Day12/Project-ToadsandFrogs.md)
   * [Day 13](en/README.md)
     * [Project: Tic-Tac-Toe](en/Day13/Project-Tic-Tac-Toe.md)
   * [Day 14](en/README.md)
     * [Project: AlphaMan Game](en/Day14/Project-AlphamanGame.md)
   * [Day 15](en/README.md)
     * [Exam: Final exam](en/Day15/Exam-Finalexam.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -1,7 +1,9 @@
-###### 条件语句
+###### Conditionals
 ---
 
-练习3.2：填写___程序代码，以便程序读取两个键盘上的数字，找到这两个数字中的较大者.
+Exercise 3.2: Fill in the following program code so that the program reads two
+numbers from the keyboard and finds the greater of these two numbers.
+
 ```python
 numberl = int(input())
 number2 = int(input())
@@ -12,29 +14,31 @@ else:
     print(number1)
 ```
 
-练习3.3：从键盘上读取三个正数，然后编写一个程序输出这个数，如果它除6余数是3。
+Exercise 3.3: Read three positive numbers from the keyboard and write the ones with the remainder 3 from the division by 6.
 
-样本输入：
+Sample input:
+
 ```python
 11
 9
 15
 ```
 
-样本输出：
+Sample output:
+
 ```python
 9
 15
 ```
 
 
-### 3.4. 逻辑运算符
+### 3.4. Logical Operators
 
-假设丹尼说 “如果下雨而且我在外面，我会用我的雨伞”。
-考虑以下条件声明：
-           如果 x大于5 且 小于10，则输出 'x小于4'。
+Suppose Dane says “if it rains and I'm outside, I use my umbrella”.
+Consider the conditional statement below:
+           If x is greater than 5 and less than 10, write ‘x is less than 4’.
 
-例3.3：编写一个从键盘读取数字并写入的程序如果给定的数字 大于5且小于10，输出'x小于4'。
+Example 3.3: Write a program that reads a number from the keyboard and writes ‘x is less than 4’ if the given number is greater than 5 and less than 10.
 
 ```python
 x = int(input ())         # read x from keyboard
@@ -42,8 +46,13 @@ if x > 5 and x < 10:      # if x is greater than 5 and less than 10
     print("x is less than 4")
 ```
 
-考虑以下条件声明：
-          如果x大于5或小于10，则写 'x小于4'。
+Consider the conditional statement below:
+          If x is greater than 5 or less than 10, write ‘x is less than 4’.
+Suppose Peter says “if it rains or I'm outside, I use my umbrella else I wear my
+sunglasses”.
 
-假设彼得说 “如果下雨或者我在外面，我会用我的伞，否则我会戴上我的墨镜”。
+
+<br>
+
+<center> - 23 - </center>
 

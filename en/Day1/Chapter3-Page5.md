@@ -1,27 +1,28 @@
-###### 条件语句
+###### Conditionals
 ---
 
-<table><tr><td bgcolor=#87CEFA>if-eise语句的一般形式是：<br>
+<table><tr><td bgcolor=#87CEFA>General form of if-eise statement is:<br>
 <br>
-if 条件表达式:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+if condition:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(expression)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<br>
 else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(表达式)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;(expression)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
 </td></tr></table>
 
 
 
-### 3.5. if - else if - else
+### 3.5. If - else if- else
 
-在if语句中，我们可以有一系列条件延续 'else if'。
-例3.6：假设输入一个得分，我们会输出 'not good'，'fair'，'good'，或者屏幕上的 'awesome';
+In if statement, we can have a chain of conditions continuing with ‘else if’. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•得分<50，
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•50 <得分<70，
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•70 <得分<90，
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•得分> 90。
+Example 3.6: Suppose that given a score, we will write ‘not good’, ‘fair’, ‘good’ or ‘awesome’ on the screen with respect to the conditions;
+
+- score <50，
+- 50=< score <70，
+- 70=< score <90，
+- score >=90.
 
 ```python
 i£ score < 50:
@@ -35,6 +36,9 @@ else:
 ```
 
 > [!NOTE] 
-> 注意：不要忘记if，elif和else行末尾的冒号(:)。
+> Don’t forget the colons``(:)`` at the end of ``if``， ``elif`` and ``else`` lines.
 
 
+<br>
+
+<center> - 25 - </center>

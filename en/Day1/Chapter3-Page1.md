@@ -1,14 +1,21 @@
-# <center>第3章: 条件</center>
+###### Conditionals
 ---
 
-###　3.1. if 语句
+# <center>Chapter 3: Conditionals</center>
+---
 
-假设凯蒂说 “如果下雨，我会用我的雨伞”。
-同样，我们可以在Python中使用条件语句。
-例如，我们可以设置如下条件：
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 如果x大于5，则写'x大于5'
-例3.1：编写一个从键盘读取数字并写入的程序
-如果给定的数字大于5，则输出'x大于5'。
+###　3.1. If statement
+
+Suppose Katy says “If it rains, I use my umbrella”.
+
+Similarly, we can have conditional statements in Python.
+
+For example, we can put a condition like:
+
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; If x is greater than 5, write ‘x is greater than 5’.
+
+Example 3.1: Write a program that reads a number from the keyboard and writes
+‘x is greater than 5’ if the given number is greater than 5.
 
 ```python
 x = int(input())
@@ -17,23 +24,24 @@ if x > 5:
 ```
 
 > [!NOTE]
-> 注意：以print开头的行是缩进的（通常有4个空格或制表符）。
-> 如果没有缩进，那将是一个错误。
+> The line starting with print is indented (have typically 4 spaces or a tab).
+> It will be an error if it is not indented.
 
 
-### 3.2. if - else
+### 3.2. If-else
 
-假设泰勒说 “如果下雨，我会用我的雨伞，否则我会戴上太阳镜”。
+Suppose Taylor says “If it rains, I use my umbrella else I wear my sunglasses”.
 
-同样，在我们程序的条件语句中，我们可以告诉计算机
-如果条件是假的，该怎么办。
+Similarly, in a conditional statement in our program, we can tell the computer
+what to do if the condition is **false**.
 
-例如，
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 如果x大于5，则写 'x大于5'，否则写 'x不大于5'。
+For example,
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; If x is greater than 5, write ‘x is greater than 5’ else write ‘x is not greater than 5’
 
 
-例3.2：编写一个从键盘读取数字并写入的程序
-如果给定的数字大于5，则输出 'x大于5'。否则，输出 'x不大于5'。
+Example 3.2: Write a program that reads a number from the keyboard and writes
+‘x is greater than 5’ if the given number is greater than 5. Otherwise, it writes ‘x
+is not greater than 5’.
 
 ```python
 x =  int(input())
@@ -43,5 +51,8 @@ if x > 5:             # if x is greater than 5
 else:                 # otherwise
     print  ("x is not greater than 5")
 ```
+    
+<br>
 
+<center> - 21 - </center>
 

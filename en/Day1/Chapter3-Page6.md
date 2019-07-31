@@ -1,56 +1,64 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-
-
-
-### 3.6. 练习
-3.6) 如果给定一个整数，写一个程序输出 '这是一个偶数' ，否则输出 '这是一个奇数'。
+### 3.6. Exercises
+3.6) Write a program that writes “This is an even number” if the given positive
+integer is even, and  “This is an odd number” otherwise.
 
 ```
-样本输入:                       样本输出:
-7                               这是一个奇数
+Sample input:                      Sample output:
+7                                   This is an odd number
 ```
                            
 
-3.7*) 编写一个程序，找出给定的三个数字中最小的一个。
+3.7*) Write a program that finds the smallest of three numbers given.
 
 ```
-样本输入:                       样本输出:
-7                               3
+Sample input:                      Sample output:
+7                                   3
 3
 10
 ```
 
-3.8**) 编写一个程序，找出三个给定整数中最大的两个。您不能使用嵌套条件或逻辑运算符像'and'。
+3.8**) Write a program that finds the greatest two of three given integers. The
+order is not important. You cannot use nested conditions or logical operators such
+as ‘and’.
 
 ```
-样本输入:                       样本输出:
-7                               7
-3                               10
+Sample input:                      Sample output:
+7                                   7
+3                                   10
 10
 ```
 
-3.9) 编写一个程序，如果第一个数字可被第二个数字整除，则输出 “可整除”，否则输出“不可整除”。这两个数字都是正整数。
+3.9) Write a program that writes “divisible” if the first number is divisible by the
+second, “not divisible” otherwise. Both numbers are positive integers.
 
 ```
-样本输入:                       样本输出:
-36                              不可整除
+Sample input:                      Sample output:
+36                                  not divisible
 5
 ```
 
-3.10*) 编写一个程序输出'两个数的和'，如果是任何两个数的总和与第三个的数字相等。如果任何两个数的乘积与剩下的一个数是相等的输出“两个数的乘积”。用户将在键盘上输入三个数字。
+3.10*) Write a program that outputs “sum of two” if the sum of any two of the
+three given numbers is equal to the other one. If the product of any two is equal
+to the remaining one then write “product of two”. The user will enter three numbers from the keyboard.
 
 ```
-样本输入1:                      样本输出1:
-1                               两个数的和
+Sample input1:                      Sample output1:
+1                                   not divisible
 3
 2
 ```
 
 ```
-样本输入:                       样本输出:
-6                               两个数的乘积
+Sample input:                      Sample output:
+6                                   sum of two
 3
 2
 ```
+
+<br>
+
+<center> - 26 - </center>
+

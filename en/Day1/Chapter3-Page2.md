@@ -1,37 +1,51 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
-练习3.1：从键盘读取两个数字，找到更多这些数字两个数字。
-样本输入：
+Exercise 3.1: Read two numbers from the keyboard and find the greater of these
+two numbers.
+
+Sample input:
+
 ```python
 5
 8
 ```
 
-样本输出：
+Sample output:
+
 ```python
 8
 ```
 
-问题：我们可以在if语句中不使用else编写程序吗？怎么样？
+Question: Can we write the program without using else in the if statement?
+How?
 
-> [!TIP]
-> 不要忘记，一个问题通常存在许多正确的解决方案。
+> [!NOTE|label:REMINDER:]
+> Don't forget that generally there exist many correct solutions for a certain
+problem.
 
-### 3.3. 关系运算符
-我们可以在条件语句中使用在数学中学习的以下运算符。
-|条件|含义|
-|:---|:---|
-|A == B|A 等于 B|
-|A != B|A 不等于 B|
-|A < B|A 小于 B|
-|A > B|A 大于 B|
-|A <= B|A 小于等于 B|
-|A> = B|A 大于等于 B|
+### 3.3. Relational Operators
+
+We can use the following the following operators that we learned in math in if conditions.
+
+|Condition|Meanine
+|:---|:---
+|A == B|A is equal to B
+|A != B|A is not eaual to B
+|A < B|A is less than (<) B
+|A > B|A is areater than (>) B
+|A <= B|A is less than or eaual to (=<) B
+|A> = B|A is areater than or equal to (>=) B
 
 
 > [!NOTE]
-> 'A = B' 不同于 'A == B'. 'A = B' 表示 '将B的值赋给A' <br>
-> 而 <br>
-> 'A = B' 表示 'A等于B'。 'A == B' 具有与 'A = B' 在数学中相同的含义。
+> ‘A = B’ is different than ‘a == b’. ‘a = b’ means ‘assign the value of B to A’<br>
+> whereas <br>
+> ‘A == B’ means ‘A is equal to B’. ‘A == B’ has the same meaning of ‘A = B’ in **math**.
+
+<br>
+
+<center> - 22 - </center>
+
+
 

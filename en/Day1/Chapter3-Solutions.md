@@ -1,28 +1,43 @@
-##### 问题1：练习3.1
+## Chapter 3: Solutions
+This page contains the solutions except the optional ones:
+
+##### Question 1: Example 3.1
+
 ```python
-x = int(input()) #  从键盘读出一个数
-if x > 5:   # 如果 x大于5 成立
-    print('x大于5')
+x = int(input()) # read x from keyboard
+if x > 5:   # if x is greater than 5
+    print('x is greater than 5')
 ```
 
-##### 问题2：练习3.2
+<br>
+
+##### Question 2: Example 3.2
+
 ```python
-x = int(input())
-if x > 5:
-    print('x大于5')
+x = int(input())    # read x from keyboard
+if x > 5:       # if x is greater than 5
+    print('x is greater than 5')
 else:
-    print('x不大于5')
+    print('x is not greater than 5')
 ```
-##### 问题3：练习3.3
+
+<br>
+
+##### Question 3: Exercise 3.1
+
 ```python
 x = int(input())
 y = int(input())
-if x > y:
-    print(x)
-else:
-    print(y)
+if x > y:           # if the first number is greater
+    print(x)        # write the first number
+else:               # otherwise
+    print(y)        # write the second number
 ```
-##### 问题4：练习3.4
+
+<br>
+
+##### Question 4: Exercise 3.3
+
 ```python
 number = int(input())
 if number % 6 == 3:
@@ -34,29 +49,45 @@ number = int(input())
 if number % 6 == 3:
     print(number)
 ```
-##### 问题5：练习3.5
+
+<br>
+
+##### Question 5: Example 3.3
+
 ```python
-x = int(input())
-if x > 5 and x < 10:
-    print('x小于4')
+x = int(input())    # x from the keyboard
+if x > 5 and x < 10: # if x is greater than 5 and less than 10
+    print('x is less than 4')
 ```
-##### 问题6：练习3.6
+
+<br>
+
+##### Question 6: Example 3.4
+
 ```python
 x = int(input())
 if x > 5 or x < 10:
-    print('x小于4')
+    print('x is less than 4')
 else:
-    print('x大于15')
+    print('x is greater than 15')
 ```
-##### 问题7：练习3.7
+
+<br>
+
+##### Question 7: Exercise 3.4
+
 ```python
 x = int(input())
 if x > 10 and x != 15:
-    print('我喜欢它')
+    print('I liked it')
 else:
-    print('我不喜欢它')
+    print('I didn't like it')
 ```
-##### 问题8：练习3.8
+
+<br>
+
+##### Question 8: Example 3.6
+
 ```python
 score =- int(input())
 if score < 50:
@@ -68,15 +99,23 @@ elif score >= 70 and score < 90:
 else:
     print('awesome')
 ```
-##### 问题9：练习3.9
+
+<br>
+
+##### Question 9: Exercise 3.6
+
 ```python
 x = int(input())
 if x % 2 == 0:
-    print('这是一个偶数')
+    print('This is an even number')
 else:
-    print('这是一个奇数')
+    print('This is an odd number')
 ```
-##### 问题10：练习3.10
+
+<br>
+
+##### Question 10: Exercise 3.7*
+
 ```python
 a = int(input())
 b = int(input())
@@ -88,27 +127,38 @@ elif b <= a and b <= c:
 elif c <= a and c <= b:
     print(c)
 ```
-##### 问题11：练习3.11
+
+<br>
+
+##### Question 11: Exercise 3.9
+
 ```python
 x = int(input())
 y = int(input())
 if x % y == 0:
-    print('可整除')
+    print('divisible')
 else:
-    print(不可整除)
+    print('not divisible')
 ```
-##### 问题12：练习3.12
+
+<br>
+
+##### Question 12: Exercise 3.10*
+
 ```python
 a = int(input())
 b = int(input())
 c = int(input())
 if a + b == c or a + c == b or b + c == a:
-    print('二个数和')
+    print('sum of two')
 if a * b == c or a * c == b or b * c == a:
-    print('两个数乘积')
+    print('product of two')
 ```
-##### 问题13：练习3.13
-3.13 编写一个程序，将从最小到最大的三个给定数字排序（不使用循环）。
+
+<br>
+
+##### Question 13: Exercise 3.11**
+
 ```python
 a = int(input())
 b = int(input())
@@ -126,37 +176,45 @@ elif c <= a and a <= b:
 else:
     print(str(c) + '\n' + str(b) + '\n' + str(a))
 
-# 在上面的例子中，我们可以使用18个打印语句(每种情况下有3个)
-# 但是我们使用str()函数将整数转换为字符串。 字符串就像单词。
-# 您可以将单词与+运算符组合使用。
-# 还要记住'\n'表示换行
+# In the above example we could have used 18 print statements (3 of them for each case)
+# However we used str() function which converts integers to strings. String is like words
+# You can combine words with + operator.
+# Also keep in mind that "\n" means a new line
 ```
-##### 问题14：练习3.14
+
+<br>
+
+##### Question 14: Exercise 3.12
+
 ```python
 t = int(input())
 h = int(input())
 if t < 60 adn h < 40:
-    print('露西喝咖啡')
+    print('Lucy drinks coffee')
 elif t >= 60 and h < 40:
-    print('露西喝冰茶')
+    print('Lucy drinks iced tea')
 else:
-    print('露西吃冰淇淋')
+    print('Lucy eats ice cream')
 ```
-##### 问题15：练习3.15
+
+<br>
+
+##### Question 15: Exercise 3.13
+
 ```python
 t = int(input())
 h = int(input())
 if t < 60 and h < 40:
-    print('露西喝咖啡')
+    print('Lucy drinks coffee')
 elif t < 60 and h < 60:
-    print('露西打网球')
+    print('Lucy plays tennis')
 elif t < 60 and h >= 60:
-    print('露西吃蛋糕')
+    print('Lucy eats cake')
 elif t >= 60 and h < 40:
-    print('露西喝冰茶')
+    print('Lucy drinks iced tea')
 elif t >= 60 and h < 60:
-    print('露西打高尔夫球')
+    print('lucy plays golf')
 else:
-    print('露西吃冰淇淋')
+    print('Lucy eats ice cream')
 ```
 

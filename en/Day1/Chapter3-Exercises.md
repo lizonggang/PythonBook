@@ -1,154 +1,185 @@
-3.1 编写一个从键盘读取数字的程序，如果输入的数字大于5，则输出'x大于5'。
+**3.1** Write a program that reads a number from the keyboard and writes '``x is greater than 5``' if the given number is greater than 5.
 
-例子：
-
-```
-输入                    结果
-7                       x大于5
-```
-
-
-3.2 编写一个从键盘读取数字的程序，如果输入的数字大于5则输出'x大于5'。否则，它输出'x不大于5'。
-
-例子：
+**For example:**
 
 ```
-输入                    结果
-7                       x大于5
+Input                       Result
+7                           x is greater than 5
 ```
 
-3.3 从键盘读取两个数字，找到这两个数字中较大的一个。
+<br>
 
-例子：
+**3.2** Write a program that reads a number from the keyboard and writes 'x is greater than 5' if the given number is greater than 5. Otherwise, it writes 'x is not greater than 5'.
+
+**For example:**
 
 ```
-输入                    结果
-5                       8
+Input                       Result
+7                           x is greater than 5
+```
+
+<br>
+
+**3.3** Read two numbers from the keyboard and find the greater of these two numbers.
+
+**For example:**
+
+```
+Input                       Result
+5                           8
 8
 ```
 
+<br>
 
-3.4 从键盘上读取三个正数，并将输出这个数除以6余数为3的数。
+**3.4** Read three positive numbers from the keyboard and write the ones with the remainder 3 from the division by 6.
 
-例子：
+**For example:**
 
 ```
-输入                    结果
-11                      9
-9                       15
+Input                       Result
+11                          9
+9                           15
 15
 ```
 
-3.5 编写一个从键盘读取数字的程序，如果输入的数字大于5且小于10，则写入'x小于4'。
-例子：
+<br>
+
+**3.5** Write a program that reads a number from the keyboard and writes '``x is less than 4``' if the given number is greater than 5 and less than 10.
+
+**For example:**
 
 ```
-输入                    结果
-6                       x小于4
+Input                       Result
+6                           x is less than 4
 ```
 
-3.6 编写一个从键盘读取数字的程序，如果输入的数字大于5或小于10，则写入'x小于4'。否则写入'x大于15'。
+<br>
+
+**3.6** Write a program that reads a number from the keyboard and writes '``x is less than 4``' if the given number is greater than 5 or less than 10. Otherwise it writes '``x is greater than 15``'.
 
 ```
-输入                    结果
-7                       x小于4
+Input                       Result
+7                           x is less than 4
 ```
 
-3.7 编写一个从键盘读取数字的程序，如果输入的数字大于10且不等于15则写入“我喜欢它”。否则它会写“我不喜欢它”。
+<br>
 
-例子：
+**3.7** Write a program that reads a number from the keyboard and writes '``I liked it``' if the given number is greater than 10 and not equal to 15. Otherwise it writes '``I didn't like it``'.
 
-```
-输入                    结果
-12                      我喜欢它
-7                       我不喜欢它
-```
-
-3.8 根据学生的分数，在以下条件下，在屏幕上写上“not good”，“fair”，“good”或“awesome”;
-score < 50,
-50 ≤ score < 70,
-70 ≤ score < 90,
-score ≥ 90.
+**For example:**
 
 ```
-输入                    结果
-90                      awesome
+Input                       Result
+12                          I liked it
+7                           I didn't like it
 ```
 
-3.9 如果输入的正整数是偶数，则输出“这是一个偶数”的程序，否则输出“这是一个奇数”。
+<br>
+
+**3.8** Given the score of a student, write 'not good', 'fair', 'good', or 'awesome' on the screen with respect to the following conditions; 
+
+- score < 50,
+- 50 ≤ score < 70,
+- 70 ≤ score < 90,
+- score ≥ 90.
 
 ```
-输入                    结果
-12                      这是一个偶数
+Input                       Result
+90                          awesome
 ```
 
-3.10 编写一个程序，找到给定的三个数字中最小的一个。
+<br>
+
+**3.9** Write a program that writes "``This is an even number``" if the given positive integer is even, and "``This is an odd number``" otherwise.
 
 ```
-输入                    结果
-7                       3
+Input                       Result
+12                          This is an even number
+```
+
+<br>
+
+**3.10** Write a program that finds the smallest of three numbers given.
+
+```
+Input                       Result
+7                           3
 3
 10
 ```
 
-3.11 如果第一个数字可被第二个整除，则编写一个输出“可整除”的程序。 否则它会输出“不可整除”。 这两个数字都是正整数。
+<br>
+
+**3.11** Write a program that writes "``divisible``" if the first number is divisible by the second. Otherwise it will write "``not divisible``". Both numbers are positive integers.
+
 
 ```
-输入                    结果
-36                      不可整除
+Input                       Result
+36                          not divisible
 5
 ```
 
-3.12 如果三个输入数字中任意两个的总和等于另一个，则编写一个输出“二个数和”的程序。 如果任何两个的乘积等于剩下的乘积，那么写“两个数乘积”。 用户将从键盘输入三个数字。
+<br>
+
+**3.12** Write a program that outputs "``sum of two``" if the sum of any two of the three given numbers is equal to the other one. If the product of any two is equal to the remaining one then write "``product of two``". The user will enter three numbers from the keyboard.
 
 ```
-输入                    结果
-1                       二个数和
+Input                       Result
+1                           sum of two
 3
 2
-6                       两个数乘积
+6                           product of two
 3
 2
 ```
 
-3.13 编写一个程序，将从最小到最大的三个给定数字排序（不使用循环）。
+<br>
+
+**3.13** Write a program that sorts three given numbers from smallest to largest (without using loops).
 
 ```
-输入                    结果
-12                      7
-7                       11
-11                      12
+Input                       Result
+12                          7
+7                           11
+11                          12
 ```
 
-3.14 每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+<br>
+
+**3.14** Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
 ```
-                       温度 < 60°F                    温度 >= 60°F
-湿度 < 40%             露西喝咖啡                      露西喝冰茶
-湿度 >= 40%            露西吃蛋糕                      露西吃冰淇淋
+                      Temperature < 60°F                 Temperature >= 60°F
+Humidity < 40%        Lucv drinks coffee                 Lucv drinks iced tea
+Humidity >= 40%       Lucy eats cake                     Lucy eats ice cream
 ```
 
-写一个程序，读取两个整数，相应的温度和湿度，并写出露西所要吃的。
+
+Write a program that reads two integers, the temperature and the humidity accordingly, and writes what Lucy does.
 
 ```
-输入                    结果
-45                      露西吃蛋糕
+Input                       Result
+45                          Lucy eats cake
 53
 ```
 
-3.15 每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度是45°F，湿度是53％，那么露西打网球。
+<br>
+
+**3.15** Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy plays tennis.
 
 ```
-                        温度 < 60°F            温度 >= 60°F
-湿度 < 40％             露西喝咖啡              露西喝冰茶
-40％ =< 湿度 < 60％     露西打网球              露西打高尔夫球
-湿度 >= 60％            露西吃蛋糕              露西吃冰淇淋
+                        Temperature < 60°F                 Temperature >= 60°F
+Humidity < 40%          Lucv drinks coffee                 Lucv drinks iced tea
+40% =< Humiditv < 60%   Lucy plays tennis                  Lucv plays golf
+Humidity >= 60%         Lucy eats cake                     Lucy eats ice cream
 ```
 
-写一个程序，读取两个整数，相应的温度和湿度，并写出露西所做的。
+Write a program that reads two integers, the temperature and the humidity accordingly, and writes what Lucy does.
 
 ```
-输入                    结果
-45                      露西打网球
+Input                       Result
+45                          Lucy plays tennis
 53
 ```
+
