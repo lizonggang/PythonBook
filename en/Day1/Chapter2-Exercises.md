@@ -1,22 +1,22 @@
-**2.1 创建一个名为 nicebox 的变量并在其中放入 10。 然后在屏幕上输出 nicebox。**
+**2.1 Make a variable named ``nicebox`` and put 10 in it. Then output ``nicebox`` on the screen.**
 
-2.2 假设你有三个盒子，Box1，Box2和Box3。 Box1和Box2分别包含11和5。 编写一个程序，将两个盒子中的数字相加，将其放入Box3，然后将Box3输出到屏幕。
+2.2 Suppose you have three boxes, ``Box1``, ``Box2``, and ``Box3``. ``Box1`` and ``Box2`` contain 11 and 5 respectively. Write a program that adds the numbers in two boxes, puts it in ``Box3``, and outputs ``Box3`` to the screen.
 
-**2.3 假设我们有一个名为 arithbox 的盒子。 编写一个程序，将213 * 4 - 10的结果放入arithbox，并在屏幕上写入arithbox的值。**
+**Suppose we have a box called ``arithbox``. Write a program that puts the result of ``213 * 4 - 10`` into ``arithbox`` and writes the value of ``arithbox`` on the screen.**
 
-2.4 假设我们有两个盒子，box1和box2。 编写一个程序，将 (207 + 181) / 2的结果放入box1，然后将box1输出到屏幕。 接下来，它将box1乘以3，加上25并将结果放入box2。 最后，在屏幕上输出box2的值。
+2.4 Suppose we have two boxes, ``box1`` and ``box2``. Write a program that puts the result of ``(207 + 181) / 2`` into ``box1`` then it writes ``box1`` to the screen. Next, it multiplies ``box1`` by 3, adds 25 and puts the result into ``box2``. Finally, it writes ``box2`` on the screen.
 
-**2.5 编写一个程序，将363/3的结果放入box1。 接下来，向box1加2。 然后将box1乘以11并将结果放入box2。 最后，将box2和box1在不同行输出在屏幕上。**
+**2.5 Write a program that puts the result of ``363 / 3`` into ``box1``. Next, it adds 2 to ``box1``. Then multiplies ``box1`` by 11 and puts the result into ``box2``. Finally, it writes ``box2`` then ``box1`` to the screen in different lines.**
 
-2.6 编写一个程序，将从键盘读取的两个数字放入box1和box2。 然后它将box1和box2之和的一半放入box3，并在屏幕上输出box3。
+2.6 Write a program that puts two numbers read from keyboard into ``box1`` and ``box2``. Then it puts the half of the sum of ``box1`` and ``box2`` into ``box3`` and it writes ``box3`` on the screen.
 
-**2.7 编写一个程序，从键盘读取两个数字，并将它们放入box1和box2。 然后将box1和box2的乘积放入box3，然后在屏幕上输出box3。**
+**2.7 Write a program that reads two numbers from the keyboard and put them into ``box1`` and ``box2``. Then it puts the multiplication of ``box1`` and ``box2`` into ``box3`` and it writes ``box3`` on the screen.**
 
-2.8 编写程序计算给定矩形的面积。 矩形的长度为219，宽度为72.您将在程序中使用三个变量; length，width和area。 将值放入length和width，然后使用必要的公式计算面积area。 最后，将面积area输出到屏幕。
+2.8 Write a program calculates the area of the given rectangle. The length of the rectangle is 219 and the width is 72. You will use three variables in your program; ``length``, ``width`` and ``area``. Put the values into ``length`` and ``width`` then calculate ``area`` using necessary formula. At the end, write ``area`` to the screen.
 
-**2.9 编写一个计算一年中分钟数的程序。 你将有三个变量; day，hour和minute。 将一年中的天数放入变量day。 然后，将day乘以一天中的小时数，并将结果放入变量hour。 最后，将小时乘以一小时内的分钟数，并将结果放入变量minute。 最后，将变量minute输出到屏幕。**
+**2.9 Write a program that calculates the number of minutes in a year. You will have three variables; ``day``, ``hour`` and ``minute``. Put the number of days in a year into the variable ``day``. Then, multiply ``day`` by the number of hours in a day, and put the result into the variable ``hour``. Finally, multiply ``hour`` by the number of minutes in an hour, and put the result into the variable ``minute``. At the end, write the variable ``minute`` to the screen.**
 
-2.10 编写一个计算三个数字平均值的程序。 您的程序应该从键盘读取三个数字，然后将这三个数字的平均值放入average3（您可以自由选择变量名称）。 最后，它应该将average3的整数值输出到屏幕。
+2.10 Write a program that calculates the average of three numbers. Your program should read three numbers from keyboard then put the average of these three numbers into ``average3`` (you are free to choose the variable names). At the end, it should write integer value of ``average3`` to the screen.
 
-**2.11 当您从键盘输入您的出生年份时，编写程序计算您在2015年时的年龄。**
+**2.11 Write a program calculates your age in 2015 when you enter your birth year from the keyboard.**
 

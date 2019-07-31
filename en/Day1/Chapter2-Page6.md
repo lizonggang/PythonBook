@@ -1,16 +1,26 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-### 2.5. 练习
-2.5) 编写程序计算给定矩形的面积。矩形的长度为219，宽度为72.您将在程序中使用三个变量;length，width 和 area。将length和width赋值，然后使用必要的公式计算面积。最后，将区域显示在屏幕。
+### 2.5. Exercises
 
-2.6*) 编写一个程序来计算一年中的分钟数。你将有三个变量;day，hour和minute。将一年中的天数放入变量day。然后，将day乘以一天中的小时数，并将结果放入变量hour。最后，将hour乘以一小时内的分钟数，并将结果放入变量minute。最后，将变量minute显示在屏幕。
+**2.5)** Write a program calculates the area of the given rectangle. The length of the rectangle is 219 and the width is 72. You will use three variables in your program; ``length``, ``width`` and ``area``. Put the values into ``length`` and ``width`` then calculate ``area`` using necessary formula. At the end, write ``area`` to the screen.
 
-2.7) 编写一个程序来计算三个数字的平均值。您的程序应该从键盘读取三个数字，然后将这三个数字的平均值放入average3（您可以自由选择变量名称）。最后，它应该将average3显示在屏幕。
+**2.6\*)** Write a program that calculates the number of minutes in a year. You will have three variables; ``day``, ``hour`` and ``minute``. Put the number of days in a year into the variable ``day``. Then, multiply ``day`` by the number of hours in a day, and put the result into the variable ``hour``. Finally, multiply ``hour`` by the number of minutes in an hour, and put the result into the variable ``minute``. At the end, write the variable ``minute`` to the screen.
 
+**2.7)** Write a program that calculates the average of three numbers. Your program
+should read three numbers from keyboard then put the average of these three
+numbers into ``average3`` (you are free to choose the variable names). At the end,
+it should write ``average3`` to the screen.
 
-2.8) 写一个程序计算你从键盘输入出生年份的年龄。
+**2.8)** Write a program calculates your age when you enter your birth year from the
+keyboard.
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+<br>
 
+#### **Congratulations - end of lesson reached**
+
+Well done!
+
+<br>
+
+<center> - 18 - </center>

@@ -1,14 +1,22 @@
-###### 用python编程
+###### Programming with Pvthon
 ---
-### 1.5. 练习
-1.4）编写一个程序，使用你名字的第一个字母输出你名字第一个字母的数字。 图的高度是5行。
-例如，假设你的名字是'John'，那么这个数字由字母'J'组成，输出是：
-![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.4.png)
 
-1.5）编写一个输出下图的程序。
-![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.5.png)
+### 1.5. Exercises
+1.4) Write a program that outputs the figure of the first letter of vour name using
+the first letter of your name. The height of the figure is 5 rows.
+
+For example, suppose your name is ‘John’, then the figure is composed of the
+letter ‘j’ output is:
+![](http://legendary.cdn.play8.io/learnpython/img/day1/1.4.png)
+
+1.5) Write a program that outputs the following figure.
+![](http://legendary.cdn.play8.io/learnpython/img/day1/1.5.png)
 
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+#### **Congratulations - end of lesson reached**
 
+Well done!
+
+<br>
+
+<center> - 10 - </center>

@@ -1,15 +1,19 @@
-##### 问题1：练习1.1
+## Chapter 1: Solutions
+
+This page contains the solutions except the optional ones:
+
+##### Question 1: Example 1.1
 ```python
 print('hello world!')
 ```
 
-##### 问题2：练习1.2
+##### Question 2: Example 1.2
 ```python
 print(1232)
 ```
 
 
-##### 问题3：练习1.3
+##### Question 3: Exercise 1.5
 ```python
 print('*******')
 print('*')

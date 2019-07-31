@@ -1,19 +1,25 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-例2.4：假设我们有一个名为arithbox的盒子。以下Python程序将 '213 * 4 - 10' 的结果放入airthbox并将arithbox的值写入屏幕。
+Example 2.4: Suppose we have a box called ``arithbox``. The following Python program puts the result of ‘``213 * 4 - 10``’ into ``arithbox`` and writes the value of arithbox to the screen.
+
+
 ```python
 airthbox = 213 * 4 - 10
 print(arithbox)
 ```
 
-输出
+Output.
+
 ```
 842
 ```
 
 
-例2.5：假设我们有两个盒子，box1 和 box2。下面的python程序将 '（2007 + 1881）/ 2' 的结果放入box1，然后将box1写入屏幕。 接下来，它将 box1 乘以 3，加上 25 并将结果放入 box2。最后，它将box2写入屏幕。
+Example 2.5: Suppose we have two boxes, ``box1`` and ``box2``. The following Python
+program puts the result of ‘``(2007 + 1881) / 2``’into ``box1`` then it writes ``box1`` to the screen. Next, it multiplies ``box1`` by ``3``, adds ``25`` and puts the result into ``box2``.
+Finally, it writes box2 to the screen.
+
 ```python
 box1 = (207+ 181) / 2
 print(box1)
@@ -21,20 +27,28 @@ box2 = box1 * 3 + 25
 print(box2) 
 ```
 
-输出
+Output.
+
 ```
 194.0
 607.0
 ```
 
-请注意，在此示例中，box1和box2都变为小数; 不是整数。原因是除法运算的结果（'/'）在Python中<u>始终</u>是小数。
+Note that in this example both box1 and box2 became decimal; not integer. The
+reason is that the result of division operation (‘/’) is <u>always</u> decimal in Python.
 
-练习2.3：编写一个程序，将'363/3'的结果放入box1。接下来，它将box1加2，乘以11并将结果放入box2。最后，它将box2写入box1而不是box1。
+Exercise 2.3: Write a program that puts the result of‘363 / 3’into box1. Next,
+it adds 2 to box1, multiply by 11 and puts the result into box2. Finally, it writes
+box2 then box1 to the screen.
 
 
 > [!NOTE]
-> 除法 和 余数 运算符
-> 在Python中，除法运算符为'/'，而余数为'%'。
-> 例：'6 / 3' 等于2。 '7 % 3' 等于1，因为7除3的余数为1。
+> Division and Remainder Operations
+> In Python, division operator is ‘/’ whereas remainder is ‘%’ for integers.
+> Example. ‘6 / 3’is equal to 2. ‘7 % 3’is equal to 1 since the remainder of division of 7 by 3 is 1.
+
+<br>
+
+<center> - 16 - </center>
 
 

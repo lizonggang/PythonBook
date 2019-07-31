@@ -1,25 +1,30 @@
-# <center>第1章:简介</center>
+###### Introduction
 ---
 
-### 1.1. 什么是“计算机程序”？
-计算机程序是给予计算机的一组指令，因此计算机相应地执行特定动作。
-- 例如：“Windows” 是一个计算机程序。
-+ 计算机程序使您的工作更容易。
+# <center>Chapter 1: Introduction</center>
+---
+
+### 1.1. What is a ‘computer program’?
+A computer program is a set of instructions given to a computer and so the
+computer fulfills specific actions accordingly.
+- Example: ‘Windows’ is a computer program.
++ Computer programs make your work easier to do.
    
-   - 例如：Microsoft Word 是一个程序；你可以在Microsoft Word中输入你的作业。
-* 计算机程序有目的，通过一个过程。
+   - Example: Microsoft Word is a program; you type your assignments in Microsoft Word.
+
+* A computer program has purposes, makes a process.
    
-   - 比如：胃，进食过程； 浏览器，显示网页。
+   - Analogy: Stomach, eating process - Internet Explorer, shows
+                Web pages.
 
-### 1.2. 什么是“机器语言”和“编译器”？
-#### 1.2.1.课堂活动。 
+### 1.2. What is ‘machine language’ and ‘compiler’?
+#### 1.2.1. In-class Activity.
 
-**问题**：当你用英语与电脑交谈时，它能理解你吗？
+![](http://legendary.cdn.play8.io/learnpython/en/img/day1/c1-p1.png)
 
-机器语言：
-很多'0' 和 '1'
 
-![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.2.1.png "机器言语") **问题**：这个难以学习和理解吗？
+<br>
 
+<center> - 5 - </center>
 
 

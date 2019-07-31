@@ -1,53 +1,61 @@
-###### 介绍
+###### Introduction
 ---
 
-练习1.1：将你的名字写在屏幕上。
-打开一个新文件，将其命名为“myname.py”，将其保存在桌面上并运行它。
+Exercise 1.1: Write your name to the screen.   
+Open a new file, name il as ‘myname.py’, save it on the desktop and run it.
 
 > [!NOTE]
-> 注意：您可以在括号内使用单引号或双引号。
+> You can use single and double quotations inside the parenthesis. 
 
-练习1.2：在屏幕上写两次你的名字。
-打开一个新文件，将其命名为“myname2.py”，将其保存在桌面上并运行它。
-例1.2：在屏幕上写'1232'。
-打开一个新文件，编写下面的代码，将其命名为“number.py”，将其保存在桌面上并运行它。
+Exercise 1.2: Write your name twice to the screen.
+
+Open a new file, name it as ‘mynamek.py’, save it on the desktop and run it.
+
+Example 1.2: Write '1232' on the screen.
+Open a new file, write the code below, name it as ‘number.py’, save it on the
+desktop and run it.
+
 ```python
-print(1232);
+print(1232)
 ```
 
-练习1.3：在屏幕上写下你的幸运数字。
-打开一个新文件，将其命名为'lucky.py'，将其保存在桌面上并运行它。
+Exercise 1.3: Write your lucky number on the screen.
 
-'print' 语句自动结束该行。 我们再次使用它，输出从下一行的开头开始。例如，
+Open anew file, name it as ‘lucky.py', save it on the desktop and run it.
+
+The “print” statement automatically ends the line. The next time we use it, the ouput starts from the beginning of the next line. For example,
 
 ```python
 print("quick brown fox")
 print("jumped over the lazy dog")
 ```
 
-将会输出;
+will write;
+
 ```python
 quick brown fox
 jumped over the lazy dog
 ```
-另一方面，
+On the other hand,
+
 ```python
 print("quick brown fox", end = "")
 print("jumped over the lazy dog")
 ```
-将会输出;
+
+will output;
+
 ```python
 quick brown foxjumped over the lazy dog
 ```
 
-请注意 'fox' 和 'jumped' 之间没有空格。如果我们在print()中使用end变量，它表示在行尾打印的内容而不是按Enter键。在这个例子中，我们使用end = "" 表示不放任何东西。另一个常见用法是放置空格; end = " "
+Note that there is no space between ‘fox’ and ‘jumped’. If we use end variable in
+```print()```, it indicates what to print at the end of the line instead of pressing enter.
+In this example, we used end = "" which mean not to put anything. Another
+common usage is to put a space; end = " ".
 
+<br>
 
-
-
-
-
-
-
+<center> - 9 - </center>
 
 

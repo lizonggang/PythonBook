@@ -1,22 +1,22 @@
-###### 介绍
+###### Introduction
 ---
 
-## 1.3. Thonny
-我们将学习python语言与计算机进行通信。
-Thonny是一个将python语言翻译成机器语言的编译器。
-  + 编辑器是你用python语言编写的部分。
+### 1.3. Thonny
+We will learn Python language to communicate with the computer.
+Thonny is a compiler that can translate Python language into machine language.
+  + Editor is the part you write in Python language.
 
-![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.3.1.png)
+![](http://legendary.cdn.play8.io/learnpython/img/day1/1.3.1.png)
 
-Thonny编辑器是上面图片所示。
+Figure. Thonny editor is the box on the top side.
 
-## 1.4. 写在屏幕上
-使用 'print' 命令显示在屏幕上。
-
-<!-- 
-<table><tr><td bgcolor=#87CEFA>注意：小心，python区分大小写。</td></tr></table>
--->
+### 1.4. Writing to the Screen
+Use ‘print’ command to write to the screen.
 
 > [!NOTE]
-> 小心，python区分大小写。
+> Be careful, Python is case-sensitive.
+
+<br>
+
+<center> - 7 - </center>
 

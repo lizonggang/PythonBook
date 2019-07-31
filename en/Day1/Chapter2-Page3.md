@@ -1,4 +1,4 @@
-###### 变量 - 整数和浮点数
+###### Variahles - Integer and Float
 ---
 
 <table><tr><td bgcolor=#FFE4C4>
@@ -6,14 +6,15 @@ secondsInADay = 86400<br>
 print("There are", secondsInADay, "seconds in one day.")
 </td></tr></table>
 
-将输出：
+will output;
+
 ```python
 There are 86400 seconds in one day.
 ```
 
+In Python, it doesn’t matter if an expression is in one line or separated into
+multiple lines. For example, the following codes are the same:
 
-
-在python中，表达式是在一行中还是分成多行并不重要。 例如，以下代码是相同的：
 <table><tr><td bgcolor=#FFE4C4>
 
 print("There are", <br>
@@ -23,30 +24,38 @@ print("There are", <br>
 
 
 
-### 2.3变量的算术运算
-假设我们有三个盒子，其中两个盒子里有一些钱。 那么我们就可以在这两个盒子里拿钱，把所有的钱都放到第三个盒子里。同样，假设我们有三个变量名为Box1，Box2和Box3，其中Box1和Box2分别包含数字11和5。 我们可以在Box1和Box2中的数字相加并将总和放到Box3中。 但是，我们不会丢失盒子中的数字; 他们也保持不变。
-![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/2.3.png)
+### 2.3. Arithmetic Operations on Variables
+
+Suppose we have to three boxes two of which have some money in them. Then
+we can get money in these two boxes and put all the money into the third box.
+Similarly, suppose we have three variables named ``Box1``, ``box2``, and ``Box1`` where ``Box1`` and ``Box2`` contain the numbers ``11`` and ``5`` respectively. We can add the number in Box1 and ``Box2`` and put the sum into ``Box3``. However, we do not lose the numbers in the boxes; they also remain the same.
+![](http://legendary.cdn.play8.io/learnpython/img/day1/2.3.png)
 
 
-例2.3：假设您有两个三个框，Box1，Box2和Box3。 Box1和Box2分别包含11和5。 编写一个Python程序，将两个盒子中的数字相加，将其放入Box3，然后将Box3输出到屏幕。
+Example 2.3: Suppose you have two three boxes, Box1, Box2, and Box3. Box1 and
+Box2 contain 11 and 5 respectively. Write a Python program that adds the numbers
+in two boxes, puts it in Box3, and outputs Box3 to the screen.
+
 ```python
 Box1 = 11
 Box2 = 5
 Box3 = Box1 + Box2
 print(Box3)
 ```
-输出。
+
+Output.
+
 ```
 16
 ```
 
-我们可以像算术一样使用算术运算符，+ ， -， * ，/， () 等。
+We can use the arithmetic operators, addition (+), subtraction (-), division (/),
+multiplication (*) and parenthesis ‘()’ in the same way we use in math.
 
 
 
+<br>
 
-
-
-
+<center> - 15 - </center>
 
 
