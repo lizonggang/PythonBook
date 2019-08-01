@@ -86,8 +86,8 @@
     * [第7章：嵌套循环-5](cn/Day8/Chapter7-NestedLoops-5.md)
     * [第7章：练习-1](cn/Day8/Chapter7-Exercises.md) <!-- en-->
     * [第7章：参考答案-1](cn/Day8/Chapter7-Solutions.md) <!-- en-->
-    * [嵌套循环-问题集（可选）](cn/Day8/NestedLoops-ProblemSet(optional).md)
-    * [第7章：练习-2（可选）](cn/Day8/Chapter7-Exercises-Part2(optional).md)
+    * [嵌套循环-问题集（可选）](cn/Day8/NestedLoops-ProblemSet-optional.md)
+    * [第7章：练习-2（可选）](cn/Day8/Chapter7-Exercises-Part2-optional.md)
     * [视频：嵌套条件](cn/Day8/video-Nestedconditions.md)
     * [视频：嵌套循环](cn/Day8/video-Nestedloops.md)
   * [第9天](cn/README.md)
@@ -229,8 +229,8 @@
     * [Chapter7: Nested Loops-5](en/Day8/Chapter7-NestedLoops-5.md)
     * [Chapter7: Exercises - Part 1](en/Day8/Chapter7-Exercises.md)
     * [Chapter7: Solutions - Part 1](en/Day8/Chapter7-Solutions.md)
-    * [Nested Loops - Problem Set (optional)](en/Day8/NestedLoops-ProblemSet(optional).md)
-    * [Chapter7: Exercises - Part 2 (optional)](en/Day8/Chapter7-Exercises-Part2(optional).md)
+    * [Nested Loops - Problem Set (optional)](en/Day8/NestedLoops-ProblemSet-optional.md)
+    * [Chapter7: Exercises - Part 2 (optional)](en/Day8/Chapter7-Exercises-Part2-optional.md)
     * [video: Nested conditions](en/Day8/video-Nestedconditions.md)
     * [video: Nested loops](en/Day8/video-Nestedloops.md)
   * [Day 9](en/README.md)
