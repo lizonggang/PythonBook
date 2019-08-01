@@ -1,16 +1,16 @@
-## 第五章：参考答案-第2部分
+## Chapter 5: Solutions - Part 2
 
-**问题1：练习 5.6\*\***
+**Question 1：Exercise 5.6\*\***
 
 ```python
-n = int(input()) # read n。 n是数字的数量
-numbers = input().split() # 这里我们创建一个数组，数组的名字是numbers
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers
+numbers = input().split() #  here we create an array, the name of the aray is numbers
+# We neec to convert array items into integer
 for i in range (len(numbers)):
     numbers[i] = int (numbers[i])
-# 现在我们将创建另一个名为freq的数组。
-# freq [x]将保持x在数字数组中出现的次数
-freq = [0] * 1001 # 数组的最大数量可以是1000.因为1000是包含的 inclusive
+# Now we will create another array called freq.
+# freq[x] will keep how many times x appears in the numbers array
+freq = [0] * 1001 # The maximum of numbers array can be 1000. Because 1000 is inclusive
 for i in range ( n ) :
     freq[numbers[i]] = freq[numbers[i]] +1
 for i in range (1001):
@@ -20,17 +20,17 @@ for i in range (1001):
 
 <br>
 
-**问题2：练习 5.7\*\***
+**Question 2：Exercise 5.7\*\***
 
 ```python
-n = int(input()) # read n。 n是数字的数量
-numbers = input().split() # 这里我们创建一个数组，数组的名字是numbers # 我们需要将数组项转换为整数
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers
+numbers = input().split() #  here we create an array, the name of the aray is numbers # We neec to convert array items into integer
+# We neec to convert array items into integer
 for i in range (len(numbers)):
     numbers[i] = int (numbers[i])
-# 现在我们将创建另一个名为freq的数组。
-# freq [x]将保持x在数字数组中出现的次数
-freq = [0] * 1001 # 数组的最大数量可以是1000.因为1000是包含的 inclusive
+# Now we will create another array called freq.
+# freq[x] will keep how many times x appears in the numbers array
+freq = [0] * 1001 # The maximum of numbers array can be 1000. Because 1000 is inclusive
 for i in range ( n ) :
     freq[numbers[i]] = freq[numbers[i]] + 1
 for i in range (1001):
@@ -40,54 +40,54 @@ for i in range (1001):
 
 <br>
 
-**问题3：练习 5.8\*\*\***
+**Question 3：Exercise 5.8\*\*\***
 
 ```python
-n = int(input()) # read n。 n是数字的数量
-numbers = input().split() # 这里我们创建一个数组，数组的名字是numbers # 我们需要将数组项转换为整数
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers
+numbers = input().split() #  here we create an array, the name of the aray is numbers # We neec to convert array items into integer
+# We neec to convert array items into integer
 for i in range (len(numbers)):
     numbers[i] = int (numbers[i])
-# 现在我们将创建另一个名为freq的数组。
-# freq [x]将保持x在数字数组中出现的次数
-freq = [0] * 1001 # 数组的最大数量可以是1000.因为1000是包含的 inclusive
+# Now we will create another array called freq.
+# freq[x] will keep how many times x appears in the numbers array
+freq = [0] * 1001 # The maximum of numbers array can be 1000. Because 1000 is inclusive
 for i in range ( n ) :
     freq[numbers[i]] = freq[numbers[i]] + 1
 i=0
 while i<1001 :
-    if freq[i] > 0 : # 只要频率> 0，则打印索引
+    if freq[i] > 0 : # as long as the frequency if > 0 then print the index
         print (i)
-        freq[i] = freq[i] - 1 # 每次打印后降低频率
+        freq[i] = freq[i] - 1 # after each print decrease the frequency
     else :
-        i = i + 1 # 如果频率为0则转到下一个
+        i = i + 1 # if the frequency is 0 then go to next one
 ```
 
 <br>
 
-**问题4：练习 5.9\*\***
+**Question 4：Exercise 5.9\*\***
 
 ```python
-n = int(input()) # read n。 n是第一个数组的数量。
-arrl = input().split() # 这里我们创建一个数组，数组的名字是 arrl
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers of first array
+arrl = input().split() # here we create an array, the name of the aray is arrl
+# We neec to convert array items into integer
 for i in range (len(anrl)):
     arrl[i] = int (arrl[i])
-m = int(input()) # read m。 m是第二个数组的数量
-arr2 = input().split() # 这里我们创建一个数组，数组的名字是 arr2
-# 我们需要将数组项转换为整数
+m = int(input()) # read m. m is the number of numbers of second array
+arr2 = input().split() # here we create an array, the name of the aray is arr2
+# We neec to convert array items into integer
 for i in range (len(arr2)):
     arr2[i] = int (arr2[ij)
-# 现在我们将创建1个freq数组，以保持x在arrl和arr2组合中出现的次数
-freq = [0] * 2001 # 数组的最大值可以是1000.因为1000是包含的
-# 但是，由于我们在这里有负数，我们需要将所有数字移动1000
+# Now we will create 1 freq array to keep how many times x appears in arrl and arr2 combined
+freq = [0] * 2001 # The maximum of arrays can be 1000. Because 1000 is inclusive
+# However since we have negative numbers here we need to shift all numbers by 1000
 for i in range ( n ) :
     freq[arrl[i]+1000] = freq[arrl[i]+1000] + 1
 for i in range ( m ) :
     freq[arr2[i]+1000] = freq[arr2[i]+1000] + 1
 i=0
-while i<2001 : # 范围介于0到2000之间
+while i<2001 : # The range is between 0 to 2000 inclusively
     if freq[i] > 0 : # checking freq
-        print (i-1000 , end = " ") # shift回来！
+        print (i-1000 , end = " ") # shift back!
         f「eq[i] = f「eq[i] - 1
     else :
         i=i+1
@@ -95,30 +95,30 @@ while i<2001 : # 范围介于0到2000之间
 
 <br>
 
-**问题5：练习 5.10\*\*\***
+**Question 5：Exercise 5.10\*\*\***
 
 ```python
-n = int(input()) # read n。 n是第一个数组的数量
-arrl = input().split() # 这里我们创建一个数组，数组的名字是 arrl
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers of first array
+arrl = input().split() # here we create an array, the name of the aray is arrl
+# We neec to convert array items into integer
 for i in range (len(arrl)):
     a「rl[i] = int (a「rl[i])
-m = int(input()) # read m。 m是第二个数组的数量
-arr2 = input().split() # 这里我们创建一个数组，数组的名字是 arr2
-# 我们需要将数组项转换为整数
+m = int(input()) # read m. m is the number of numbers of second array
+arr2 = input().split() # here we create an array, the name of the aray is arr2
+# We neec to convert array items into integer
 for i in range (len(arr2)):
-    arr2[i] = int (arr2[ij)
-# 现在我们将创建1个频率，以保持x出现在arrl和arr2 combinei中的次数
-freq = [0] * 2001 # 数组的最大值可以是1000.因为1000是包含的
-# 但是，由于我们在这里有负数，我们需要将所有数字移动1000
+    arr2[i] = int (arr2[i])
+# Now we will create 1 freq array to keep how many times x appears in arrl and arr2 combined
+freq = [0] * 2001 # The maximum of arrays can be 1000. Because 1000 is inclusive
+# However since we have negative numbers here we need to shift all numbers by 1000
 for i in range ( n ) :
     freq[arrl[i]+1000] = freq[arrl[i]+1000] + 1
 for i in range ( m ) :
     freq[arr2[i]+1000] = freq[arr2[i]+1000] + 1
 i=0
-while i<2001 : # 范围介于0到2000之间
-    if freq[i] > 0 : # 检查 freq
-        print (i-1000 , end = " ") # shift回来！
+while i<2001 : # The range is between 0 to 2000 inclusively
+    if freq[i] > 0 : # checking freq
+        print (i-1000 , end = " ") # shift back!
         freq[i] = freq[i] - 1
     else :
         i=i+1
@@ -126,36 +126,36 @@ while i<2001 : # 范围介于0到2000之间
 
 <br>
 
-**问题6：练习 5.110\*\*\***
+**Question 6：Exercise 5.110\*\*\***
 
 ```python
-n = int(input()) # read n。 n是第一个数组的数量
-arrl = input().split() # 这里我们创建一个数组，数组的名字是 arrl
-# 我们需要将数组项转换为整数
+n = int(input()) # read n. n is the number of numbers of first array
+arrl = input().split() # here we create an array, the name of the aray is arrl
+# We neec to convert array items into integer
 for i in range (len(anrl)):
     arrl[i] = int (arrl[i])
-m = int(input()) # read m。 m是第二个数组的数量
-arr2 = input().split() # 这里我们创建一个数组，数组的名字是 arr2
-# 我们需要将数组项转换为整数
+m = int(input()) # read m. m is the number of numbers of second array
+arr2 = input().split() # here we create an array, the name of the aray is arr2
+# We neec to convert array items into integer
 for i in range (len(arr2)):
     arr2[i] = int (arr2[ij)
-# 为每个列表创建一个位置标记
+# make a position marker for each list
 posl = 0
 pos2 = 0
 while posl < n and pos2 < m :
-    # 比较当前位置的数字
-    # 输出较小的一个并跳到下一个数字
+    # compare the numbers at current positions
+    # output the smaller one and skip to the next number
     if arrl[posl] < anr2[pos2]:
         print (arrl[posl], end = " " )
         posl+= 1
     else :
         print (arr2[pos2], end = M ")
         pos2+= 1
-# 如果有的话，写下第一个列表中的剩余数字
+# write the remaining numbers in the first list if any
 while posl < n :
     print(arrl[posl], end = M ")
     posl+= 1
-# 如果有，写下第二个列表中的剩余数字
+# write the remaining numbers in the second list if any
 while pos2 < m :
     print(arr2[pos2], end = M ")
     pos2+= 1

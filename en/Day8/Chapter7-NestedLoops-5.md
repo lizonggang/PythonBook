@@ -1,47 +1,54 @@
-
-###### 嵌套循环
+###### Nested Loops
 ---
 
-### 7.1. 挑战性问题
+### 7.1. Challenging Problems
 
-练习7.12：改编自Amicable Numbers(BIO '96)
+Exercise 7.12: Adapted from Amicable Numbers (BIO '96)
 
-据说两个数字是“友好的”，如果它们是不同的，那么它们的总和
-每个数字的除数(包括1但不包括数字本身)等于其他数字。
+Two numbers are said to be “amicable” if they are different and the sum of the
+divisors of each number (including 1 but excluding the number itself) equals the
+other number.
 
-例如：2620可被1,2,4,5,10,20,131,262,524,655和1310整除;
-这些加起来为2924. 2924可以被1,2,4,1334,43,68,86,172,731整除，并且
-1462;这些加起来为2620.因此2620和2924是友好的。找出1到5,000之间的友好数字。
+For example: 2620 is divisible by 1,2,4, 5, 10, 20, 131,262, 524, 655, and 1310;
+these add up to 2924. 2924 is divisible by 1,2,4, 17,34,43, 68, 86,172,731, and
+1462; these add up to 2620. Therefore 2620 and 2924 are amicable. Find the
+amicable numbers between 1 and 5,000.
 
-练习7.13：编写一个程序，查找较少的素数比输入的数字。
+Exercise 7.13: Write a program which finds the number of primes that are less
+than the given number.
 
 ```
-样本输入：
+Sample input:
 20
 ```
 
 ```
-样本输出：
+Sample output:
 8
 ```
 
-有8个素数小于20; 2,3,5,7,11,13,17和19。
+There are 8 primes less than 20; 2, 3, 5, 7,11, 13, 17, and 19.
 
-练习7.14：编写一个程序，找出给定的最大总和子序列一系列数字。您将首先从输入中读取n个n个数字。输出最大总和。最多会有100个号码，每个号码都有数量将小于100。
+Exercise 7.14: Write a program that finds the maximum sum subsequence given a sequence of numbers. You will first read n then n numbers from the input. Output the maximum sum. There will be maximum 100 numbers, and each number will be less than 100.
 
 ```
-样本输入：
+Sample input:
 20
 9  -7 0 11 -99 2 2 3 1 0 3 1 0 2 -8 5 4 -7 3 1
 ```
 
 ```
-样本输出：
+Sample output:
 15
 ```
 
-子序列是2 2 3 1 0 3 1 0 2 -8 5 4。
+subsequence is 2 2 3 1 0 3 1 0 2 -8 5 4.
 
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+#### **Congratulations - end of lesson reached**
+
+Well done!
+
+<br>
+
+<center> - 59 - </center>

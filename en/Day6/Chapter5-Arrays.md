@@ -1,26 +1,32 @@
-###### 数组
+###### Arrays
 ---
 
-# <center>第5章: 数组</center>
+# <center>Chapter 5: Arrays</center>
 
-### 5.1. 介绍
+### 5.1. Introduction
 
-**问题：** 假设用户从键盘输入奇数个数字，并且当程序输入0时程序停止。程序输出用户输入的数字中间那一位。你怎么写这个程序？
+**Question:** Suppose user enters odd number of numbers from keyboard, and
+program stops when she enters 0. The program writes the number she entered in
+the middle. How can you write the program?
 
-样本输入:|样本输出:
--|-
-3|11
-9|
-123|
-11|
-12|
-99|
-0|
+```
+Sample input:               Sample output:
+3                           11
+9
+123
+11
+12
+99
+0
+```
 
-在上面的示例中，用户输入7个数字（包括0）。中的数字中间是11，因为它是第4个数字。
+In the example above user enters 7 numbers (including 0). The number in the
+middle is 11 since it is the 4<sup>th</sup> number.
 
-数组是一系列盒子。数组的名称和大小类似于变量。该数组的大小是数组中的数量。这些盒子的编号是
-0到n - 1其中n是数组的大小。
+An array is a sequence of boxes. An array has a name and size like a variable. The
+size of the array is the number of boxes in the array. The boxes are numbered from
+0 to n - 1 where n is the size of the array.
+Example 5.1:
 
 ```python
         myArray
@@ -28,19 +34,26 @@
         3  7  12 4  8  11
 ```
 
-上面显示了一个数组。数组的名称是myArray，其大小为6. 第1个数组的值为3,第4个的值为8。
+An array is shown above. The name of the array is ``myArray`` and its size is 6.0<sup>th</sup>
+value of the array is 3, and 4<sup>th</sup> value is 8.
 
-### 5.2. 声明数组
+### 5.2. Declaring Arrays
 
-我们声明类似于变量的数组。唯一的区别是尺寸是用方括号表示。
+We declare arrays similar to variables. The only difference is that the size is
+indicated in square brackets.
 
 ```python
 myArray =[0] * 20
 ```
 
-这将创建一个包含20个点的阵列，每个点都有0个点。零可以改变任何类型的任何类型，包括小数和字符串。
-数组初始化有点不同。例如：
+This creates an array of 20 spots with a 0 in each spot. The zeros can be changes to anything of any type including decimals and strings.
+
+Array initialization is a little different. For instance:
 
 ```python
 numbers = [3, 5, 12]
 ```
+
+<br>
+
+<center> - 41 - </center>

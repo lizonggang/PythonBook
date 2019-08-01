@@ -54,7 +54,7 @@ while counter <= n:
 问题6：例4.5
 
 ```python
-n = int(input())                # 
+n = int(input())                # 从键盘输入一个数字
 counter = 0                     # 循环计数器
 power = 1;                      # 初始化 power 等于1
 while counter < n:              # 计数器小于 n ,执行循环

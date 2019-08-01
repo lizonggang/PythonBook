@@ -1,26 +1,39 @@
-###### 嵌套循环
+###### Nested Loops
 ---
 
-# <center>第7章：嵌套循环</center>
+# <center>Chapter 7: Nested Loops</center>
 
 
-当我们想要多次执行相同的工作时，使用循环。有可能完全相同或可能略有不同。但我们可以做到每一份工作运行相同的代码。例如，左侧的代码打印10星号在每个循环中基本上是相同的工作。右边的代码打印从1到10的数字，这是不同参数的相同作业。在这两种情况下，每个循环中运行的代码段都是相同的。
+Loops are used when we want to do the same job more than once. It might be completely the same or might have slight differences. But we can do each job by
+running the same piece of code. For example, the code on the left prints 10
+asterisks ‘*’ which is basically the same job at each loop. The code on the right
+prints the numbers from 1 to 10 which is the same job with different parameters.
+In both cases the pieces of code run in each loop are the same.
 
 ```python
 for i in range(10):           for i in range(10):
     print ("*")                   print(i+1)
-
 ```
 
-如果在每个循环而不是做一个工作，我们想做几个工作再次基本相同。模拟时钟'是一个很好的例子这个。从中午到午夜，时钟的时针显示12个不同的数字在这个间隔。如果我们认为0和12对于时针来说意味着相同，我们可以通过使用for循环获取所有这些值。
+What if in each loop instead of doing one job, we want to do several jobs which
+are again basically the same.‘The hands of an analog clock’ is a good example to
+this. From noon to midnight, the hour hand of a clock shows 12 different numbers
+in this interval. If we consider 0 and 12 means the same for the hour hand, we can
+get all those values by using a ``for`` loop.
 
 ```python
 for hourhand in range (12):
     print(hourhand)
 ```
 
-假设我们想在模拟时钟中写下所有分钟。我们知道一小时有60分钟，每小时一分钟的时间点
-时钟，长手指向60个不同的数字。将分钟增加一个是一份工作。这样做60次是同一种工作的循环。换一种说法，将小时增加12次，并将小时增加60次小时增加是另一个循环中的作业循环。这称为嵌套循环。例如，下面的代码打印00:00和00之间的所有分钟11:59。
+Suppose we would like to write all the minutes in an analog clock. We know that
+there are 60 minutes in an hour, and for each number the hour hand points in the
+clock, the long hand points 60 different numbers. Incrementing the minute by one
+is a job. Doing it 60 times is a loop of the same kind of job. In other words,
+incrementing the hour 12 times, and incrementing the minute 60 times whenever
+the hour is incremented is a loop of jobs in another loop. This is called nested
+loops. For instance, the code below prints all the minutes between 00:00 and
+11:59.
 
 ```python
 for hourhand in range (12):
@@ -28,5 +41,11 @@ for hourhand in range (12):
         print (hourhand, ":", minutehand)
 ```
 
-例7.1 编写一个打印所有两位数字的程序由{0,1,2,3,4,5}组成。
+Example 7.1 Write a program which prints all two-digit numbers that can be
+composed of {0, 1, 2,3,4, 5}.
+
+
+<br>
+
+<center> - 55 - </center>
 

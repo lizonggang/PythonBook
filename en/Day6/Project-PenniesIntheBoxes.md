@@ -1,5 +1,6 @@
-## 盒装游戏中的便士
-箱子里的便士是一个双人棋盘游戏。 该板是一系列N盒。 最初，每个盒子都有一些便士。 玩家轮流。 在每个回合中，当前玩家选择最左边或最右边的框。 当没有剩余的盒子时游戏结束。 在游戏结束时，拥有最多便士的玩家赢得比赛。 如果两个玩家拥有相同数量的便士，那么游戏将被束缚。 一个示例游戏如下：
+# Pennies in the Box Game
+
+Pennies in boxes is a two player board game. The board is a sequence of N boxes. Initially, each box has some pennies. Players take turns. In each turn, current player picks either the leftmost or the rightmost box. The game ends when there are no remaining boxes. At the end of the game, the player who has most pennies wins the game. If both players have the same amount of pennies then the game is tied. An example game is as follows:
 
 ```
 Board (N = 8)        Player turn  Player move  Player 1 score  Player 2 score
@@ -14,19 +15,21 @@ Board (N = 8)        Player turn  Player move  Player 1 score  Player 2 score
           3              2           Right          26             26
 ```
 
-- 游戏是平局！
+- The game is a tie!
 
-## 任务1（总积分的60%）：
-在盒子游戏中写一个两个玩家的便士。
+## Task 1 (%60 of the total points):
 
-游戏设计：
-老板最初输入板N的大小（1 <= N <= 20）并且N个整数每个数大于0。
-玩家1开始游戏。
-在每个回合中，依次输出棋盘，玩家和他们的分数。
-程序要求玩家进入移动。 玩家将输入1表示左侧或2表示右侧。 否则程序将告知移动无效并要求同一玩家再次移动。
-如果有胜利者或者是平局，则程序应输出游戏结果并停止。
-样本输入和输出：
-（'>'表示用户输入）
+Write a two player pennies in boxes game.
+
+**Game design:**
+1. The boss initially enter the size of the board N (1<=N<=20)  and N integers each number is greater than 0.
+2. Player 1 starts the game.
+3. In each turn, output the board, the player in turn and their scores.
+4. Program asks the player to enter the move. The player will enter 1 for left or 2 for right. Otherwise the program will tell the move is invalid and ask the same player to make the move again.
+5. If there is a winner or it is a tie, the program should output the game result and stop.
+
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 Enter the number of boxes:
@@ -85,13 +88,14 @@ Player 2 score:20
 Player 2 won!
 ```
 
-任务2（总分数的40%）：
-除了任务1，改进你的程序，以便它允许玩家撤消他们的动作。 玩家将输入1表示左侧，2表示右侧，3表示撤消。 否则程序将告知移动无效并要求同一玩家再次移动。
+## Task 2 (%40 of the total points):
 
-如果玩家输入3，则需要返回之前的状态。 您需要取消最后一步，更新分数并相应地更新转弯。 如果没有撤消动作，换句话说，如果你到达游戏的开头，当用户输入3时就不会有任何变化。
+In addition to Task 1, improve your program so that it will allow the players to undo their moves. The player will enter 1 for left, 2 for right, 3 for undo. Otherwise the program will tell the move is invalid and ask the same player to make the move again.
 
-样本输入和输出：
-（'>'表示用户输入）
+If the player enters 3 you need to go back the previous state. You need to cancel the last move, update the scores and update the turn accordingly. If there are no moves for undo, in other words if you reached the beginning of the game, there won’t be any changes when user enters 3.
+
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 Enter the number of boxes:

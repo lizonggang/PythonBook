@@ -1,22 +1,20 @@
-###### 嵌套条件
+###### Nested Conditions
 ---
 
-# <center>第6章: 嵌套条件</center>
+# <center>Chapter 6: Nested Conditions</center>
 
-例6.1 每天早上10点，露西看着温度计和温度计湿度计根据温度和温度决定吃什么或喝什么
-湿度水平。下表显示了露西吃什么或喝什么条件 - 例如，如果温度为45°F，则湿度为53%
-露西吃蛋糕。
+Example 6.1 Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions- For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake. 
 
-&nbsp;|温度 < 60°F |温度 > 60°F
+&nbsp;|Temperature < 60°F |Temperature > 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-湿度 >= 40%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee |Lucy drinks iced tea
+Humidity >= 40%|Lucy eats cake|ucy eats ice cream
 
-编写一个程序，读取两个数字，温度和湿度，根据输入输出露西所做的事情到输出。
+Write a program that reads two numbers, the temperature and the humidity accordingly, from the input and writes what Lucy does to the output.
 
-样本输入|样本输出
+Sample input:|Sample output:
 -|-
-45 53|露西吃蛋糕
+45 53|Lucy eats cake
 
 
 ```python
@@ -24,16 +22,22 @@ temperature, humidity = input().split()
 temperature = int(temperature)
 
 if temperature < 60 and humidity < 40:
-        print("露西喝咖啡")
+        print("Lucy drinks coffee ")
 if temperature < 60 and humidity >= 40:
-        print("露西吃蛋糕")
+        print("Lucy eats cake")
 if temperature >= 60 and humidity < 40:
-        print("露西喝冰茶")
+        print("Lucy drinks iced tea")
 if tempecatuce >= 60 and humidity >= 40:
-        print("露西吃冰淇淋")
+        print("ucy eats ice cream")
 ```
 
 
-前两个if具有共用条件，温度低于60°F。此外，最后两个if有另一个共享条件。我们可以把if分成两部分按照下图中的第一个条件分组。如果我们检查第一个条件我们将条件减少到四分之二。然后我们可以检查一下其他条件分开，并决定露西将采取的行动。
+The first two ifs have a shared condition which the temperature is less than 60°F.
+Also, the last two ifs have another shared condition. We can put ifs into two groups by their first conditions as in the figure below. If we check the first
+condition we reduce the conditions to two out of four. And then we can check the
+other condition separately and decide which action Lucy will take.
 
+<br>
+
+<center> - 49 - </center>
 

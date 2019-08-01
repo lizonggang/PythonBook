@@ -1,28 +1,28 @@
-## Alpha Maria游戏
+## Alpha Maria Game
 
-Alpha Maria是一款单人游戏。 屏幕上将提供双线平台。
+Alpha Maria is a one player game. A two line platform will be provided on screen.
 ![](http://legendary.cdn.play8.io/learnpython/img/day7/p1.png)
 
 
 
-玩家使用以下键移动：1 - 左边一个正方形，2 - 右边一个正方形，3 - 向左跳两个正方形，4 - 向右跳两个正方形。
+The player uses the following keys to move: 1 - left one square, 2 - right one square, 3 - jump two squares to left, 4 - jump two squares to right.
 
-**右跳的例子：**
-之前&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后
+**Example for right jump:**
+Before&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After
 ![](http://legendary.cdn.play8.io/learnpython/img/day7/p2.png)
 
-如果她收集蘑菇，Alpha Maria获得100分。 每当Alpha Maria到达出口时游戏结束。 写上面描述的Alpha Maria游戏。
+Alpha Maria gets 100 points if she collects a mushroom. The game ends whenever Alpha Maria reaches the exit. Write the Alpha Maria game described above.
 
-**游戏设计：**
+**Game design:**
 
-将给出N（平台的长度）（4 <= N <= 80）。 该平台将包含以下数字：
-  - 0：空点，
-  - 1：Alpha Maria，
-  - 2：蘑菇，
-  - 3：墙，
-  - 4：退出。
+N  (the length of the platform) will be given (4 <= N <= 80). The platform will contain the following numbers: 
+  - 0: empty spots, 
+  - 1: Alpha Maria, 
+  - 2: mushroom, 
+  - 3: wall, 
+  - 4: exit.
 
-上述样本平台将提供如下：
+The sample platform above will be provided as follows:
 
 ```
 20
@@ -30,17 +30,18 @@ Alpha Maria是一款单人游戏。 屏幕上将提供双线平台。
 0 1 2 0 3 0 2 0 3 0 4 0 3 0 0 3 0 2 0 0
 ```
 
-在每个回合中，在屏幕上打印当前得分和平台。 然后程序等待玩家输入（1,2,3或4）并进行移动。 只要Alpha Maria到达出口，游戏就会结束。 打印结束消息：
+In each turn, print the current score and the platform on screen. Then the program waits for the player input (1, 2, 3, or 4) and makes the move. The game finishes whenever Alpha Maria reaches to the exit. Print ending message:
 
 ```
 Congrats, you finished!!!
 ```
 
-### 任务1（总积分的60%）：
-设计上述游戏。
+### Task 1 (%60 of the total points):
 
-**样本输入和输出：**
-（'>'表示用户输入）
+esign the game described above.
+
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 >20
@@ -77,15 +78,17 @@ Score: 200
 Congrats, you finished!!!
 ```
 
-### 任务2（总分数的20%）：
-检查移动是否有效。 阿尔法玛丽亚无法穿过墙壁。 每当Alpha Maria撞墙或试图走出平台时，请打印以下信息：
+### Task 2 (%20 of the total points):
+
+Check if the move is valid. Alpha Maria can’t go through the walls. Whenever Alpha Maria hits a wall or tries to go outside the platform, print the message below:
 
 ```
 Ouch! You hit the wall!
 ```
 
-保证平台顶部没有任何墙壁。
+It’s guaranteed that there won’t be any walls on the top line of the platform.
 
-### 任务3（总分数的20%）：
-平台的顶线可以有墙。
+### Task 3 (%20 of the total points):
+
+Top line of the platform can have walls.
 

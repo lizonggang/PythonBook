@@ -82,7 +82,7 @@ elif t >= 60 and h < 40 :
 elif t >= 60 and h < 60 :
     print ("露西打高尔夫")
 else :
-    print ("露西吃蛋糕")
+    print ("露西吃冰淇淋")
 ```
 
 <br>

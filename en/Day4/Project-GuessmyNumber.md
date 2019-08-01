@@ -1,24 +1,25 @@
-## 猜猜我的号码游戏
-你会猜猜我的数字游戏。 这场比赛是一场双人比赛;
+# Guess My Number Game
 
-- 一个是“挑选者”，另一个是“猜测者”。
-- Picker选择1到100之间的整数，猜测者猜测它。
-- 猜测者的目标是以最少的猜测猜测选择器的数量。
-- 每次猜测后，选择器都会提供反馈，例如“下降”，“上升”或“正确”
-    - “下降”意味着选择器的数量小于猜测者的猜测
-    - “上升”意味着选择器的数量大于猜测者的猜测
-- 当猜测者正确猜出选择器的号码时，游戏结束。
+You will make guess my number game. The game is a two player game; 
+
+- One is "picker" the other is "guessor".
+- Picker picks a integer number between 1 and 100 inclusively and the guessor guesses it.
+- The goal for the guessor is to guess picker's number in the least number of guesses.
+- After each guess, picker provides feedback such as "go down", "go up", or "correct"
+  - "go down" means the picker's number is less than the guessor's guess
+  - "go up" means the picker's number is greater than the guessor's guess
+- The game finishes when guessor correctly guesses the picker's number.
 
 
-### 任务1（总分数的40%）：
-- 读取整数N.保证用户输入1到100之间的数字。
-- 连续读取用户的猜测，直到用户输入正确的数字N.
-- 最后打印猜测数量。
-请注意，输入和输出格式必须与以下示例完全相同。
+## Task 1 (%40 of the total points):
 
-**样本输入和输出：**
+- Read an integer number N. It's guaranteed that the user will enter the number between 1 and 100.
+- Continuously read guesses from the user until the user enters the correct number N.
+- Finally print the number of guesses.
 
-（'>'表示用户输入）
+**Sample Input and Output:**
+
+('>' indicates the user input)
 
 ```python
 >87
@@ -51,9 +52,10 @@ correct!
 
 <br>
 
-### 任务2（总分的60％）：
-如果猜测小于1或大于100，则让用户知道它无效。 猜测次数将仅根据有效条目计算。<br>
-**例子：**
+## Task 2 (%60 of the total points):
+If the guess is less than 1 or greater than 100 let the user know it is invalid. Number of guesses will be calculated based on only valid entries.
+
+**Example:**
 
 ```python
 >87

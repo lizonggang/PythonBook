@@ -1,75 +1,75 @@
-## 第五章: 参考答案-第一部分
+## Chapter 5: Solutions - Part 1
 
-**问题1：练习 5.1**
+**Question 1：Exercise 5.1**
 
 ```python
 myArray = [0] * 21
 counter = 0
 number = int(input())
-while number != 0 :             # 存储数组中的数字
+while number != 0 :             # store number in an array
     myArray[counter] = number
     counter = counter + 1
     number = int(input())
-middle = int(counter / 2)       # 数组的中间位置，必须是int
-print(myArray[middle])          # 在中间输出数字
+middle = int(counter / 2)       # middle location of the array. has to be int
+print(myArray[middle])          # write the number in the middle
 ```
 
-**问题2：练习 5.2**
+**Question 2：Exercise 5.2**
 
 ```python
 myArray = [0] * 20
-n = int(input)  # 从键盘读取n
-# 从键盘读取n个数字
+n = int(input)  # read n from keyboard
+# read n numbers in reverse order
 for counter in range(n) :
     number = int(input())
     myArray[counter] = number
- # 以相反顺序输出数字
+ # write numbers in reverse order
  for counter in range(n - 1, -1 , -1) :
     print(myArray[counter])
 ```
 
-一种替代方式：
+An alternative way:
 
 ```python
 myArray = [0] * 20
-n = int(input)# 从键盘读取n
-# 从键盘读取n个数字并反向存储它们
+n = int(input)# read n from keyboard
+# read n numbers from keyboard and reverse store them
 for counter in range(n - 1, -1 , -1) :
     number = int(input)
     myArray[counter] = number
- # 输出数字
+ # write numbers
  for counter in range(n):
     print(myArray[counter])
 ```
 
-**问题 3:**
+**Question  3:**
 
 ```python
 myArray = [0] * 20
-n = int(input) # 从键盘读取n
-# 从键盘读取n个数字
+n = int(input) # read n from keyboard
+# read n numbers in reverse order
 for counter in range(n):
     myArray [counter] = int(input)
-# 从键盘上读取a和b
+# read a and b from keyboard
 a = int(input)
 b = int(input)
 for counter in range(n);
-    #输出数组中的位置，如果它可被a或b整除
+    # output the counter'th number in the array if it is divisible by a or b
     if myArray[counter] % a == 0 or myArray[counter] % b == 0 :
         print(myArray[counter])
 ```
 
 
-**问题4：练习 5.5\*\***
+**Question 4：Exercise 5.5\*\***
 
 ```python
 arr = [0] * 20
-    # 读n然后将n个数字放入数组中
+    # read n and then n numbers into an array
 n = int(input)
 for i in range(n) :
     arr[i] = int(input())
-# 检查位置0和n-1,1和n-2的数字，
-# 直到数组的中间
+# check numbers at position 0 and n-1, 1 and n-2, ...
+# until the middle of the array
 symmetric = 1
 left = 0
 right = n-1
@@ -78,86 +78,87 @@ while left<right :
         symmetric =0
     left = left + 1
     right = right - 1
-# 如果数组不对称，先输出“not”
+# if array is not symmetric, output "not" first
 if symmetric == 0 :
     print("not", end = •_ •，）
 print("symmetric")
 ```
 
 
-一种替代方式：
+An alternative way:
 
 ```python
 arr = [0] * 20
 rev = [0] * 20
-    # 读n然后将n个数字放入数组中
+    # read n and then n numbers into an array
 n = int(input)
 for i in range(n):
     arr[i] = int(input)
-    # 以相反的顺序保存数字
+    # save the numbers in reverse order
     rev[n-i-l]=arr[i]
-# 检查数组是否与其反向相同
+# if array is not symmetric, output "not" first
 symmetric = 1
 for i in range(n):
     if arr[i] != rev[i]:
         symmetric =0
-# 如果数组不对称，先输出“not”
+# if array is not symmetric, output "not" first
 if symmetric == 0:
     print("not", end=" ")
 print("symmetric")
 ```
 
-**问题 5:**
+**Question  5:**
 
 ```python
 arr = [0] + 20000
 n = int(input)
-# 将数字读入数组
+# read numbers into an array
 for i in range(n):
     arr[i] = int(input)
 k = int(input)
-pos = -1 # 数组中k的位置
-# 检查k是否在数组中
+pos = -1 # position of k in the array
+# check if k is in the array
 for i in range(n):
     if arr[i] == k :
         pos = i
         break
-        # 首次出现时必须使用#break命令
+        # break command must be used here for first occurance
 print(pos)
 ```
 
 
-**问题 6:**
+**Question  6:**
 
 ```python
 arr = [0] * 200
 n = int(input)
-# 将数字读入数组
+# read numbers into an array
 for i in range(n):
     arr[i] = int(input)
-    if arr[i] == 0 :              # 输出0是第一个
+    if arr[i] == 0:   # output 0's first
         print(0, end=" ")
 
-# 输出除0之外的数组
+# output the array except 0's
 for i in range(n):
     if arr[i] != 0 :
         print(arr[i], end=" ")
 ```
 
 
-**问题 7:**
+**Question  7:**
 
 ```python
 arr = [0] * 200
 n = int(input())
-# 将数字读入数组
+# read numbers into an array
 for i in range(n) :
     arr[i] = int(input())
-    if arr[i] < 0 :   # 首先输出负数
+    if arr[i] < 0 :   # output negative numbers first
         print( arr[i] , end=" ")
 
-# 输出除负数之外的数组
+# out the array except negative numbers
 for i in range(n):
     if arr[i] >= 0 :
         print( arr[i] , end=" ")
 ```
+

@@ -1,9 +1,11 @@
-问题1
+**Question1**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+
+**For example:**
+
+Input|Result
 -|-
 5|\*\*\*\*\*
 &nbsp;|\*\*\*\*\*
@@ -21,12 +23,13 @@
 
 <br>
 
-问题2
+**Question2**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|\*
 &nbsp;|\*\*
@@ -44,12 +47,13 @@
 
 <br>
 
-问题3
+**Question3**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|&nbsp;&nbsp;&nbsp;&nbsp;\*
 &nbsp;|&nbsp;&nbsp;&nbsp;\*\*
@@ -67,12 +71,13 @@
 
 <br>
 
-问题4
+**Question4**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\*
 &nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\*\*\*
@@ -90,12 +95,13 @@
 
 <br>
 
-问题5
+**Question5**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|\*\*\*\*\*
 &nbsp;|&nbsp;\*\*\*\*
@@ -113,12 +119,13 @@
 
 <br>
 
-问题6
+**Question6**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
-**例子**
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|\*\*\*\*\*\*\*\*\*
 &nbsp;|\*\*\*\*\*\*\*
@@ -136,13 +143,13 @@
 
 <br>
 
-问题7
+**Question7**
 
-为每个从键盘读取数字n的情况编写程序，并打印所需的星号形状，如下所示。 请注意，您**不能使用**嵌套循环，字符串或字符数组。<br>
+Write a program for each case that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops, strings or character arrays.
 
-**例子**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
 5|*
 &nbsp;|**

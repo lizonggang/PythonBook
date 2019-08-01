@@ -1,9 +1,10 @@
 
-###### 用Python编程
+###### Nested Loops
 ---
 
-解决方案1：我们将尝试在不使用嵌套循环的情况下执行此操作 - 仅使用一个for环。在这个问题中，两位数字从10开始，一直到55.小心数字从0开始并上升到5.因此，我们只会写两位数
-10到55之间的数字，其数字小于或等于5。
+Solution 2: Now, we will use nested loops instead. Using nested loops, we just
+need to make a loop for 10s digit from 5 down to 1, and for each decrement in 10s
+digit, we make an inner loop for Is digit from 0 to 5.
 
 ```python
 for number in range (10, 56):
@@ -11,7 +12,9 @@ for number in range (10, 56):
         print(number)
 ```
 
-解决方案2：现在，我们将使用嵌套循环 - 使用嵌套循环，我们只是需要为1到5的10位数进行循环，对于10位数的每个增量，我们为从0到5的Is数字做一个内循环。
+Solution 2: Now, we will use nested loops instead- Using nested loops, we just
+need to make a loop for 10s digit from 1 to 5, and for each increment in 10s digit,
+we make an inner loop for Is digit from 0 to 5.
 
 ```python
 for tens in range (1, 6):
@@ -20,19 +23,24 @@ for tens in range (1, 6):
         print(ones)
 ```
 
-第二个代码似乎比第一个代码更容易思考。第一个代码使用了间接解决问题的方法，而在第二个代码中解决方法
-很明显。
+The second code seems easier to think than the first one. The first code uses an
+indirect way to solve the problem, whereas in the second code the solution method
+is obvious.
 
-一个更好的例子：编写一个打印所有两位数字的程序按以下顺序由{0,1,2,3,4,5}组成：
+A Better Example: Write a program which prints all two-digit numbers that can
+be composed of {0, 1,2,3, 4, 5} in the following order:
 
 ```python
             50 51 52 53 54 55 40 41 42 43 44 45 ... 10 11 12 13 14 15
 ```
 
-小心数个位数字增加而十位数减少。
+Be careful that Is digit increases while 10s digit decreases.
 
 
-解决方案1：解决方案比前一个解决方案困难得多。我们必须创造这样做的公式。我们将再次从10开始，然后上升到55.但是，这个时间我们会写'6  - 十位'和数字在一起所以10s数字数字增加时减少。
+Solution 1: The solution is much harder than the previous one. We have to create
+a formula to do that. We will again start from 10 and go up to 55. However, this
+time we will write ‘``6 - tens digit``’ and Is digit together so the 10s digit
+decreases while Is digit increases.
 
 ```python
 for number in range (10, 56):
@@ -41,3 +49,6 @@ for number in range (10, 56):
         print(number % 10)
 ```
 
+<br>
+
+<center> - 56 - </center>

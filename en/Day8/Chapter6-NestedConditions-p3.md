@@ -1,22 +1,39 @@
-###### 嵌套条件
+###### Nested Conditions
 ---
 
+The block in the lines 6-9 belongs to the i£ condition ‘temperature < 60’. The
+else in line 10 corresponds to the condition ‘temperature >= 60’， and the block
+in lines 11-14 belongs to it.
 
-第6-9行中的块属于if条件'temperature < 60'。第10行中的else对应于条件'temperature> = 60'和第11-14行块属于它。
-
-在上一次练习中，我们将条件分为两组温度。同样，如果我们观察湿度值，我们会观察到两个他们分享一个条件而另外两个分享另一个条件。所以我们可以将它们按湿度水平分组。使用嵌套if的另一种方法是首先检查他们的湿度水平，然后确定温度。这个方法只是交换前一个条件。下列图表总结了这种方法：
+In the last exercise, we grouped the conditions into two groups by their
+temperatures. Similarly, if we look at the humidity values we observe that two of
+them share one condition while the other two share another condition. So, we can
+group them by their humidity levels as well. Another way of using nested ifs is
+to check their humidity levels first, and then the temperatures to decide. This
+approach is just the swapping the conditions in the previous one. The following
+chart summarizes the approach:
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day8/p3.png)
 
-练习6.1：在上一个练习中编写相同的程序来检查湿度，然后检查嵌套if中的温度。
+Exercise 6.1: Write the same program in the previous exercise checking the humidity and then checking the temperature in nested ifs.
 
-练习6.2：使用以下条件编写相同的程序而**不使用**嵌套if。
+Exercise 6.2: Write the same program with the conditions below without using nested ifs. 
 
-&nbsp;|**温度 < 60°F**|**温度 >= 60°F**
+&nbsp;|**Temperature < 60°F**|**Temperature >= 60°F**
 -|-|-
-**湿度<40%**|露西喝咖啡|露西喝冰茶
-**40% <= 湿度 < 60%**|露西打网球|露西打高尔夫
-**湿度 >= 60%**|露西吃蛋糕|露西吃冰淇淋
+**Humidity<40%**|Lucy drinks coffee|Lucy drinks iced tea
+**40% <= Humidity < 60%**|Lucy plays tennis|Lucy plays golf
+**Humidity >= 60%**|Lucy eats cake|Lucy eats ice cream
 
-练习6.3：使用嵌套if编写相同的程序。
+Exercise 6.3: Write the same program using nested ifs.
+
+<br>
+
+#### **Congratulations - end of lesson reached**
+
+Well done!
+
+<br>
+
+<center> - 51 - </center>
 

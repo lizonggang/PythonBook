@@ -1,136 +1,136 @@
-**问题1**
+**Question 1**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-湿度 >= 40%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+Humidity >= 40%|Lucy eats cake|Lucy eats ice cream
 
-编写一个程序，相应地读取两个数字，即温度和湿度，并输出露西所做的。 您不能使用嵌套if。
+Write a program that reads two numbers, the temperature and the humidity accordingly, and outputs what Lucy does. You **<u>cannot</u>** use nested ifs.
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-45 53|露西吃蛋糕
+45 53|Lucy eats cake
 
 <br>
 
-**问题2**
+**Question 2**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake. 
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-湿度 >= 40%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+Humidity >= 40%|Lucy eats cake|Lucy eats ice cream
 
 
-编写一个程序，相应地读取两个数字，即温度和湿度，并输出Lucy所做的。 使用嵌套的if。
+Write a program that reads two numbers, the temperature and the humidity accordingly, and outputs what Lucy does. Use nested ifs.
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-45 53|露西吃蛋糕
+45 53|Lucy eats cake
 
 <br>
 
-**问题3**
+**Question 3**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-湿度 >= 40%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+Humidity >= 40%|Lucy eats cake|Lucy eats ice cream
 
-编写一个程序，相应地读取两个数字，即温度和湿度，并输出露西所做的。 <u>使用</u>嵌套的if。 在嵌套if中，首先<u>检查湿度，然后检查温度</u>。
+Write a program that reads two numbers, the temperature and the humidity accordingly, and outputs what Lucy does. **<u>Use</u>** nested ifs. In nested ifs, check **<u>the humidity first then the temperature</u>.**
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-45 53|露西吃蛋糕
+45 53|Lucy eats cake
 
 <br>
 
-**问题4**
+**Question 4**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-40% <= 湿度 < 60%|露西打网球|露西打高尔夫球
-湿度 >= 60%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+40% <= Humidity < 60%|Lucy plays tennis|Lucy plays golf
+Humidity >= 60%|Lucy eats cake|Lucy eats ice cream
 
 
-编写一个程序，相应地读取两个数字，即温度和湿度，并输出Lucy所做的。 您不能使用嵌套ifs。
+Write a program that reads two numbers, the temperature and the humidity accordingly, and outputs what Lucy does. You **<u>cannot</u>** use nested ifs.
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-45 53|露西打网球
+45 53|Lucy plays tennis
 
 <br>
 
-**问题5**
+**Question 5**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-40% <= 湿度 < 60%|露西打网球|露西打高尔夫球
-湿度 >= 60%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+40% <= Humidity < 60%|Lucy plays tennis|Lucy plays golf
+Humidity >= 60%|Lucy eats cake|Lucy eats ice cream
 
 
-编写一个程序，相应地读取两个数字，即温度和湿度，并输出露西所做的。 <u>使用</u>嵌套的if。
+Write a program that reads two numbers, the temperature and the humidity accordingly, and outputs what Lucy does. Use nested ifs.
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-45 53|露西打网球
+45 53|Lucy plays tennis
 
 <br>
 
-**问题6**
+**Question 6**
 
-每天早上10点，露西都会看着温度计和湿度计，根据温度和湿度来决定吃什么或喝什么。 下表显示了露西在什么条件下吃什么或喝什么。 例如，如果温度为45°F，湿度为53％，那么露西就会吃蛋糕。
+Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
 
-&nbsp;|温度 < 60°F |温度 >= 60°F
+&nbsp;|Temperature < 60°F |Temperature >= 60°F
 -|-|-
-湿度 < 40%|露西喝咖啡|露西喝冰茶
-40% <= 湿度 < 60%|露西打网球|露西打高尔夫球
-湿度 >= 60%|露西吃蛋糕|露西吃冰淇淋
+Humidity < 40%|Lucy drinks coffee|Lucy drinks iced tea
+40% <= Humidity < 60%|Lucy plays tennis|Lucy plays golf
+Humidity >= 60%|Lucy eats cake|Lucy eats ice cream
 
 
-这次您将获得更多天的温度和湿度信息。 你将输出露西打网球或高尔夫的日子。 在输入中，第一行将提供N天数。 即将到来的N行将提供当天的温度和湿度信息。
+This time you will have temperature and humidity information for more days. You will output the days Lucy plays tennis or golf. In the input, the first line will provide N, the number of days. Upcoming N lines will provide the temperature and humidity information for these days.
 
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
-4|第2天：露西打网球
-45 83|第4天：露西打高尔夫球
+4|Day 2: Lucy plays tennis
+45 83|Day 4: Lucy plays golf
 58 58|
 77 32|
 77 40|
 
 <br>
 
-**问题7**
+**Question 7**
 
-编写一个程序，将从最小到最大的三个给定数字排序（不使用循环和嵌套if）。
+Write a program that sorts three given numbers from smallest to largest (without using loops and nested ifs).
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
 12 7 11|7
 &nbsp;|11
@@ -138,13 +138,13 @@
 
 <br>
 
-**问题8**
+**Question 8**
 
-编写一个程序，将从最小到最大的三个给定数字排序（使用嵌套if而不是循环）。
+Write a program that sorts three given numbers from smallest to largest (using nested ifs but not loops).
 
-**例子：**
+**For example:**
 
-输入|结果
+Input|Result
 -|-
 12 7 11|7
 &nbsp;|11

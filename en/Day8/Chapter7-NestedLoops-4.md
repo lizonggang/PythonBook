@@ -1,9 +1,11 @@
-
-
-###### 用Python编程
+###### Programming with Python
 ---
 
-练习7.7：编写一个从输入中读取数字N的程序。然后，你的程序将打印一个三角形为n行的图形。第一行将有只有1，第二行将有1和2.它将一直持续到第n行将具有从1到N的数字。为清楚起见，参见下面的示例。小心关于数字之间的空白。
+Exercise 7.7: Write a program that reads a number N from the input. Then, your
+program will print a figure that has n rows in triangle from. The first row will have
+only 1, and the second row will have 1 and 2. It will continue until the nth row
+will have the numbers from 1 to N. See the example below for clarity. Be careful
+about the blank between numbers.
 
 ```
 样本输入：
@@ -18,19 +20,21 @@
 1 2 3 4
 ```
 
-**练习7.8：在不使用嵌套循环的情况下解决相同的问题。练习7.9：编写一个程序，读取数字N，然后从数字中读取N个数字输入。您的程序将打印一个包含N行的图形。给出的数字输入因此指定其行的数字。请参阅下面的示例为清楚起见。
+** Exercise 7.8: Solve the same problem without using nested loops.
 
-
-练习7.9：编写一个程序，读取数字N，N从键盘输入。你的程序需要输出N行。输出的内容是特殊的符号 '*', 为清楚起见，参见下面的示例。
+Exercise 7.9: Write a program that reads a number N then N numbers from the
+input. Your program will print a figure that has N rows. The numbers given in the
+input specify the number o f i n their row consequently. See the example below
+for clarity.
 
 ```
-样本输入：
+Sample input:
 5
 3 4 6 0 3
 ```
 
 ```
-样本输出：
+Sample output:
 ***
 ****
 *****
@@ -40,7 +44,14 @@
 
 
 
-练习7.10 编写一个程序，读取n <1000然后n个数字从输入开始包含1到1000之间。然后，你的程序会找到存在多次的数字并输出它们。
+Exercise 7.10: Write a program that reads n < 1000 then n numbers each of which
+is between 1 and 1000 inclusively from the input. Then, your program will find
+the numbers that exist more than once and output them.
 
-**练习7.11：在不使用嵌套循环的情况下解决相同的问题。
+** Exercise 7.11: Solve the same problem without using nested loops.
 
+
+
+<br>
+
+<center> - 58 - </center>

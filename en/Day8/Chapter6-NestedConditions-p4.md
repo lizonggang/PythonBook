@@ -1,45 +1,62 @@
-###### 用python编程
+###### Programming with Python
 ---
 
 
-练习6.4：考虑相同的例子，但这次你会有temperature和humidity更多信息。您将输出日期
-露西打网球或打高尔夫球。在输入中，第一行将提供n天数量。即将输入的N行将提供这些天的temperature和humidity信息。
+Exercise 6.4: Consider the same example, but this time you will have
+temperature and humidity information for more days. You will output the days
+Lucy plays tennis or golf. In the input, the first line will provide n, the number of days. Upcoming N lines will provide the temperature and humidity information
+for these days.
 
-样本输入:|样本输出:
--|-
-4|第2天：露西打网球
-45 83|第4天：露西打高尔夫球
-58 58|
-77 32|
-77 40|
-
-
-
-练习6.5：露西想要计算她在购物时获得的奖励积分。她知道她在最近的N <100 购物中花了多少钱，而且所有这些都是面包店，农产品或饮料。
-- 如果他们是面包店，她每美元可获得5分。
-- 如果是产品，她每美元可获得2分。
-- 如果他们是饮料，她每美元赚1点。
-
-当她在一次购物中花费超过M美元时，她获得奖励积分。
-你将首先阅读N和N对应于露西花钱的数字。在最后，你会看到M然后购物项目的类型。 1意味着他们都是面包店，2和3分别对应于农产品和饮料。写下总数奖金指向输出。
+```
+Sample input:               Sample output:
+4                           Day 2: Lucy plays tennis
+45 83                       Day 4: Lucy plays golf
+58 58
+77 32
+77 40
+```
 
 
-样本输入:|样本输出:
--|-
-5|800
-41 13 88 50 72|
-50 1|
+Exercise 6.5: Lucy wants to calculate her bonus points she earned while shopping.
+She knows how much she spent in her last N < 100 shopping, and all of them are
+bakery, produce, or drinks.
+- If they are bakery, she earns 5 points per dollar.
+- If they are produce, she earns 2 points per dollar.
+- If they are drinks, she earns 1 point per dollar.
 
-购买超过50美元的物品时露西获得奖励积分，因此88美元和72美元有资格获得奖金。她在面包店购物，每美元带5点积分。总共获得（88 + 72）* 5 = 800 奖励积分。
+She earns bonus points when she spends more than M dollars in one shopping.
+You will first read N then N numbers corresponding to the money Lucy spend. At
+the end, you will read M then the type of shopping items. 1 means they are all
+bakery, 2 and 3 correspond to produce and drinks respectively. Write the total
+bonus points to the output.
 
-练习6.6：在不使用循环的情况下，将给定的树数从小到大排序和嵌套的if。
 
-样本输入:|样本输出:
--|-
-4 1 13 27|13 27 41
+```
+Sample input:               Sample output:
+5                           800
+41 13 88 50 72
+50 1
+```
 
-*练习6.7：使用嵌套ifs将给定的树数从小到大排序但不是循环。
+Lucy receives bonus points for shopping more than $50 hence $88 and S72 are
+qualified for bonus. Her shopping was on bakery which brings 5 points per dollar.
+In total, she got (88 + 72) * * 5 = 800 bonus points.
+
+Exercise 6.6: Sort given tree numbers from smaller to larger without using loops
+and nested ifs.
+
+```
+Sample input:               Sample output:
+4 1 13 27                   13 27 41
+```
+
+*Exercise 6.7: Sort given tree numbers from smaller to larger using nested ifs
+but not loops.
 
 
 **祝贺 - 达到了教训的结束** <br>
 **做得好！**
+
+<br>
+
+<center> - 52 - </center>

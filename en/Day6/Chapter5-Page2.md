@@ -1,25 +1,27 @@
 
-###### 用Python编程
+###### Programming with Python
 ---
 
 
-按顺序将3,5和123放入数组中。同样，我们可以将上面的数组拆分成变量像下面这样：
+puts 3, 5, and 123 in the array in order. Similarly we can split the array above into
+variables as follows:
 
 ```python
 [a, b, c] = numbers
 ```
 
 
-然后变量a，b和c分别为3,5和123。我们可以合并数组，使用'+'运算符添加到数组的前面或末尾：
+Then the variables a, b and c will be 3, 5 and 123 respectively. We can merge
+arrays, add to the front or to the end of an array using '+’ operator:
 
 ```python
 numbers = [11, 2] + numbers
 ```
 
 
-将得到数组 [11,2,3,5,123]。
+will make numbers [11,2,3,5,123]。
 
-我们可以得到如下一部分数组：
+We can get a part of an array as follows:
 
 ```python
   a = numbers[1：4]
@@ -27,46 +29,55 @@ numbers = [11, 2] + numbers
   c = numbers[2:]
 ```
 
-然后a将是[2, 3, 5]，这是从位置1到位置4的元素（不包括第4位）。b将[11, 2, 3]；从起始位置到第3位的元素。而c将[3, 5, 73]；从第二个位置到结尾的元素。
+Then a will be [2, 3, 5] which is the elements from position 1 to position 4
+(excluding position 4). b will [11, 2, 3]; the elements from starting position to 3rd whereas c will [3, 5, 123]; the elements from 2ⁿd position to the end.
 
-  我们还可以使用不同的模式初始化数组，例如：
+We can also initialize an array with different patterns such as:
 
 ```python
   myArray = [1, 5] * 3
 ```
 
-这一次重复1次和5次三次。这相当于：
+This one repeats 1 and 5 three times. This is equivalent to:
 
 ```python
   myArray =[1, 5, 1, 5, 1, 5]
 ```
 
-有时我们可能需要数组的大小。我们可以学习数组的大小像下面这样：
+Sometimes we may need the size of an array. We can learn the size of an array as
+follows:
 
 ```python
 print(len(myArray))
 ```
 
-len() 返回数组的大小。
+``len()`` returns the size of an array.
 
 <br>
 
-### 5.3. 写和读数组
+### 5.3. Writing and Reading Arrays
 
-我们可以使用数组类似于变量。假设我们有一个名为myArray的数组，数组大小为10.将7放入数组的第5个位置，我们可以像这样写：
+We can use arrays similar to the variables. Suppose we have an array named
+myArray with the size 10. In order to put 7 into 5,h location of the array, we write
+the following code:
 
 ```python
   myArray[5] = 7
 ```
 
-与变量的唯一区别是我们总是指示数组中的位置。
-在此示例中，位置用方括号表示。
+The only difference from variables is we always indicate the location in the arrays.
+In this example location is indicated in square brackets.
 
-我们可以在数组的位置使用数字类似的方式。假设我们有一个名为apple的变量和名为banana的数组。要再分配数值6和香蕉的第4个位置的数值的和，我们写下面的代码：
+We can use the number in a location of the array similar way. Suppose we have a
+variable named apple and an array named banana. To assign the value 6 more
+than the 4lh value of banana, we write the following code:
 
 ```python
   apple = banana [4] + 6
 ```
   
-我们可以使用我们之前学习的所有算术运算来计算数组的值。
+We can use all arithmetic operations we learned before on the values of an array.
 
+<br>
+
+<center> - 42 - </center>

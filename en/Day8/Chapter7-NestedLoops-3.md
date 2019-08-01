@@ -1,7 +1,9 @@
-###### 嵌套循环
+###### Nested Loops
 ---
 
-解决方案2：现在，我们将使用嵌套循环。使用嵌套循环，我们只是需要制作一个十位数字的循环，从5减少到1，每个减少十位数字，我们为从0到5的个位数字做一个内循环。
+Solution 2: Now, we will use nested loops instead. Using nested loops, we just
+need to make a loop for 10s digit from 5 down to 1, and for each decrement in 10s
+digit, we make an inner loop for Is digit from 0 to 5.
 
 ```python
 for tens in range(5, 0, -1):
@@ -10,28 +12,38 @@ for tens in range(5, 0, -1):
         print(ones)
 ```
 
-与第一种解决方案相比，第二种解决方案更容易思考。
+Compared to the first solution, the second solution is much easier to think.
 
-练习7.1：编写一个程序，打印所有两位数的奇数由嵌套循环组成的{0,1,2,3,4,5,6}。
+Exercise 7.1: Write a program which prints all two-digit odd numbers that can be
+composed of {0, 1,2, 3,4, 5, 6} using nested loops.
 
-*练习7.2 解决相同的问题而不使用嵌套循环。
+*Exercise 7.2: Solve the same problem without using nested loops.
 
-练习7.3：编写一个打印所有三位数字的程序由{0,1,2,3,4}组成，使用嵌套循环。
+Exercise 7.3: Write a program which prints all three-digit numbers that can be
+composed of {0, 1,2, 3,4} using nested loops.
 
-*练习7.4 \不使用嵌套循环解决相同的问题。
+*Exercise 7.4: Solve the same problem without using nested loops.
 
-练习7.5 \编写一个程序，从输入中读取两个数字N和M.然后，您的程序将打印一个具有N行数和M数的数字列。第一行将具有M个Is，第二行将具有有M个2。它将一直持续到第N行将具有M个数纳秒。为清晰起见，请参阅下面的示例：
+Exercise 7.5: Write a program that reads two numbers N and M from the input.
+Then, your program will print a figure that has N number of rows and M number
+of columns. The first row will have with M number of Is, and the second row will
+have M number of 2s. It will continue until the Nth row will have M number of
+Ns. See the example below for clarity.
 
 ```
-样本输出：
+Sample input:
 3 4
 ```
 
 ```
-样本输出：
+Sample output:
 1111
 2222
 3333
 ```
 
-**练习7.6 不使用嵌套循环解决相同的问题。
+** Exercise 7.6: Solve the same problem without using nested loops.
+
+<br>
+
+<center> - 57 - </center>

@@ -1,49 +1,59 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-练习5.1：编写一个从键盘读取数字的程序，并输出中间的数字。当用户输入0时程序停止。它是
-保证用户输入奇数个数，最多21个数字(包括0)。
+Exercise 5.1: Write a program that reads numbers from the keyboard, and outputs
+the number in the middle. The program stops when the user enters 0. It is
+guaranteed that the user inputs odd number of numbers, and there are at most 21
+numbers (including 0).
 
-样本输入:|样本输出:
--|-
-3|11
-9|
-123|
-11|
-12|
-99|
-0|
+```
+Sample input:         Sample output:
+3                       11
+9
+123
+11
+12
+99
+0
+```
 
 <br>
 
-练习5.2：编写一个程序，从键盘中读取n个数字，其中n < 20.然后它以相反的顺序将这些数字写入屏幕。用户从键盘输入。
+Exercise 5.2: Write a program that reads n numbers from the keyboard where n =<
+20. Then it writes these numbers to the screen in reverse order. The user will enter
+n from the keyboard.
 
-样本输入:|样本输出:
--|-
-6|99
-3|12
-9|11
-123|123
-11|9
-12|3
-99|
+```
+Sample input:         Sample output:
+6                       99
+3                       12
+9                       11
+123                     123
+11                      9
+12                      3
+99
+```
 
-在输入中，有时数字在一行中给出如下：
-
+In the input, sometimes the numbers are given in one line as follows:
 ```python
 3 9 123 11 12 99
 ```
 
-有一种简单的方法可以将它们读取并存储在一个数组中：
-
+There is an easy way to read and store them in an array:
 ```python
  myArray = input().split()
 ```
 
-input()读取一行中的所有内容，并在输入中的空格处splie()并将输入作为数组提供。但是，我们这里有一个小问题。如你还记得，我们在读完后将输入转换为整数。我们需要在这里做同样的事情 - 将数组的每个元素转换为整数。
-下一步：
+``input()`` reads everything in one line and ``split()`` splits at spaces in the input and provides the input as an array. However, we have a small problem here. As
+you remember, we were converting an input to an integer after reading it. We
+need to do the same thing here - convert each element of the array to an integer.
+As the next step:
 
 ```python
 for counter in range(len(myAccay):
     myArray[counter] = int(myArray[counter])
 ```
+
+<br>
+
+<center> - 44 - </center>

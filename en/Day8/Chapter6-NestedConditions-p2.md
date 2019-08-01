@@ -1,26 +1,27 @@
-###### 用python编程
+###### Programming with Python
 ---
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day8/p1.png)
 
-以下代码显示了我们如何比较两个条件其他。 这称为“嵌套if”。 在第一个'if 块'中，我们只考虑满足'temperature < 60'的条件。
+The following code shows how we can compare two conditions one after the
+other. This is called “nested ``if``s”. In the first ‘``if`` block’， we only consider the conditions that satisfies‘temperature < 60’.
 
 ```python
 if temperature < 60:
     if humidity < 40:
-        print("露西喝咖啡")
+        print("Lucy drinks coffee")
     else:
-        print("露西吃蛋糕")
+        print("Lucy eats cake")
 ```
 
-请注意，else对应于 'temperature < 60 adn humidity >= 40'。
+Note that the ``else`` corresponds to 'temperature < 60 adn humidity >= 40'.
 
 > [!NOTE]
-> 在上面的代码中，我们可能不使用括号，因为内部if块只是一个语句。
+> In the code above, we may not use parenthesis since the inner ``if`` block is only one statement.
 
-例子 6.2：使用嵌套在上一个练习中编写相同的程序。
+Example 6.2：Write the same program in the previous exercise by using nested ``if``s.
 
-方法：
+Solution:
 
 ```python
 temperature, humidity = input().split()
@@ -29,15 +30,17 @@ humidity = int(humidity)
 
 if temperature < 60:
     if humidity < 40:
-        print("露西喝咖啡")
+        print("Lucy drinks coffee")
     else:
-        print("露西吃蛋糕")
+        print("Lucy eats cake")
 else:
 if humidity < 40:
-        print("露西喝冰茶")
+        print("Lucy drinks iced tea")
     else:
-        print("露西吃冰淇淋")
+        print("Lucy eats ice cream")
 ```
 
+<br>
 
+<center> - 50 - </center>
 

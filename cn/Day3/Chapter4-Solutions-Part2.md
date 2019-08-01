@@ -214,7 +214,7 @@ while hundreds < 5 :
         ones = 0
         tens = tens + 1
     # 如果十位数字大于4
-    # 十位数自增
+    # 百位数自增
     if tens > 4:
         tens = 0
         hundreds = hundreds + 1

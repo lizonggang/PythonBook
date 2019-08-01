@@ -1,9 +1,10 @@
-**问题1**
+**Question 1**
 
-编写一个读取n <1000的程序，然后编写n个数字，每个数字介于1和1000之间。 然后，您的程序将找到不止一次存在的数字并按<u>递增顺序</u>输出它们。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that reads n < 1000 then n numbers each of which is between 1 and 1000 inclusively. Then, your program will find the numbers that exist more than once and output them in **<u>increasing</u>** order. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 10|1
 3 4 6 1 3 7 1 1000 3 6|3
@@ -11,12 +12,13 @@
 
 <br>
 
-**问题2**
+**Question 2**
 
-编写一个程序，读取n <1000然后是n个不同的数字，每个数字介于1和1000之间。 然后，您的程序将按升序输出数字。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that reads n < 1000 then n distinct numbers each of which is between 1 and 1000 inclusively. Then, your program will output the numbers in ascending order. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|1
 4 1 1000 3 6|3
@@ -26,12 +28,13 @@
 
 <br>
 
-**问题3**
+**Question 3**
 
-编写一个读取n <1000的程序，然后编写n个数字，每个数字介于1和1000之间。 然后，您的程序将按升序输出数字。 请注意，这次数字可能不明显。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that reads n < 1000 then n numbers each of which is between 1 and 1000 inclusively. Then, your program will output the numbers in ascending order. Note that numbers may not be distinct this time. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 10|1
 3 4 6 1 3 7 1 1000 3 6|1
@@ -46,12 +49,13 @@
 
 <br>
 
-**问题4**
+**Question 4**
 
-编写一个程序，输出两组大小为n <100和m <100的交集。数组中的每个数字介于-1000和1000之间。 读n，然后读n个数; 读m，然后是m数。 您的程序应按递增顺序输出数字。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that outputs the intersection of two sets of sizes n < 100 and m < 100. Each number in the array is between -1000 and 1000 inclusively. Read n, then n numbers; read m, then m numbers. Your program should output the numbers in increasing order. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 5|30 40 50
 30 -111 40 50 28|
@@ -60,12 +64,13 @@
 
 <br>
 
-**问题5**
+**Question 5**
 
-编写一个程序，按照大小n <100和m <100的升序给出两个排序数组中给出的数字的排序输出。数组中的每个数字介于-1000和1000之间。 读n，然后读n个数; 读m，然后是m数。 按升序在屏幕上写出已排序的输出。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that gives a sorted output of numbers given in two sorted arrays in ascending order of sizes n < 100 and m < 100. Each number in the arrays is between -1000 and 1000 inclusively. Read n, then n numbers; read m, then m numbers. Write the sorted output on the screen in ascending order. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 6|-18 3 4 9 12 12 36 66 156 876 991
 3 4 9 12 36 991|
@@ -74,12 +79,13 @@
 
 <br>
 
-**问题6**
+**Question 6**
 
-编写一个程序，按照大小n <100和m <100的升序给出两个排序数组中给出的数字的排序输出。<u>数组中的数字不在-1000和1000之间</u>。读取n，然后是n个数字; 读m，然后是m数。 在屏幕上按升序写出已排序的输出。 您<u>不能使用</u>嵌套循环。<br>
-**例子：**
+Write a program that gives a sorted output of numbers given in two sorted arrays in ascending order of sizes n < 100 and m < 100. <u>The numbers in the array may not be between -1000 and 1000</u>. Read n, then n numbers; read m, then m numbers. Write the sorted output on screen in ascending order. You **<u>cannot</u>** use nested loops.
 
-输入|结果
+**For example:**
+
+Input|Result
 -|-
 6|-18 3 4 9 12 12 36 66 156 876 2191
 3 4 9 12 36 2191|
