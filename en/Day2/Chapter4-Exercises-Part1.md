@@ -1,17 +1,17 @@
-**问题1**
+**Question1**
 
-编写一个程序，输出从x + 1到x + 100的数字，其中给出了x。
+Write a program that outputs numbers starting from x + 1 to x + 100 where x is given.
 
 <br>
 
-**问题2**
+**Question2**
 
-编写一个程序，如果它们大于5则读取数字和输出。当给出0时，程序将停止。
+Write a program that reads numbers and outputs if they are greater than 5. Program will stop when 0 is given.
 
-例如：
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 11                      11
 8                       8
 2                       7
@@ -24,14 +24,14 @@
 
 <br>
 
-**问题3**
+**Question3**
 
-编写一个程序，查找给定数字的计数（不包括最后的0）。 当给出0时，程序将停止。
+Write a program that finds the count of the given numbers (excluding the 0 at the end). Program will stop when 0 is given.
 
-例如：
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 11                      7
 8
 2
@@ -44,14 +44,14 @@
 
 <br>
 
-**问题4**
+**Question4**
 
-编写一个程序，如果它们大于x，则读取数字和输出（不包括最后的0）。 当给出0时，程序将停止。 用户将首先输入数字x。
+Write a program that reads numbers and outputs if they are greater than x (excluding the 0 at the end). Program will stop when 0 is given. The user will first input the number x.
 
-例如：
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 7                       8
 8                       11
 2
@@ -65,13 +65,14 @@
 
 <br>
 
-**问题5**
+**Question5**
 
-编写一个程序，输出从1到n的数字。 用户应该给出n的值，其中n> 0。
-例如：
+Write a program that outputs the numbers from 1 to n. The user should give the value of n where n > 0.
+
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 6                       1
                         2
                         3
@@ -82,26 +83,27 @@
 
 <br>
 
-**问题6**
+**Question6**
 
-编写一个程序，找到2的n次方，其中n将作为输入给出，n> 0。
+Write a program that finds the n th power of 2 where n will be given as input and n > 0.
 
-例如：
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 5                       32
 ```
 
 <br>
 
-**问题7**
+**Question7**
 
-编写一个程序，找出给定的n个数字的总和。 用户应输入n，然后输入键盘上的数字。
-例如：
+Write a program that finds the sum of n numbers given. The user should enter n, then the numbers from keyboard.
+
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 5                       47
 22
 1
@@ -112,14 +114,14 @@
 
 <br>
 
-**问题8**
+**Question8**
 
-编写一个程序，如果它们介于17和35之间，则读取数字和输出。 否则程序停止。
+Write a program that reads numbers and outputs if they are between 17 and 35 inclusively. Otherwise program stops.
 
-例如：
+**For example:**
 
 ```
-输入                    结果
+Input                   Result
 19                      19
 25                      25
 32                      32

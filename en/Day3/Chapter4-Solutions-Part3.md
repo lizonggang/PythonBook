@@ -1,19 +1,19 @@
-**问题1：例4.20\*\***
+**Question 1：Exercise 4.20\*\***
 
 ```python
 x = int(input())
 if (x == 0):
     print(0)
-# 打印出数字0
+# write the number backwards
 while (x > 0):
-    # 在屏幕上写一些数字
+    # write ones digit on screen
     print(x % 10 , end = "")
-    # 获得一个新数字x
+    # get rid of ones digit
     x = int(x / 10)
 ```
 <br>
 
-**问题2：例4.21\*\***
+**Question 2：Exercise 4.21\*\***
 
 ```python
 n = int(input())
@@ -21,38 +21,38 @@ m = int(input())
 row = 1
 col = 1
 while row <= n:
-# 在屏幕上输出列号
+# write row number on screen
 print(row, end="")
-# 增加列
+# increase the column
 col = col + 1
-# 如果大于m
+# if finished the column 
 if col > m :
-    col = 1;            # 重置列 col 等于1
-    row = row + 1       # 增加行
-    print()             # 转到下一行
+    col = 1;            # reset column
+    row = row + 1       # increase row
+    print()             # go to the next line
 ```
 <br>
 
-**问题3：例4.22\*\***
+**Question 3：Exercise 4.22\*\***
 
 ```python
 n = int(input())
 row = 1
 col = 1
 while row <= n :
-# 在屏幕上输出列号
+# write column number on screen
 print(col, end=" •’）
-# 增加列
+# increase the column
 col = col + 1
-# 如果大于row
+# if finished the column
 if col > row :
-    col = 1             # 重置列 col 等于1
-    row = row + 1       # 增加行
-    print ()            # 转到下一行
+    col = 1             # reset column
+    row = row + 1       # increase row
+    print ()            # go to the next line
 ```
 <br>
 
-**问题4：例4.23\*\*\***
+**Question 4：Exercise 4.23\*\*\***
 
 ```python
 n = int(input())
@@ -63,18 +63,18 @@ while row <= n :
         m = int(input())
     if col != 1 :
         print( e n d = •_，.)
-# 增加列
+# increase the column
 col = col + 1
-# 如果完成列
+# if finished the column
 if col > m + 1 :
-    col = 1           # 重置列 col 等于1
-    row = row +       # 重置列 col 等于1
-    print()           # 转到下一行
+    col = 1           # reset column
+    row = row +       # reset column
+    print()           # go to the next line
 ```
 
 <br>
 
-**问题5：例4.24\*\*\***
+**Question 5：Exercise 4.24\*\*\***
 
 ```python
 n = int(input())
@@ -83,24 +83,26 @@ row = 1
 col = 1
 while row <= n :
 print(col + row - 1, end = " " )
-# 增加列
+# increase the column
 col = col + 1
-# 如果完成列
+# if finished the column
 if col > m :
-    col =1              # 重置列 col 等于1
-    row = row + 1       # 重置列 col 等于1
-    print()             # 转到下一行
+    col =1              # reset column
+    row = row + 1       # reset column
+    print()             # go to the next line
 ```
 <br>
 
-**问题6：例4.25\*\*\***
+**Question 6：Exercise 4.25\*\*\***
 
 ```python
-""" a是从2到n的数字
-    b用于检查“a”是否为素数
-    b是从“2”到2的平方根的数字
-    如果“a”为素数，则prime为1，否则为0
-    最初“a”被认为是素数 """
+""" 
+    a is a number from 2 to n
+    b is for checking if "a" is a prime number or not
+    b is a number from 2 to square root of "a"
+    prime is 1 if "a" is prime and 0 otherwise
+    initially "a" is assumed to be prime
+"""
 
 n = int(input())
 a = 2
@@ -108,18 +110,19 @@ b = 2
 prime = 1
 
 while a < n:
-    # 每当b到达a的平方根
-    # 和a是素数，输出a
+    # whenever b reaches the square root of a
+    # and a is prime, output a
     if b*b > a and prime == 1:
         print(a, end = " ")
 
-    # 每当b超过a的平方根时
+    # whenever b more than the square root of a
     if b * b > a :
-        b = 2               # 重置 b
-        a = a + 1           # 开始检查下一个号码
-        prime = 1           # 将prime重置为1
-    # 如果a可以被b除掉
+        b = 2               # reset b
+        a = a + 1           # start checking the next number
+        prime = 1           # reset prime to 1
+    # if a is divible by b
     if a % b == 0 :
-        prime = 0;          # a不是素数
+        prime = 0;          # a is not prime
 ```
+
 

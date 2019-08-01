@@ -1,30 +1,33 @@
-###### 循环
+###### Looping
 ---
 
-练习4.3：编写一个程序，读取数字和输出这个数字，如果它们比x更大。当给出0时，程序将停止。用户首先输入数字x。
+Exercise 4.3: Write a program that reads numbers and outputs if they are greater
+than x. Program will stop when 0 is given. The user will first input the number x.
 
-样本输入:|样本输出:
--|-
-11|8
-8|11
-2|
-2|
-4|
-7|
-5|
-0|
+```
+Sample input:                   Sample output:
+11                              8
+8                               11
+2
+2
+4
+7
+5
+0
+```
 
 <br>
 
-练习4.4：编写一个程序，输出从1到n的数字。用户应该给出n的值。
+Exercise 4.4: Write a program that outputs the numbers from 1 to n. The user
+should give the value of n.
 
-样本输入：
+Sample input:
 
 ```
 6
 ```
 
-样本输出：
+Sample output:
 
 ```
 1
@@ -36,20 +39,21 @@
 ```
 
 
-练习4.5：编写一个程序，输出2的n次幂，其中n将被给出作为输入，n > 0。
+Exercise 4.5: Write a program that finds the nlh power of 2 where n will be given
+as input and n > 0.
 
-样本输入:|样本输出:
--|-
-5|32
+```
+Sample input:                   Sample output:
+5                               32
+```
 
 <br>
 
-> [!Warning|style:flat|label:问题：|iconVisibility:hidden]]
-> 如果用户输入5，循环重复多少次？
+**Question:** If the user enters 5, how many times does the loop repeat?
 
-下表显示了每个变量、计数器和输出的值。
+The following table shows the values of the variables counter and power at each step in the loop.
 
-循环一步|计数器|输出
+Step|counter|power
 -|-|-
 Initial|0|1
 1|1|2
@@ -57,4 +61,8 @@ Initial|0|1
 3|3|8
 4|4|16
 5|5|32
+
+<br>
+
+<center> - 31 - </center>
 

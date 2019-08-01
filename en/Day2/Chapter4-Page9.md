@@ -1,38 +1,44 @@
-###### 循环
+###### Looping
 ---
 
-
-在这个程序中，计算机是主人，用户猜测数的是电脑。在程序中，您将定义一个名为secretnumber的变量
-包含密码。您将猜测程序中为其分配编号。
-例如，
+In this program, computer is the master and the user guesses the number of
+computer. In the program, you will define a variable named ``secretnumber`` which
+contains the secret number. You will assign the number to it inside the program.
+For example, write
 
 ```
              secretnumber = 6;
 ```
 
-在程序中，如果您希望数字为6。在每个步骤中，用户要求输入一个数字。如果密码小于猜测的数字，则计算机会输出 “更小”。如果它更大，它会输出 “更大”。如果是正确的数字则输出“正确”，游戏结束。
+in your program if you want the number to be 6. In each step, the user asks for a
+number. If the secret number is less than the guessed number, the computer writes
+“less”. If it is greater, it writes “greater”. If it is the correct number it writes
+“correct!”, and the game finishes.
 
-假设密码是7。
+Suppose the secret number is 7.
 
-示例：'>' 表示用户输入的数字
+Sample: '>' indicates the numbers user entered
 
 ```
 > 3
-  更大
+  greater
 > 6
-  更了
+  greater
 > 9
-  更小
+  small
 > 7
-  正确！
+  right！
 ```
 <br>
 
-**4.19\*\*\*)** 思考上面的“猜猜我的号码”游戏。这一次，用户就是主人，计算机猜测数字的人。在每一步，计算机请问一个数字。如果用户的号码小于猜测的数字，则为该用户输入-1。如果它更大，则用户输入1.如果是正确的数字，用户输入0，游戏结束。尝试尽快找到号码。
+**4.19\*\*\*)** Consider the “Guess my number" game above. This time, the user is the
+master and the computer guesses the number of the user. In each step, computer
+asks for a number. If the user’s number is less than the guessed number, the user
+enters -1. If it is greater, the user enters 1. If it is the correct number, the user enters 0, and the game finishes. Try to find the number as fast as possible.
 
-假设用户的号码是7。
+Suppose the user’s number is 7.
 
-示例：'>' 表示用户输入的数字
+Sample: '>' indicates the numbers user entered
 
 ```
 3
@@ -45,18 +51,25 @@
 > 0
 ```
 
-**4.20\*\*)** 编写一个反转给定数字的程序。
+**4.20\*\*)** Write a program that reverses the given number.
 
-样本输入:|样本输出:
--|-
-2431|1342
+```
+Sample input:               Sample output:
+2431                        1342
+```
 
-**4.21\*\*)** 编写一个程序，从输入中读取两个数字N和M。然后，你的程序将在屏幕上打印一个有N行数和M的数列。第一行将具有M个1，第二行行将具有M个2。它将持续到第N行将有M个Ns数。为清晰起见，请参阅下面的示例。(简单的说就是输出N行M列的数列)
+**4.21\*\*)** Write a program that reads two numbers N and M from the input. Then,
+your program will print a figure on the screen that has N number of rows and M number of columns. The first row will have with M number of Is, and the second
+row will have M number of 2s. It will continue until the Nth row will have M
+number of Ns. See the example below for clarity.
 
-样本输入:|样本输出:
--|-
-3|1111
-4|2222
-&nbsp;|3333
+```
+Sample input:               Sample output:
+3                           1111
+4                           2222
+                            3333
+```
 
+<br>
 
+<center> - 37 - </center>

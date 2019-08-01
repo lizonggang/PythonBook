@@ -1,22 +1,21 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
-**练习 4.6：** 编写一个程序，找出给定的n个数字的总和。用户从键盘上输入n个数字。
+**Exercise 4.6:** Write a program that finds the sum of n numbers given. The user should enter n, then numbers from keyboard.
 
-样本输入:|样本输出:
--|-
-5|47
-22|
-1|
-4|
-8|
+```
+Sample input:               Sample output:
+5                           47
+22
+1
+4
+8
+```
 
-下表显示了变量counter，number和sum在循环的每个步骤中的值。
-
-
-步骤|counter|number|sum
+The following table shows the values of the variables ``counter``, ``number``, and ``sum`` at each step in the loop for the sample input.
+Step|``counter``|``number``|``sum``
 -|-|-|-
-初始|0||0
+Initial|0||0
 1|1|22|22
 2|2|1|23
 3|3|12|35
@@ -25,10 +24,12 @@
 
 <br>
 
-**练习4.7：** 编写一个程序，读取和输出在17和35之间的数字。否则程序停止。
+**Exercise 4.7:** Write a program that reads numbers and outputs if they are between
+17 and 35 inclusively. Otherwise program stops.
 
-样子输入：
-这里 '>' 指定用户的输入，其余是程序输出。
+Sample input:
+
+Here '>' specifies the inputs by the user, the rest is the output by program.
 
 ```python
 > 19
@@ -40,11 +41,17 @@
 > 16
 ```
 
-有一些快捷操作代替了一些算术运算。他们如下表所示：
+There are some shortcut operations in place of some arithmetic operations. They
+are given in the following table:
 
-运算符|示例|等价表达式
+Operator|Example|Equivalent expression
 -|-|-
 +=|number += 10|number = number + 10
 -=|number -= 10|number = number - 10
 *=|number *= 10|number = number * 10
 /=|number /= 10|number = number / 10
+
+<br>
+
+<center> - 32 - </center>
+

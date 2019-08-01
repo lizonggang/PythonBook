@@ -1,67 +1,77 @@
-###### 循环
+###### Looping
 ---
 
-
-### 4.4. 练习
+4.4. Exercises 
 
 > [!NOTE]
-> 解决以下练习时不能使用嵌套循环。
+> cannot use nested loops when solving the following exercises.
 
-**4.8)** 编写一个程序，只输出 除以7余3时的数字。输入0时程序停止。
+**4.8)** rite a program that outputs only the numbers that have remainder 3 when
+divided by 7. The program stops when 0 is entered.
 
-样本输入:|样本输出:
--|-
-9|10
-10|185
-11|3
-185|
-7|
-3|
-0|
-
-<br>
-
-**4.9)** 编写一个程序，输出给定数字的平方和。输入0时程序停止。
-
-样本输入:|样本输出:
--|-
-9|239
-10|
-7|
-3|
-0|
+```
+Sample input:               Sample output:
+9                           10
+10                          185
+11                          3
+185
+7
+3
+0
+```
 
 <br>
 
-**4.10\*)** 给定正整数n，编写应用以下内容的程序
-程序直到由n变为1。如果n是偶数，则将n除以2。否则，将n乘以3，并添加1。
+**4.9)**  Write a program that outputs the sum of the squares of the given numbers.
+The program stops when 0 is entered.
 
-样本输入:|样本输出:
--|-
-40|40
-|20
-|10
-|5
-|16
-|8
-|4
-|2
-|1
+```
+Sample input:               Sample output:
+9                           239
+10
+7
+3
+0
+```
 
 <br>
 
-**4.11\*)** 编写一个程序，输出前5个数字的总和。该程序当输入为0时终止（保证至少有5个数字）。
+**4.10\*)** Given a positive integer n, write a program that applies the following
+procedure until n becomes 1. if n is even, divide n by 2. Otherwise, multiply n by  
+three and add 1 to it.
 
-样本输入:|样本输出:
--|-
-9|222
-10|
-11|
-185|
-7|
-3|
-12|
-4|
-10001|
-0|
+```
+Sample input:               Sample output:
+40                          40
+                            20
+                            10
+                            5
+                            16
+                            8
+                            4
+                            2
+                            1
+```
 
+<br>
+
+**4.11\*)** Write a program that outputs the sum of the first 5 numbers. The program
+terminates when the input is 0 (it is guaranteed that there are at least 5 numbers).
+
+```
+Sample input:               Sample output:
+9                           222
+10
+11
+185
+7
+3
+12
+4
+10001
+0
+```
+
+<br>
+
+<center> - 35 - </center>

@@ -1,18 +1,23 @@
-###### 循环
+###### Programming with Python
 ---
 
 
-### 4.3. 无限循环
+### 4.3. Infinite Loops
 
-考虑下面的程序：
+Consider the program below:
 
 ```python
-counter = 1;
+counter = 1
 while (counter !=18):
     counter += 2
 ```
-**问题：** 循环重复多少次？ 为什么？
+**Question:** How many times is the loop repeated? Why?
 
 > [!NOTE]
-> 注意循环条件; 避免无限循环。
+> Be careful about the loop condition; avoid infinite loops.
+
+
+<br>
+
+<center> - 33 - </center>
 

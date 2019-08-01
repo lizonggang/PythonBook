@@ -1,98 +1,107 @@
-**1.** 编写一个程序，只输出除以7时余数为3的数字。程序在输入0时停止。<br>
-**例子：**
+**Question 1.** Write a program that outputs only the numbers that have remainder 3 when divided by 7. The program stops when 0 is entered.
 
-输入|结果
--|-
-9|10
-10|185
-11|3
-185|
-7|
-3|
-0|
+**For example:**
 
-<br>
-
-**2.** 编写一个程序，输出给定数字的平方和。 输入0时程序停止。<br>
-
-输入|结果
--|-
-9|239
-10|
-7|
-3|
-0|
+```
+Input                   Result
+9                       10
+10                      185
+11                      3
+185
+7
+3
+0
+```
 
 <br>
 
-**3.** 给定正整数n，编写一个程序，该程序应用以下过程，直到n变为1.如果n为偶数，则将n除以2.否则，将n乘以3并将其加1。 在每个步骤中打印n的整数值。<br>
-**例子：**
+**Question 2.** Write a program that outputs the sum of the squares of the given numbers. The program stops when 0 is entered.
 
-输入|结果
--|-
-40|40
-&nbsp;|20
-&nbsp;|10
-&nbsp;|5
-&nbsp;|16
-&nbsp;|8
-&nbsp;|4
-&nbsp;|2
-&nbsp;|1
+**For example:**
+
+```
+Input                   Result
+9                       239
+10
+7
+3
+0
+```
 
 <br>
 
-**4.** 编写一个程序，输出前5个数字的总和。 当输入为0时，程序终止（保证至少有5个数字）。<br>
-**例子：**
+**Question 3.** Given a positive integer n, write a program that applies the following procedure until n becomes 1. if n is even, divide n by 2. Otherwise, multiply n by three and add 1 to it. Print integer value of n in each step
 
+**For example:**
 
-输入|结果
--|-
-9|222
-10|
-11|
-185|
-7|
-3|
-12|
-4|
-1001|
-0|
+```
+Input                   Result
+40                      40
+                        20
+                        10
+                        5
+                        16
+                        8
+                        4
+                        2
+                        1
+```
 
 <br>
 
-**5.** 编写一个程序，输出前5个数字和最后一个数字（0之前的数字）之和。 当输入为0时，程序终止（保证至少有5个数字）。<br>
-**例子：**
+**Question 4.** Write a program that outputs the sum of the first 5 numbers. The program terminates when the input is 0 (it is guaranteed that there are at least 5 numbers).
 
-输入|结果
--|-
-9|1223
-10|
-11|
-185|
-7|
-3|
-12|
-4|
-1001|
-0|
+**For example:**
 
+```
+Input                   Result
+9                       222
+10
+11
+185
+7
+3
+12
+4
+1001
+0
+```
 
-**6.** 编写一个程序，打印所有可由{0,1,2,3,4,5}组成的两位数字。
+<br>
 
-**7.** 编写一个程序，按以下顺序打印所有可由{0,1,2,3,4,5}组成的两位数字：
+**Question 5.** Write a program that outputs the sum of the first 5 numbers and the last number (the number before 0). The program terminates when the input is 0 (it is guaranteed that there are at least 5 numbers).
+
+**For example:**
+
+```
+Input                   Result
+9                       1223
+10
+11
+185
+7
+3
+12
+4
+1001
+0
+```
+
+**Question 6.** Write a program which prints all two-digit numbers that can be composed of {0, 1, 2, 3, 4, 5}.
+
+**Question 7.** Write a program which prints all two-digit numbers that can be composed of {0, 1, 2, 3, 4, 5} in the following order:
 
 ```
              50 51 52 53 54 55 40 41 42 43 44 45 ... 10 11 12 13 14 15
 ```
 
-注意：个位数增加而十位数减少。
+Be careful that ones digit increases while tens digit decreases.
 
 
-**8.** 编写一个程序，打印所有两位数的奇数，可以由{0,1,2,3,4,5,6}组成。
+**Question 8.** Write a program which prints all two digit odd numbers that can be composed of {0, 1, 2, 3, 4, 5, 6}.
 
-**9.** 编写一个程序，打印所有可由{0,1,2,3,4}组成的三位数字。
+**Question 9.** Write a program which prints all three digit numbers that can be composed of {0, 1, 2, 3, 4}.
 
-**10.** 编写一个程序，查找由{0,1,2,3,4}组成的所有3位数字，其数字是不同的。
+**Question 10.**Write a program that finds all the 3-digit numbers that composed of {0, 1, 2, 3, 4} and whose digits are distinct.
 
 

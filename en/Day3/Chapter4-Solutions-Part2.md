@@ -1,4 +1,7 @@
-**问题1：例4.8**
+## Chapter 4: Solutions - Part 2
+This page contains the solutions:
+
+**Question 1：Exercise 4.8**
 
 ```python
 number = int(input())
@@ -12,7 +15,7 @@ while number != 0:
 
 <br>
 
-**问题2：例4.9**
+**Question 2：Exercise 4.9**
 
 ```python
 total = 0
@@ -25,7 +28,7 @@ print(total)
 
 <br>
 
-**问题3：例4.10**
+**Question 3：Exercise 4.10**
 
 ```python
 n = int(input())
@@ -40,7 +43,7 @@ while n > 1 :
 
 <br>
 
-**问题4：例4.11\***
+**Question 4：Exercise 4.11\***
 
 ```python
  number = 1
@@ -48,23 +51,23 @@ while n > 1 :
  total = 0
  while number != 0 :
     number = int (input())
-    if counter < 5 :        # 如果是小于5其中的一个
+    if counter < 5 :        # if one of the first 5 numbers
             total = total + number
     counter = counter + 1
  print(total)
 ```
 <br>
 
-**问题5：例4.12\*\***
+**Question 5：Exercise 4.12\*\***
 
 ```python
 number = 1
 counter = 0
 total = 0
 while number != 0:
-    last = number       # 在读取之前保存最后一个数字
+    last = number       # save the last number before reading the next
     number = int(input())
-    if counter < 5: # 如果前5个数字之一
+    if counter < 5: # if one of the first 5 numbers
         total = total + number
     counter = counter + 1
 print(total + last)
@@ -72,30 +75,30 @@ print(total + last)
 
 <br>
 
-**问题6：例4.13**
+**Question 6：Exercise 4.13**
 
 ```python
 counter = 10
 while counter <= 55:
-# 如果一个数字取模小于6 输出数字
+# if ones digit is less than 6 output the number
     if counter % 10 < 6:
         print(counter)
     counter = counter + 1
 ```
 
-或者，我们可以使用以下想法：
+Alternatively we can use the following idea:
 
 
 ```python
-# 分别保留1位和10位数字
+# keep one and tens digits separately
 tens =1
 ones = 0
-# 输出第一个十位数，然后输出个位数
+# output first tens digit then ones digit
 while tens < 6 :
     print(str(tens)+str(ones))
     ones = ones +1
-    # 只要一个数字大于5
-    # 增加十位数并重置一位数
+    # whenever ones digit is greater than 5
+    # increase tens digit and reset ones digit
     if ones > 5 :
         ones =0
         tens = tens + 1
@@ -103,123 +106,120 @@ while tens < 6 :
 
 <br>
 
-**问题7：例4.14**
+**Question 7：Exercise 4.14**
 
 ```python
 counter = 50
 while counter >= 10:
     print (counter)
     counter = counter + 1
-# #if个数字取模大于5跳到下一个数字
+# if ones digit is greater than 5 skip to the next number
     if counter % 10 > 5:
         counter = counter - 16
 ```
 
-或者，我们可以使用以下想法：
+Alternatively we can use the following idea:
 
 
 ```python
-# 分别保留个位和十位数字
+# keep ones and tens digits separately
 tens = 5
 ones = 0
 while tens > 0 :
-# 先输出是十位数，然后是个位数
+# output first tens digit then ones digit
     print(str(tens) + str(ones))
     ones = ones + 1
-    # 只要个数字大于5
-    # 减少十位数并重置一位数
+    # whenever ones digit is greater than 5
+    # decrease tens digit and reset ones digit
     if ones > 5 :
         ones =0
         tens = tens - 1
 ```
 <br>
 
-**问题8：例4.15\***
+**Question 8：Exercise 4.15\***
 
 ```python
 counter = 10
 while counter < = 6 6:
-    # 如果一个数字小于7
-    # 并且它是奇数，输出数字
+    # if ones digit is less than 7
+    # and it is odd, output the number
     if counter % 10 < 7 and counter % 2 == 1 :
         print(counter)
     counter = counter + 1
 ```
 
-或者，我们可以使用以下想法：
+Alternatively we can use the following idea:
 
 ```python
-# 分别保留个位和十位数字
+# keep ones and tens digits separately
 tens =1
 ones = 1
 while (tens < 7):
-    # 输出第一个十位数，然后输出个位数
+    # output first tens digit then ones digit
     print(str(tens)+str(ones))
     ones = ones + 2
-    # 只要个位数字大于6
-    # 增加十位数并重置个位数
+    # whenever ones digit is greater than 6
+    # increase tens digit and reset ones digit
     if ones > 6:
         ones = 1
         tens = tens + 1
 ```
 <br>
 
-**问题9：例4.16\***
+**Question 9：Exercise 4.16\***
 
 ```python
 for counter in range (100, 445):
-    # 如果个位数和十位数小于5
-    # 输出数字
+    # if ones and tens digits are less than 5
+    # output the number
     if counter % 10 < 5 and counter % 100 < 50 :
         print(counter)
 ```
 
-或者，我们可以使用以下想法：
+Alternatively we can use the following idea:
 
 ```python
-# 分别保留个位数和十位数
+# keep ones and tens digits separately
 hundreds=l
 tens =0
 ones =0
 while hundreds < 5 :
-    # 输出第一个百位，然后是十位和个位数
+    # output first hundreds then tens and ones digits
     print(str(hundreds)+str(tens)+str(ones))
     ones = ones + 1
-    # 只要个位数字大于4
-    # 增加十位数并重置个位数
+    # whenever ones digit is greater than 4
+    # increase ten digit and reset ones digit
     if ones > 4 :
         ones = 0
         tens = tens + 1
-    # 只要十位数大于4
-    # 增加数百位并重置十位数
+    # whenever tens digit is greater than 4
+    # increase hundreds digit and reset tens digit
     if tens > 4 :
         tens = 0
         hundreds = hundreds + 1
 ```
 <br>
 
-**问题10：例4.17\*\***
+**Question 10：Exercise 4.17\*\***
 ```python
-# 分别保留个位数和十位数
+# keep ones and tens digits separately
 hundreds = l
 tens = 0
 ones = 0
 while hundreds < 5 :
-    # 输出第一个百位，然后是十位和个位数
+    # output first hundreds then tens and ones digits
     print(str(hundreds)+str(tens)+str(ones))
     ones = ones + 1
-    # 只要个位数字大于4
-    # 增加十位数并重置个位数
+    # whenever ones digit is greater than 4
+    # increase tens digit and reset ones digit
     if ones > 4 :
         ones = 0
         tens = tens + 1
-    # 如果十位数字大于4
-    # 十位数自增
+    # whenever ones digit is greater than 4
+    # increase hundreds digit and reset ones digit
     if tens > 4:
         tens = 0
         hundreds = hundreds + 1
 ```
-
-
-
 

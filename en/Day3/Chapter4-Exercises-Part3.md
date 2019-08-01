@@ -1,66 +1,76 @@
-**1.** 编写一个反转给定数字的程序。<br>
-**例子：**
+**Question 1.** Write a program that reverses the given number.
 
-输入|结果
--|-
-2431|1342
+**For example:**
 
-<br>
-
-**2.** 编写一个程序，从输入中读取两个数字N（0 <N <10）和M（0 <M <25）。 然后，您的程序将在屏幕上打印一个具有N行数和M列数的图形。 第一行的M值为1，第二行的M值为2。 它将持续到第N行将具有M个N数。 为清晰起见，请参阅下面的示例。<br>
-**例子：**
-
-输入|结果
--|-
-3|1111
-4|2222
-&nbsp;|3333
+```
+Input                   Result
+2431                    1342
+```
 
 <br>
 
-**3.** 编写一个从输入读取数字N（0 <N <25）的程序。 然后，您的程序将在屏幕上打印一个三角形为N行的图形。 第一行将只有1，第二行将有1和2.它将一直持续到第N行将具有从1到N的数字。为清楚起见，请参见下面的示例。 注意数字之间的空白。<br>
-**例子：**
+**Question 2.** Write a program that reads two numbers N (0 < N < 10) and M (0 < M < 25) from the input. Then, your program will print a figure on the screen that has N number of rows and M number of columns. The first row will have with M number of 1s, and the second row will have M number of 2s. It will continue until the Nth row will have M number of Ns. See the example below for clarity.
 
-输入|结果
--|-
-4|1
-&nbsp;|1&nbsp;2
-&nbsp;|1&nbsp;2&nbsp;3
-&nbsp;|1&nbsp;2&nbsp;3&nbsp;4
+**For example:**
+
+```
+Input                   Result
+3                       1111
+4                       2222
+                        3333
+```
+<br>
+
+**Question 3.** Write a program that reads a number N (0 < N < 25) from the input. Then, your program will print a figure on the screen that has N rows in triangle from. The first row will have only 1, and the second row will have 1 and 2. It will continue until the Nth row will have the numbers from 1 to N. See the example below for clarity. Be careful about the blank between numbers.
+
+**For example:**
+
+```
+Input                   Result
+4                       1
+                        1 2
+                        1 2 3
+                        1 2 3 4
+```
 
 <br>
 
-**4.** 编写一个程序，从输入中读取一个数字N，然后是N个数字。 您的程序将在屏幕上打印一个有N行的图形。 输入中给出的数字因此指定了行中的“*”数。 为清晰起见，请参阅下面的示例。<br>
-**例子：**
+**Question 4.** Write a program that reads a number N then N numbers from the input. Your program will print a figure on the screen that has N rows. The numbers given in the input specify the number of '*' in their row consequently. See the example below for clarity.
 
-输入|结果
--|-
-5|\*\*\*
-3|\*\*\*\*
-4|\*\*\*\*\*\*
-6|
-0|\*\*\*
-3|
+**For example:**
 
-<br>
-
-**5.** 当输入4和7时，编写一个打印下面输出的程序。 该程序读取两个数字; 键盘上的N和M。<br>
-**例子：**
-
-输入|结果
--|-
-4|1 2 3 4 5 6 7
-7|2 3 4 5 6 7 8
-&nbsp;|3 4 5 6 7 8 9
-&nbsp;|4 5 6 7 8 9 10
+```
+Input                   Result
+5                       ***
+3                       ****
+4                       ******
+6
+0                       ***
+3
+```
 
 <br>
 
-**6.** 编写一个程序，找到小于给定数N <= 25,000的素数。<br>
-**例子：**
+**Question 5.** Write a program which prints the output below when 4 and 7 are given as input. The program reads two numbers; N and M from keyboard.
 
-输入|结果
--|-
-20|2 3 5 7 11 13 17 19
+**For example:**
 
+```
+Input                   Result
+4                       1 2 3 4 5 6 7
+7                       2 3 4 5 6 7 8
+                        3 4 5 6 7 8 9
+                        4 5 6 7 8 9 10
+```
+
+<br>
+
+**Question 6.** Write a program which finds the primes that are less than the given number N <= 25,000.
+
+**For example:**
+
+```
+Input                   Result
+20                      2 3 5 7 11 13 17 19
+```
 

@@ -95,7 +95,7 @@ y = int(input())
 if x % y == 0:
     print('可整除')
 else:
-    print(不可整除)
+    print('不可整除')
 ```
 ##### 问题12：练习3.12
 ```python
@@ -108,7 +108,7 @@ if a * b == c or a * c == b or b * c == a:
     print('两个数乘积')
 ```
 ##### 问题13：练习3.13
-3.13 编写一个程序，将从最小到最大的三个给定数字排序（不使用循环）。
+
 ```python
 a = int(input())
 b = int(input())
