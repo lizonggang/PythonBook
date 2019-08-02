@@ -69,7 +69,7 @@
     * [项目：盒子里的便士](cn/Day6/Project-PenniesIntheBoxes.md)
   * [第7天](cn/README.md)
     * [第5章：练习2](cn/Day7/Chapter5-Exercises-Part2.md)
-    * [第5章：练习提示-第2部分](en/Day7/HintforChapter5-Exercises-Part2.md) <!-- en-->
+    * [第5章：练习提示-第2部分](cn/Day7/HintforChapter5-Exercises-Part2.md)
     * [第5章：参考答案2](cn/Day7/Chapter5-Solutions-Part2.md)
     * [项目：Alpha Maria Game](cn/Day7/Project-AlphaMaria.md)
   * [第8天](cn/README.md)

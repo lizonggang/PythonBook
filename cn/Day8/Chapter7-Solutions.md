@@ -1,6 +1,6 @@
-## Chapter 7: Solutions - Part 1
+## 第7章：解决方案 - 第1部分
 
-**QueQuestion 1: Example 7.1**
+**问题 1: 例子： 7.1**
 
 ```python
 for number in range(10, 56):
@@ -11,15 +11,15 @@ for number in range(10, 56):
 Alternative solution:
 
 ```python
-# generate ones and tens digits separately
-# then print them
+# 分别生成1位和10位数
+# 然后输出它们
 for tens in range (1,6):
     for ones in range (6):
         print(tens, end = "")
         print(ones)
 ```
 
-**Question 2: Example 7.1: A Better Example**
+**问题 2: 例子： 7.1: 一个更好的例子**
 
 ```python
 for number in range(10, 56):
@@ -31,18 +31,18 @@ for number in range(10, 56):
 Alternative solution:
 
 ```python
-# generate ones and tens digits seperately then print them
+# 分别生成1位和10位数 然后输出它们
 for tens in range(5J 0, -1):
     for ones in range(6):
         print(tens, end = "")
         print(ones)
 ```
 
-**Question 3: Exercise 7.1**
+**问题 3: 练习： 7.1**
 
 ```python
-# generate ones and tens digits separately
-# then print them
+# 分别生成个位和十位数
+# 然后输出它们
 for tens in range(1 > 7):
     for ones in range (1,6,2):
         print(tens, end = "")
@@ -50,22 +50,22 @@ for tens in range(1 > 7):
 ```
 
 
-**Question 4: Exercise 7.2\***
+**问题 4: 练习： 7.2\***
 
 ```python
-# try all numbers from 10 to 66
+# 试从10到66的所有数字
 for number in range (10, 67):
-    # only print the odd numbers
-    # that has 6 or less in ones digit
+    # 只打印奇数
+    # 中有6个或更少的数字
     if number % 10 <= 6 and number % 2 == 1:
         print(number)
 ```
 
-**Question 5: Exercise 7.3**
+**问题 5: 练习： 7.3**
 
 ```python
-# generate ones, tens and hundreds digits separately
-# then print them
+# 分别生成个位和十位和百位数
+# 然后输出它们
 for hundreds in range(1 , 5):
     for tens in range(5):
         for ones in range(5):
@@ -74,34 +74,34 @@ for hundreds in range(1 , 5):
             print(ones)
 ```
 
-**Question 6: Exercise 7.5**
+**问题 6: 练习： 7.5**
 
 ```python
 n, m = input().split()
 n = int (n)
 m = int (m)
-# row keeps the current row
+# 保持当前行
 for row in range (1, n + 1):
-    # in each line print the row number m times
+    # 每行中的打印行数m次
     for col in range(m):
         print(row,end="")
     print()
 ```
 
-**Question 7: Exercise 7.7**
+**问题 7: 练习： 7.7**
 
 ```python
 n = int (input())
-# row keeps the current row
+# 保持当前行
 for row in range (1,n+l):
-    # col keeps the current column
-    # output the column number in each position
+    # 保持当前列
+    # 输出每个位置的列号
     for col in ranged row+1):
         print(col, end:"")
     print()
 ```
 
-**Question 8: Exercise 7.9**
+**问题 8: 练习： 7.9**
 
 ```python
 n = int (input())
@@ -109,27 +109,28 @@ numbers = input().split()
 for i in range(n):
     numbers[i] = int (numbers[i])
     stars = numbers[i]
-    # output stars in one row
+    # 输出一行中的星星
     for j in range(stars):
         print('*',end="")
-    print() # press enter
+    print() # 输出回车
 ```
 
-**Question 9: Exercise 7.10**
+**问题 9: 练习： 7.10**
 
 ```python
 n = int (input())
-numbers = input().split() # save the numbers to an array
+numbers = input().split() # 将数字保存到数组中
 for i in range(n):
     numbers[i] = int (numbers[i])
-# count each number from 1 to 1000 in the array
-for i in range(l,1001):
-    # count the number i in the array
+# 计算数组中每个数字从1到1000
+for i in range(1,1001):
+    # 计算数组中的数字i
     cnt = 0
     for j in range(n):
         if numbers[j]==i :
             cnt+=l
-    # if it’s more than one, output it
+    # 如果不止一个，输出它
     if cnt > 1:
         print(i)
 ```
+

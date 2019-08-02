@@ -123,7 +123,7 @@ numbers = input().split() # save the numbers to an array
 for i in range(n):
     numbers[i] = int (numbers[i])
 # count each number from 1 to 1000 in the array
-for i in range(l,1001):
+for i in range(1,1001):
     # count the number i in the array
     cnt = 0
     for j in range(n):
