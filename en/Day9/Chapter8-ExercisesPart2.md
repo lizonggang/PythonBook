@@ -1,19 +1,19 @@
-**问题1**
+**Question 1**
 
-露西想要计算她在购物时赚取的奖励积分。她知道她在最近的N <= 100购物中花了多少钱，而且所有这些都是面包店，农产品或饮料。
-- 如果他们是面包店，她每美元可获得5分。
-- 如果他们是产品，她每美元赚2点。
-- 如果他们是饮料，她每美元赚1点。
+Lucy wants to calculate her bonus points she earned while shopping. She knows how much she spent in her last N <= 100 shopping, and all of them are bakery, produce, or drinks. 
+- If they are bakery, she earns 5 points per dollar.
+- If they are produce, she earns 2 points per dollar.
+- If they are drinks, she earns 1 point per dollar.
 
-当她在一次购物中花费超过M美元时，她获得奖励积分。 你将首先阅读N和N对应于露西花钱的数字。 最后，您将阅读M然后购物项目的类型。 在屏幕上输出总奖励积分。
+She earns bonus points when she spends more than M dollars in one shopping. You will first read N then N numbers corresponding to the money Lucy spend. At the end, you will read M then the type of shopping items. Write the total bonus points on the screen.
 
-对于以下示例：
-购买超过50美元的露西获得奖励积分，因此88美元和72美元有资格获得奖金。 她在面包店购物，每美元带5点积分。 总共得到（88 + 72）* 5 = 800奖励积分。
+**For the example below: **
+Lucy receives bonus points for shopping more than $50 hence $88 and $72 are qualified for bonus. Her shopping was on bakery which brings 5 points per dollar. In total, she got (88 + 72) * 5 = 800 bonus points.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 5                           800
 41 13 88 50 72              
 50 bakery
@@ -21,81 +21,81 @@
 
 <br>
 
-**问题2**
+**Question 2**
 
-编写一个程序，输出给定字符串中的字母数。
+Write a program that outputs the number of letters in a given string.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 I8-10caKes!                 6
 ```
 
 <br>
 
-**问题3**
+**Question 3**
 
-编写一个程序，将给定字符串中的所有字母转换为大写。
+Write a program that converts all letters to uppercase in a given string.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 I8-10caKes!                 I8-10CAKES!
 ```
 
 <br>
 
-**问题4**
+**Question 4**
 
-编写一个程序，检查两个给定的字符串是否相同，无论大小写如何。 如果字符串相同，则在屏幕上写“same”，否则“not same。
+Write a program that checks if two given strings are the same regardless of the case differences. If the strings are same, write '``same``' otherwise '``not same``' on the screen.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 Trivial Trival              not same
 tRiViAl TrIvIaL             same
 ```
 
 <br>
 
-**问题5**
+**Question 5**
 
-编写一个程序，输出给定字符串中的位数。
+Write a program that outputs the number of digits in a given string.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 I8-10caKes!                 3
 ```
 
 <br>
 
-**问题6**
+**Question 6**
 
-编写一个程序，从键盘读取两个字符串，并检查这些字符串中元音的数量是否相等。
+Write a program that reads two strings from the keyboard and checks if the number of vowels in these strings are equal.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 ThReE VoWeLs                Same number of vowels.
 twO VoWeLs                  Not same number of vowels.
 ```
 
 <br>
 
-**问题7**
+**Question 7**
 
-编写一个程序，从键盘上读取数字x和字符c。 程序输出一个大小为x的正方形填充字符c。
+Write a program that reads a number x and a character c from the keyboard. The program outputs a square with the size x filled with character c.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 4 #                         ####
                             ####
                             ####
@@ -104,14 +104,14 @@ twO VoWeLs                  Not same number of vowels.
 
 <br>
 
-**问题8**
+**Question 8**
 
-编写一个程序，从键盘上读取数字x和字符c。 程序输出一个空格，大小为x，边框为字符c。
+Write a program that reads a number x and a character c from the keyboard. The program outputs an empty square with the size x and border with character c.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 4 #                         ####
                             #  #
                             #  #
@@ -120,21 +120,21 @@ twO VoWeLs                  Not same number of vowels.
 
 <br>
 
-**问题9**
+**Question 9**
 
-您将获得一个迷宫和路径的地图。 检查路径是否是正确的退出方式。 您将从位置（1,1）开始，退出位于（1，m  -  1）。 下面给出了一个大小为（7,6）的迷宫示例。 起始和退出位置显示为“S”和“E”。 出口处的路径显示为红色。
+You will be given a map of a maze and a path. Check if the path is a correct way to the exit. You will start at position (1, 1), and exit is at (1, m - 1). An example maze of size (7, 6) is given below. Starting and exit locations are shown as 'S' and 'E'. A path is shown with red color to the exit.
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day9/p2.png)
 
-您将首先读取迷宫的大小（n，m）。 然后迷宫将被给予; '＃是墙，'。是空位。 迷宫的大小不会超过（20,20）。 路径以四个不同字母组成的字符串给出; 'l'表示左，'r'表示正确，'u'表示'up'，'d'表示'down'。
+You will first read the size of the maze (n, m). Then the maze will be given; '#'s are walls, '.'s are empty locations. The size of the maze will not be more than (20, 20). The path is given as a string composed of four different letters; 'l' means left, 'r' means right, 'u' means 'up', and 'd' means 'down'.
 
-你会写'正确的道路！' 如果路径通向出发地点的出口，否则写“路径错误！” 屏幕上。
+You will write 'Right path!' if the path leads to the exit from the starting location, otherwise write 'Wrong path!' on the screen.
 
-例如：
+**For example:**
 
 ```
-样本输入                    样本输出
-7 6                         正确的道路！
+Input                       Result
+7 6                         Right path!
 ######
 #.#...
 #.#..#

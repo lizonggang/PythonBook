@@ -1,9 +1,10 @@
-# <center>第9章: Python技巧</center>
+# <center>Chapter 9: Python Tips and Tricks</center>
 ---
 
-### 9.1. 表达式和算术运算
+### 9.1. Expressions & Arithmetic Operations
 
-在Java中，我们可以使用 '\'终止一长行。例如，将长行分成多行以下代码相同：
+In Java, we can break long lines into multiple lines using For example, the
+following codes are the same:
 
 ```python
 print("There are "+ secondsInADay + " seconds in one day.")
@@ -15,9 +16,10 @@ print("There are "+ secondsInADay + str(secondsInADay) \
       + " seconds in one day.")
 ```
 
-有一些快捷操作代替了一些算术运算。他们如下表所示：
+There are some shortcut operations in place of some arithmetic operations. They
+are given in the following table:
 
-运算符|例子|等效表达式
+Operator|Example|Eauivalent expression
 -|-|-
 +=|number += 10|number = number + 10
 -=|number -= 10|number = number - 10
@@ -25,13 +27,15 @@ print("There are "+ secondsInADay + str(secondsInADay) \
 /=|number /= 10|number = number / 10
 
 > [!NOTE]
-> 小心不要将变量或数字除以零否则程序将失败。
+> Be careful about not to divide a variable or a number by zero, or your program
+will fail.
 
 <br>
 
-### 9.2. 循环
+### 9.2. Loops
 
-有时我们需要根据中间的条件退出循环操作。那时，我们使用 'break' 命令如下：
+Sometimes we need to exit a loop depending on a condition in the middle of an
+operation. At that times, we use ^break' command as follows:
 
 ```python
 number = int(input())
@@ -45,5 +49,8 @@ for counter in range(20):
     number += 1
 ```
 
-在这里，如果数字可以被11整除，我们就会停止循环。
+Here, we break the loop if the number becomes divisible by 11.
 
+<br>
+
+<center> - 75 - </center>

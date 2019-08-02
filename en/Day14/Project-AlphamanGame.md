@@ -1,44 +1,45 @@
-## AlphaMan游戏
-编写以下AlphaMan游戏。
+## AlphaMan Game
 
-#### 游戏设计：
+Write the following AlphaMan game.
 
-AlphaMan是一款单人游戏。 鉴于迷宫，AlphaMan的位置和出口位置，玩家将AlphaMan带到出口处。
+**Game design:**
 
-将给出N（行数）和M（列数）（4 <= N，M <= 20）。迷宫包含以下字符：
+AlphaMan is a one player game. Given a maze, AlphaMan’s position and the exit location, player leads AlphaMan to the exit.
 
-'#' 代表墙
-'.' 代表空白点
-'A' 代表AlphaMan的位置
-'E' 是退出
-'G' 代表宝石
-'M' 代表怪物
-在每个回合中，在屏幕上打印当前的迷宫。 然后程序等待玩家输入。 输入将是小写：
+N  (number of rows) and M  (number of columns) will be given (4<=N,M<=20). The maze with contain following characters:
 
-'a'：离开
-'w'：向上
-'s'：向下
-'d'：向右
-如果提供的移动无效，请继续询问玩家移动。 否则采取行动。
+- “#” is for wall
+- ‘.’  is for empty spots
+- ‘A’ is for AlphaMan’s location
+- ‘E’ is for exit
+- ‘G’ is for gems
+- ‘M’ is for monsters
+- In each turn, print the current maze on screen. Then the program waits for the player input. Input will be lower case:
 
-如果您点击下面的墙上打印消息：
+‘a’ : left
+‘w’ : up
+‘s’ : down
+‘d’ : right
+Continue asking the player move if the provided move is not valid. Otherwise make the move.
+
+If you hit the wall print below message:
 
 ```
 Ouch! You hit the wall!
 ```
 
-只要AlphaMan到达出口，游戏就会结束。 打印结束消息：
+The game finishes whenever AlphaMan reaches to the exit. Print ending message:
 
 ```
 Congrats, you finished!!! 
 ```
 
-### 任务1（总积分的60%）：
+### Task 1 (%60 of the total points):
 
-设计上述游戏。 这项任务中没有怪物也没有宝石。
+Design the game described above. There will be no monsters and no gems in this task.
 
-##### 样本输入和输出：
-（'>'表示用户输入）
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 >5
@@ -102,17 +103,19 @@ Ouch! You hit the wall!
 Congrats, you finished!!!
 ```
 
-任务2（总分数的20％）：
-除了Task1，这次迷宫中至少会有1颗宝石。 玩家需要收集所有宝石才能完成游戏。 如果玩家在收集所有宝石之前到达退出消息并继续游戏：
+#### Task 2 (%20 of the total points):
+
+In addition to Task1 this time there will be at least 1 gem in the maze. The player needs to collect all gems in order to be able to finish the game. If the player reaches exit before collecting all gems print below message and continue the game:
 
 ```
 You first have to collect all the gems!
 ```
 
-（确保在此消息后留空线）
+(Make sure you leave an empty line after this message)
 
-任务3（总分数的20%）：
-除了任务2，这次迷宫中至少会有一个怪物。 如果玩家触摸怪物，则游戏立即结束以下消息：
+#### Task 3 (%20 of the total points):
+
+In addition to Task 2 this time there will be at least 1 monster in the maze. If the player touches the monster the game ends immediately with the following message:
 
 ```
 Monster ate you!!!

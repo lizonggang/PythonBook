@@ -1,12 +1,13 @@
-###### 用python编程
+###### Pmgramming with Python
 ---
 
 > [!NOTE]
-> 函数的名称区分大小写，因为它在变量中。
+> The names of functions are case sensitive as it is in the variables.
 
 
- 示例ll.l：编写一个返回给定字符串中字母数的函数。
+Example 11.1: Write a function that returns the number of letters in a given string.
 
+Solution:
 ```python
 def NumLetters(s)：
     count = 0
@@ -18,45 +19,47 @@ def NumLetters(s)：
 ```
 
 
-此代码检查for循环中字符串s中的所有字母。如果是当前的字符在'A'和'Z'(大写)或'a'和'z'(小写)之间增量计数。请注意，我们使用 '\' 来包装长行。
+This code checks all the letters in string ``s`` within the ``for`` loop. If the current character is between ‘A’ and ‘Z’(uppercase) or ‘a’ and ‘z’(lowercase) then increments ``count``. Note that we use '\' to wrap long lines.
 
-练习11.1：编写一个名为Uppercase的函数，将所有字母转换为给定字符串中的大写。例如，
+Exercise 11.1: Write a function named ``Uppercase`` that converts all letters to uppercase in a given string. For instance,
 
 ```python
-print(UpperCase("i8-iocakes!"))
+print(UpperCase("I8-10caKes!"))
 ```
 
-将会在屏幕输出 "I8-10CAKES!"。
+will write "I8-10CAKES!" on the screen.
 
-练习11.2：编写一个名为SameWords的函数，检查是否有两个无论案例差异如何，单词都是相同的。如果字符串相等，返回1，否则返回0。
-例如，将会输出 "0" ，
+Exercise 11.2: Write a function named SameWords that checks if two givens words are the same regardless of the case differences. If the strings are equal,function returns 1, otherwise 0.
 
+For instance,
 ```python
 print(SameWords("Trivial", "Trival"))
 ```
 
-将会输出 "1" 在屏幕上。
+will write “l” on the screen.
 
 ```python
 print(SameWords("tRiViAl", "TrIvIaL"))
 ```
 
 
-练习11.3：编写一个名为Reverse的函数来反转给定的字符串。
-例如，
+Exercise 11.3: Write a function named Reverse that reverses a given string. For instance,
 
 ```python
 print(Reverse("!esreveR"))
 ```
 
-将会输出 "Reverse!" 在屏幕上。
+will write ‘``Reverse!``’, on the screen.
 
-### 11.1. 如何调用函数
+### 11.1. How to Call Functions
 
-我们可以用值调用函数。例如，第14行的功能Power使用两个值10和3调用第一个示例：
+We can call functions with values. For instance, the function Power at line 14 in the first example is called with two values 10 and 3:
 
 ```python
 pow =Power(10, 3)
 ```
 
 
+<br>
+
+<center> - 84 - </center>

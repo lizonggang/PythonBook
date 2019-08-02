@@ -1,6 +1,8 @@
-此页面包含除可选解决方案之外的解决方案：
+## Chapter 11: Solutions
 
-**问题1: 例子11.1**
+This page contains the solutions except the optional ones:
+
+**Question 1: Example 11.1**
 
 ```python
 def NumLetters(s):
@@ -13,7 +15,7 @@ def NumLetters(s):
 
 <br>
 
-**问题2: 练习11.1**
+**Question 2: Exercise 11.1**
 
 ```python
 def UpperCase(s):
@@ -23,7 +25,7 @@ def UpperCase(s):
 
 <br>
 
-**问题3: 练习11.2**
+**Question 3: Exercise 11.2**
 
 ```python
 def SameWords (sl,s2):
@@ -37,7 +39,7 @@ def SameWords (sl,s2):
 
 <br>
 
-**问题4: 练习11.3**
+**Question 4: Exercise 11.3**
 
 ```python
 def Reverse(s):
@@ -46,7 +48,7 @@ def Reverse(s):
 
 <br>
 
-**问题5: 练习11.4**
+**Question 5: Exercise 11.4**
 
 ```python
 # function returns number of vowels
@@ -67,7 +69,7 @@ else :
 
 <br>
 
-**问题6: 例子11.2**
+**Question 6: Example 11.2**
 
 ```python
 def NumOfDigits(s):
@@ -82,7 +84,7 @@ print (NumOfDigits(sl) + Num0fDigits(s2))
 
 <br>
 
-**问题7: 练习11.5**
+**Question 7: Exercise 11.5**
 
 ```python
 # prints a square with the given size and character

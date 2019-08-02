@@ -1,4 +1,4 @@
-**问题1: 练习12.1**
+**Question 1: Example 12.1**
 
 ```python
 n, m = input().split()
@@ -21,7 +21,7 @@ for row in range(n):
 
 <br>
 
-**问题2: 练习12.2**
+**Question 2: Example 12.2**
 
 ```python
 n, m = input().split()
@@ -51,7 +51,7 @@ for row in range(n):
 
 <br>
 
-**问题3: 练习 12.1**
+**Question 3: Example  12.1**
 
 ```python
 n, m = input().split()
@@ -81,7 +81,7 @@ for row in range(n):
 
 <br>
 
-**问题4: Exercise 12.2**
+**Question 4: Exercise 12.2**
 
 ```python
 n, m = input().split()
@@ -115,7 +115,7 @@ for row in range(n):
 
 <br>
 
-**问题5: Exercise 12.3***
+**Question 5: Exercise 12.3***
 
 ```python
 n = input()
@@ -154,7 +154,7 @@ for row in range(n):
 
 <br>
 
-**问题6: Exercise 12.4***
+**Question 6: Exercise 12.4***
 
 ```python
 n, m = input().split()
@@ -168,14 +168,14 @@ for row in range(n):
         maze[row][col] = int(maze[row][col])
 emptyline = input() #There is a space between maze and path
 path = input()
-#  (r,c) is the loca问题in the maze
+#  (r,c) is the locaQuestion in the maze
 #  valid: stores the validity of the path
 r=l
 c=l
 valid=l
 #  walk through the path
 for ch in path:
-    # update the loca问题in the maze  
+    # update the locaQuestion in the maze  
     if ch==’u' : r-=l                 
     if ch=='d' : r+=l                 
     if ch==’l’ : c-=l                 
@@ -200,7 +200,7 @@ else :
 
 <br>
 
-**问题7: Exercise 12.6\*\***
+**Question 7: Exercise 12.6\*\***
 
 ```python
 # draw a spiral of size n x n # we will draw the spiral in canvas matrix

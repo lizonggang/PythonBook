@@ -1,4 +1,4 @@
-**问题1: 练习8.1**
+**Question 1: Example 8.1**
 
 ```python
 name = input()
@@ -7,7 +7,7 @@ for counter in range(5):
 ```
 <br>
 
-**问题2: 练习 8.1**
+**Question 2: Exercise 8.1**
 
 ```python
 name = input()
@@ -20,7 +20,7 @@ for counter in range(n):
 
 <br>
 
-**问题3: 例子8.2**
+**Question 3: Example 8.2**
 
 ```python
 name = input()
@@ -33,7 +33,7 @@ for counter in range(n):
 
 <br>
 
-**问题4: 例子8.3**
+**Question 4: Example 8.3**
 
 ```python
 numl = int(input())
@@ -52,7 +52,7 @@ print(result)
 
 <br>
 
-**问题5:**
+**Question 5:**
 
 ```python
 s = input()
@@ -66,7 +66,7 @@ else:
 
 <br>
 
-**问题6:**
+**Question 6:**
 
 ```python
 n = int(input())
@@ -81,7 +81,7 @@ for counter in range(n-l, -1, -1):
 
 <br>
 
-**问题7:**
+**Question 7:**
 
 ```python
 wordl = input()
@@ -103,10 +103,10 @@ if word3 < word2 and word2 < wordl:
 
 <br>
 
-**问题8:**
+**Question 8:**
 
 ```python
-# 问题1:
+# Question 1:
 """
     str = input()
     rev = ""
@@ -115,13 +115,13 @@ if word3 < word2 and word2 < wordl:
     print(rev)
 """
 ############################
-# 问题2:
+# Question 2:
 # write string in backward order
 str = input()
 for counter in range(len(str)-l,-l,-l):
     print(str[counter], end = ""）
 ############################
-# 问题3:
+# Question 3:
 """
     str = input()
     print(str[::-1])
@@ -130,7 +130,7 @@ for counter in range(len(str)-l,-l,-l):
 
 <br>
 
-**问题9:**
+**Question 9:**
 
 ```python
 str = input()
@@ -144,7 +144,7 @@ for i in range(n):
 
 <br>
 
-**问题10:**
+**Question 10:**
 
 ```python
 str = input()
@@ -160,7 +160,7 @@ for i in range(n):
     print(sub)
 ```
 
-**另一个方法:**
+**Alternative way:**
 
 ```python
 str = input()
@@ -175,7 +175,7 @@ for i in range(n):
 
 <br>
 
-**问题11:**
+**Question 11:**
 
 ```python
 s1 = input()
@@ -190,7 +190,7 @@ for i in range(n):
 
 <br>
 
-**问题12:**
+**Question 12:**
 
 ```python
 s = input()
@@ -206,7 +206,7 @@ for i in range(n):
 
 <br>
         
-**问题13:**
+**Question 13:**
 
 ```python
 s1 = input()
@@ -222,7 +222,7 @@ for i in range(n):
 
 <br>
 
-**问题14:**
+**Question 14:**
 
 ```python
 s1 = input()
@@ -234,7 +234,7 @@ else :
         print(found)
 ```
 
-另一个方法:
+Alternative way:
 
 ```python
 s1 = input()
@@ -255,7 +255,7 @@ else:
 
 <br>
 
-**问题15： 练习 8.10**
+**Question 15： Exercise 8.10**
 
 ```python
 n = int(input())
@@ -274,3 +274,4 @@ for counter in range(n):
 for counter in range(n):
     print(words[counter])
 ```
+

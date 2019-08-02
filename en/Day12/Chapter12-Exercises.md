@@ -1,56 +1,56 @@
-问题1
+**Question 1**
 
-从输入读取两个整数n和m，然后读取一个大小为(n，m)的矩阵。 将每个位置的值平方并将其写入输出。 矩阵的大小不会超过(100,100)。
+从键盘读取两个整数n和m，然后读取一个大小为(n，m)的矩阵。 将每个位置的值平方并将其写入输出。 矩阵的大小不会超过(100,100)。
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 3 4                     1 4 4 1
 1 2 2 1                 16 25 25 9
 4 5 5 3                 4 9 25 9
 2 3 5 3
 ```
 
-问题2
+**Question 2**
 
-从输入读取两个整数n和m，然后读取一个大小为(n，m)的矩阵。 水平翻转矩阵并将其写入输出。 矩阵的大小不会超过(100,100)。
+Read two integers n and m then a matrix of size (n, m) from the input. Horizontally flip the matrix and write it to output. The size of the matrix will not be more than (100, 100).
 
-例如：
+**For example:**
 
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 3 4                     1 2 2 1
 1 2 2 1                 3 5 5 4
 4 5 5 3                 3 5 3 2
 2 3 5 3
 ```
 
-问题3
+**Question 3**
 
-从输入读取两个整数n和m，然后读取一个大小为(n，m)的矩阵。 垂直翻转矩阵并将其写入输出。 矩阵的大小不会超过(100,100)。
+Read two integers n and m then a matrix of size (n, m) from the input. Vertically flip the matrix and write it to output. The size of the matrix will not be more than (100, 100).
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 3 4                     2 3 5 3
 1 2 2 1                 4 5 5 3
 4 5 5 3                 1 2 2 1
 2 3 5 3
 ```
 
-问题4
+**Question 4**
 
-从输入读取整数n和m，然后读取两个大小为(n，m)的矩阵。 在这些矩阵的相同位置添加值，并将求和矩阵写入输出。 矩阵的大小不会超过(100,100)。
+Read an integer n and m then two matrices of size (n, m) from the input. Add the values at the same positions of these matrices, and write the summation matrix to output. The size of the matrices will not be more than (100, 100).
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 3 4                     10 10 9 7
 1 2 2 1                 5 5 9 2
 4 5 5 3                 5 6 8 6
@@ -61,14 +61,14 @@
 3 3 3 3
 ```
 
-问题5
+**Question 5**
 
-读取一个整数n，然后从输入中读取一个大小为(n，n)的矩阵。 顺时针旋转矩阵90度并将其写入输出。 矩阵的大小不会超过(100,100)。
+Read an integer n then a matrix of size (n, n) from the input. Flip the matrix 90 degrees clockwise and write it to output. The size of the matrix will not be more than (100, 100).
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 4                       9 2 4 1
 1 2 2 1                 8 3 5 2
 4 5 5 3                 7 5 5 2
@@ -76,21 +76,21 @@
 9 8 7 6
 ```
 
-问题6
+**Question 6**
 
-您将获得一个迷宫和路径的地图。 检查路径是否是正确的退出方式。 您将从位置(1, 1)开始，退出位于(1，m - 1)。 下面给出了一个大小为(7,6)的迷宫示例。 起始和退出位置显示为"S"和"E"。 出口处的路径显示为红色。
+You will be given a map of a maze and a path. Check if the path is a correct way to the exit. You will start at position (1, 1), and exit is at (1, m - 1). An example maze of size (7, 6) is given below. Starting and exit locations are shown as 'S' and 'E'. A path is shown with red color to the exit.
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day12/d12-p2.png)
 
 
-您将首先读取迷宫的大小(n, m)。 然后迷宫将被给予; 1是墙，0是空位。 迷宫的大小不会超过(100,100)。 路径以四个不同字母组成的字符串给出; 'l'表示左，'r'表示正确，'u'表示'上'，'d'表示'下'。
+You will first read the size of the maze (n, m). Then the maze will be given; 1's are walls, 0's are empty locations. The size of the maze will not be more than (100, 100). The path is given as a string composed of four different letters; 'l' means left, 'r' means right, 'u' means 'up', and 'd' means 'down'.
 
-你会写 'Right path!' 如果路径通向出发地点的出口，否则写 'Wrong path!' 屏幕上。
+You will write 'Right path!' if the path leads to the exit from the starting location, otherwise write 'Wrong path!' on the screen.
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 7 6                     Right path!
 1 1 1 1 1 1 
 1 0 1 0 0 0 
@@ -104,14 +104,14 @@ ddrdrruulurr
 ```
 
 
-问题7
+**Question 7**
 
-编写一个程序，从键盘读取数字n <= 20，并在屏幕上打印星号螺旋，如下所示。
+Write a program that reads a number n <= 20 from the keyboard and prints the spiral of asterisks on the screen as shown below.
 
-例如：
+**For example:**
 
 ```
-输入                    输出
+Input                   Result
 5                       *****
                         *     
                         * *** 

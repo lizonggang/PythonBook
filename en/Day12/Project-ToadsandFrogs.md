@@ -1,31 +1,31 @@
-## 蟾蜍和青蛙
+## Toads and Frogs
 
-写下面的蟾蜍和青蛙游戏。
+Write the following toads and frogs game.
 
-蟾蜍和青蛙是一个单人游戏。给定一块大小为N（其中N为奇数）的板，板的左侧充满了蟾蜍，右侧是青蛙，中间的正方形是空的。这是N = 7的初始板配置：
+Toads and frogs is a one player game. Given a board of size N (where N is odd), left side of the board is filled with toads and right side is with frogs and the middle square is empty. Here is the initial board configuration for N=7: 
 
 ```TTT-FFF```
 
-'T'：蟾蜍，'F'：青蛙，'-'：空的
+'T': toad, 'F': frog, '-': empty
 
-蟾蜍可向右滑动或向右跳过一个方格。同样，青蛙可向左滑动或向左跳过一个方格。游戏的目的是将蟾蜍移动到右侧，将青蛙移动到棋盘的左侧，移动次数最少。最终配置应如下：
+A toad can slide right or jump over one square to the right. Similarly, a frog can slide left or jump over one square to the left. The objective of the game is to move the toads to the right side and frogs to the left side of the board in minimum number of moves. The final configuration should be as follows: 
 
 ```FFF-TTT```
 
-##### 游戏设计：
+##### Game design:
 
-1. 玩家将输入电路板尺寸N.N是奇数（3 <= N <= 21）。然后你将设置相对于N的板。
-2. 在每个回合中，打印当前板和屏幕上的移动次数。
-3. 然后程序等待播放器输入，一个介于1到N之间的数字。该数字表示在该正方形中移动元素。
-- 示例：3将位置3处的蟾蜍移动到位置4。
-- 示例：6将青蛙在位置6移动到位置4。
+1. The player will enter the board size N. N is an odd number (3 <= N <= 21). Then you will setup the board with respect to N.
+2. In each turn, print the current board and number of moves on screen.
+3. Then the program waits for the player input, a number between 1 to N. The number indicates to move the element in that square.
+- Example: 3 moves the toad at position 3 to position 4.
+- Example: 6 moves the frog at position 6 to the position 4.
 
-4. 如果提供的移动无效，请继续询问玩家移动。否则采取行动。
+4. Continue asking the player move if the provided move is not valid. Otherwise make the move.
 
-5. 每当所有青蛙都在左侧并且所有蟾蜍在右侧并且空方块在中间时，游戏结束。
+5. The game finishes whenever all frogs are on the left side and all toads are on the right side and the empty square is in the middle.
 
-N = 5的样本输入和输出：
-（'>'表示用户输入）
+**Sample Input and Output for N=5:**
+('>' indicates the user input)
 
 ```
 >5
@@ -85,17 +85,18 @@ Number of moves:
 You win!
 ```
 
-#### 任务1（总分数的40%）：
+#### Task 1 (%40 of the total points):
 
-电路板尺寸N始终为7。
+The board size N will be always be 7.
 
-#### 任务2（总分数的40%）：
-电路板尺寸N可以改变（N是奇数）
-#### 任务3（总分数的20%）：
-除了任务2，添加撤消移动选项; '0'表示撤消。 玩家应该能够撤消直到游戏开始。
+#### Task 2 (%40 of the total points):
+The board size N can change (N is an odd number)
 
-输入和输出样本
-（'>'表示用户输入）
+#### Task 3 (%20 of the total points):
+In addition to Task 2, add the undo move option; '0' means undo. The player should be able to undo till the beginning of the game.
+
+**Sample Input and Output**
+('>' indicates the user input)
 
 ```
 >15

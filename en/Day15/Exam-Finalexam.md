@@ -1,18 +1,19 @@
-## 考试：期末考试
-你有三个小时需要解决10个问题。 请注意，您只有一次尝试。
-一旦开始考试，您必须完成尝试，否则您当前的尝试将在三小时结束时自动提交。
+## Exam: Final exam
 
-### 规则
-- 没有说话或讨论。
-- 您可以使用旧代码
-- 您<u>不能使用</u>课程手册或任何其他材料
-- 没有网站，除了：
-  - Pyton参考：https：//docs.python.org/3/tutorial/
-  - 在线编译器，例如：https：//ideone.com/
+You have 10 problems to solve in three hours. Note that you only have ONE attempt.
+Once you start the exam you have to finish the attempt or your current attempt will be submitted automatically at the end of three hours.
 
-### 作弊
-- 别人的代码或代码
-- 硬编码输出
+### RULES
+- No talking or discussion.
+- You can use your old codes
+- You cannot use your course booklets or any other material
+- No websites except:
+    - Pyton reference: https://docs.python.org/3/tutorial/
+    - online compilers such as: https://ideone.com/
 
-祝好运。
+### CHEATING
+- Anybody else's code or code piece
+- Hardcoding the outputs
+
+Good luck.
 

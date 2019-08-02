@@ -1,11 +1,13 @@
-###### 读/写文件
-在这里，我们通过每次读取数字递增来自己确定N.
-来自输入文件。 我们首先根据循环条件进行无限循环
-写 "True"。 在循环中，变量值尝试在每个回合中从文件中读取。
-每当没有更多输入时，它将为空并且它将退出循环。
+###### Reading / Writing Files
+Here, we determine N by ourselves by incrementing each time reading a number
+from the input file. We first make an infinite loop based on the loop condition by writing “``True``”. In the loop, the variable ``value`` tries to read from file in each turn. Whenever there is no more input, it will be empty and it will exit the loop.
 
-练习10.1：在不使用数组的情况下解决相同的问题。
+``Exercise 10.1``: Solve the same problem without using arrays.
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+#### Congratulations - end of lesson reached
 
+Well done!
+
+<br>
+
+<center> - 81 - </center>

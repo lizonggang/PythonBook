@@ -1,58 +1,62 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
 
-练习8.5：写一个程序读取一个字符串s和三个整数a，b和n键盘，并写入从第a的位置开始的s子串继续b个字符，在屏幕上n次。
+Exercise 8.5: Write a program reads a string s and three integers a, b and n fromthe keyboard, and writes the substring of s that starting from a th position and continues b characters, n times on the screen.
 
 ```
-样本输入                    样本输出
-Helloworld!                 oworl
-4                           oworl
-5                           oworl
-5                           oworl
-                            oworl
+Sample input:                   Sample output:
+Helloworld!                     oworl
+4                               oworl
+5                               oworl
+5                               oworl
+                                oworl
 ```
 
 
 
-在上面的例子中，从第4位置开始的子字符串是'oworl'。
-我们可以获得类似于数组的字符串的一部分。我们可以编写简化代码
-在上一个练习中如下：
+In the example above, the substring starting from 4<sup>th</sup> position is ‘``oworl``’. 
+
+We can get a part of a string similar to arrays. We can write the simplified code in the previous exercise as follows:
 
 ```python
 s = input()
 a = int(input())
 b = int(input())
 n = int(input())
-substring = s[a:a+bj
+substring = s[a:a+b]
 for counter in range(n):
     print(substring)
 ```
 
-s[a:a+b]是从索引a到索引 a + b（不包括a + b）的s的字符串。
+s[a:a+b] is the substring of s from index a to index a+b (excluding a+b).
 
 
-练习8.6：写一个程序从键盘读取两个字符串s1，s2和两个整数a，n。在s2位置插入s1，然后将新字符串写入n次。
+Exercise 8.6: Write a program reads two string si, s2 and two integers a, n from
+the keyboard. Insert s2 at a th position of si then write the new string n times on the screen.
 
-```python
-样本输入                    样本输出
-Helloworld!                 HelloNewworld!
-New 5 3                     HelloNewworld!
-                            HelloNewworld!
+```
+Sample input:                   Sample output:
+Helloworld!                     HelloNewworld!
+New 5 3                         HelloNewworld!
+                                HelloNewworld!
 ```
 
 > [!TIP]
-> 您可以使用子字符串的想法。
+> you can use substring idea.
 
-Exerdse8.7：写一个程序读取来自键盘的一个字符串s和三个整数a， b，n。从位置a开始删除s中的b个字符，然后写入新字符串n次在屏幕上。
+Exerdse 8.7: Write a program reads a string s and three integers a, 6, 《 from the keyboard. Delete b characters in s starting at position a then write the new string n times on the screen.
 
 ```python
-样本输入                    样本输出
+Sample input:                    Sample output:
 Helloworld!                 Helld!
 2 5 3                     Helld!
                             Helld!
 ```
 
 > [!TIP]
-> 您可以使用子字符串的想法。
+> you can use substring idea.
 
+<br>
+
+<center> - 66 - </center>

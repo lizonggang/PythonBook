@@ -1,38 +1,38 @@
-###### 变量 - 字符和字符串
+###### Variables — Char and String
 ---
 
-练习8.8：写一个程序从键盘输入读取两个字符串s1，s2和三个整数a，b，n。用字符串s2替换从位置a位置开始的的b个字符，然后在屏幕上输出新字符串n次。
+Exercise 8.8: Write a program reads two strings ``s1``, ``s2`` and three integers ``a``, ``b``, ``n`` from the keyboard. Replace b characters in ``s1`` starting at pos1tion a with the string ``s2`` then write the new string n times on the screen.
 
 ```
-样本输入                    样本输出
-Helloworld!                 NewWorld!
-New 0 5 3                   NewWorld
-                            NewWorld
+Sample input:                   Sample output:
+Helloworld!                     NewWorld!
+New 0 5 3                       NewWorld
+                                NewWorld
 ```
 
 > [!TIP]
-> 您可以使用子字符串的想法。
+> you can use substring idea.
 
-练习8.9：写一个程序然后从键盘读取两个字符串s1，s2。如果在s1中找到s2，则将s2的位置写入s1。否则就输出 'not found!'
+Exercise 8.9: Write a program reads two strings ``s1``, ``s2`` from the keyboard then writes the pos1tion of ``s2`` in ``s1`` if ``s2`` is found in ``s1``. Otherwise it writes ‘``not found!``’.
 
 ```
-样本输入                    样本输出
-Helloworld!                 3
+Sample input:                    Sample output:
+Helloworld!                      3
 loW
 ```
 
 ```
-样本输入                    样本输出
-Helloworld!                 not found!
+Sample input:                    Sample output:
+Helloworld!                      not found!
 LoW
 ```
 
 > [!NOTE]
-> 字符串区分大小写，如上面的示例 输入/输出 所示。
+> Strings are case sens1tive as shown in the sample input/output above.
 
 
 
-字符串有一个名为find()的函数，用于搜索给定字符串中的字符串。我们可以在上一练习中写下简化代码如下：
+Strings have a function called find that searches a string in a given string. We can write the s1mplified code in the previous exercise as follows:
 
 ```python
 s1 = input()
@@ -44,12 +44,14 @@ else:
     print(found)
 ```
 
+Here, 's1 .find(s2>' searches for s2 in the string If 52 is found inii, it gives the pos1tion in s1, otherwise it gives '-1
 
-在这里，'s1.find(s2)'搜索字符串中的s2如果在s2中找到它，则给出在s1中的位置，否则它给出'-1'。
+###  8.5. String <=> Integer Convers1ons
 
-### 8.5. 字符串 <=> 整数转换
+Strings have functions to convert a number into text or to convert a text into a number.
 
-字符串具有将数字转换为文本或将文本转换为文本的功能数。
+If s is a string then, x = int(s) will convert the string s into an integer and will store it in variable x.
 
-如果s是一个字符串，则 x = int(s) 将字符串s转换为整数并且将将其存储在变量x中。
+<br>
 
+<center> - 67 - </center>

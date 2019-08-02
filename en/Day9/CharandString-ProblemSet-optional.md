@@ -1,11 +1,11 @@
-**问题1**
+**Question 1**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 5                           *****
                             *****
                             *****
@@ -23,15 +23,15 @@
 
 <br>
 
-**问题2**
+**Question 2**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 5                           *
                             **
                             ***
@@ -49,14 +49,14 @@
 
 <br>
 
-**问题3**
+**Question 3**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                    Result
 5                               *
                                **
                               ***
@@ -74,14 +74,14 @@
 
 <br>
 
-**问题4**
+**Question 4**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                    Result
 5                             *
                              ***
                             *****
@@ -99,14 +99,14 @@
 
 <br>
 
-**问题5**
+**Question 5**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                    Result
 5                           *****
                              ****
                               ***
@@ -124,14 +124,14 @@
 
 <br>
 
-**问题6**
+**Question 6**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                       Result
 5                           *********
                              *******
                               *****
@@ -149,14 +149,14 @@
 
 <br>
 
-**问题7**
+**Question 7**
 
-使用从键盘读取数字n的字符串为每个案例编写程序，并打印所需的星号形状，如下所示。 请注意，您<u>**不能使用**</u>嵌套循环。
+Write a program for each case using strings that reads a number n from the keyboard and prints the demanded shape of asterisks as shown below. Note that you **<u>CANNOT</u>** use nested loops.
 
-**例如：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Input                    Result
 5                           *
                             **
                             ***

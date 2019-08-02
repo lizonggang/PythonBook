@@ -1,22 +1,25 @@
-###### 矩阵
+###### Matrices
 ---
 
-# <center>第12章: 矩阵</center>
+# <center>Chapter 12: Matrices</center>
 ---
 
 
-## 12.1. 介绍
+## 12.1. Introduction
 
-当我们去邮局时，我们看到邮箱排成行和列。每个邮箱都有邮件，并带有一个号码。邮箱也可以在不使用这些数字的情况下描述。如果我们引用一行和一行列它将对应一个邮箱。如果我们要求我们的朋友找到邮箱在第3行和5列，他或她将很容易找到它。就像邮件一样邮局中的盒子，矩阵由盒子组成行和列号。
+When we go to a post office we see mail boxes lined up in rows and columns.
+Each mail box has mails in it and is referred with a number. The mail boxes can
+also be referred without using these numbers on them. If we refer to a row and a
+column it will correspond to a mail box. If we ask our friend to find the mail box at the 3rd row and the 5,h column, he or she will easily locate it. Just like the mail boxes in a post office, a matrix is composed of boxes which are referred by the row and the column numbers.
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day12/d12-p1.png)
 
-上面的矩阵A有3行4列，所以它有12个带数字的方框在他们中。在上面的矩阵中，引用位置是第1行第2列。
+The matrix A above has 3 rows and 4 columns, so it has 12 boxes with numbers in them. In the matrix above, the referred position is row 1, column 2.
 
 > [!NOTE]
-> 我注意到，就像在数组中一样，索引从0开始。
+> Notice that just like as in arrays, the indices start from 0.
 
-我们可以按如下方式定义和初始化矩阵：
+We can define and initialize a matrix as follows:
 
 ```python
 myMatrix = [0] * n
@@ -24,20 +27,23 @@ for i in range (n):
     myMatrix[i] = [0] * m
 ```
 
-定义一个名为'myMatrix'的矩阵，包含3行和4列。它类似于阵列;另外矩阵有二维，因此我们需要再添加一个定义时的括号。上面的代码用零初始化矩阵。
+defines a matrix called 'myMatrix' with 3 rows and 4 columns. It is similar to the arrays; in addition matrices have two dimensional hence we need to add one more bracket when defining. The above code initializes the matrix with zeros.
 
-我们可以以与我们相同的方式读取和写入矩阵位置阵列。例如，
+We can read from and write to the matrix locations in the same way we do in arrays. For instance,
 
 ```python
 print(myMatrix[1][2])
 ```
 
-输出位置(1, 2) - 第1行，第2列的值 - 而
+outputs the value at position (1,2) - row 1, column 2 - whereas,
 
 ```python
 myMatrix [l] [2] = 100
 ```
 
-将值 "100" 放在同一位置。
+puts the value ‘ 100’ in the same location.
 
 
+<br>
+
+<center> - 91 - </center>

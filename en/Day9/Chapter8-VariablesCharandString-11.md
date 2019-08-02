@@ -1,18 +1,18 @@
-###### 变量 - 字符和字符串
+###### Variables - Char and String
 ---
 
 
-**8.15\*)** 编写一个读取字符串并输出数字的个数。
+**8.15\*)** Write a program that reads a string and writes the number of digits in that string on the screen.
 
 ```
-样本输入                    样本输出
-I8-10caKes！                3
+Sample input:                   Sample output:
+I8-10caKes！                    3
 ```
 
-其中3个是数字是8,1和0。
+of them are digits; 8, 1, and 0.
 
 
-**8.16\*)** 完成以下程序，使其反转给定的字符串。注意你<u>不能声明另一个字符串</u>。
+**8.16\*)** Complete the following program so that it reverses a given string. Notethat **you cannot declare another string**.
 
 ```python
 s = input ()
@@ -23,30 +23,31 @@ print (s)
 ```
 
 ```
-样本输入                    样本输出
+Sample input:                   Sample output:
 Reverse！                   !esreveR
 ```
 
 
-**8.17\*)** 编写一个程序，从键盘读取两个字符串，并检查这些字符串中的元音数量相等。
+**8.17\*)** Write a program that reads two strings from the keyboard and checks if the number of vowels in these strings are equal.
 
 
 ```
-样本输入                    样本输出
-ThReE VoWeLs                相同数量的元音
+Sample input:                   Sample output:
+ThReE VoWeLs                    Same number of vowels.
 ```
 
 ```
-样本输入                    样本输出
-twO VoWeLs                  元音数量不同
+Sample input:                   Sample output:
+twO VoWeLs                      Not same number of vowels.
 ```
 
-在第一个输入中，两个字符串都有两个元音，而在第二个输入中，两个元音第一次只有一个元音。 
+In the first input, both strings have two vowels whereas in the second one, the
+first siring has only one vowel.
 
-**8.18\*\*\*)** 编写一个程序，从键盘读取数字<)<20并打印屏幕上的星号螺旋如下图所示。
+**8.18\*\*\*)** Write a program that reads a number =< 20 from the keyboard and prints the spiral of asterisks on the screen as shown below.
 
 ```
-样本:n = 5                     样本:n = 8
+Sample:n = 5                    Sample:n = 8
 *****                           ********
 *                               *
 * ***                           * ******
@@ -57,5 +58,8 @@ twO VoWeLs                  元音数量不同
                                 ********
 ```
 
-**8.19\*)** 编写一个程序，从键盘读取数字x和字符c。程序输出一个大小为x的正方形填充字符c。
+**8.19\*)** Write a program that reads a numbers ``x`` and a character ``c`` from the keyboard. The program outputs a square with the size ``x`` filled with character ``c``.
 
+<br>
+
+<center> - 71 - </center>

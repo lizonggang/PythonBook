@@ -1,28 +1,30 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-### 12.2. 矩阵初始化
+### 12.2. Matrix Initialization
 
-可以在定义数组时初始化矩阵：
+Matrices can be initialized while defining as in arrays:
 
 ```python
 matrix = [[1, 2, 2, 1], [4, 5, 5, 3], [2, 3, 5, 3]]
 ```
 
 
-### 12.3. 矩阵作为迷宫的图形
+### 12.3. Matrices as Mazes and Graphs
 
-矩阵可以用于不同的目的，而不仅仅是代表等数字迷宫和图表。
+Matrices can be used for different purposes than just numbers such as representing
+mazes and graphs.
 
-*练习12.4：
+*Exercise 12.4:
 
-您将获得一个迷宫和路径的地图。检查是否路径是退出的正确方法。你将从那开始位置(1,1)，退出位于(1，m-1)。迷宫的一个例子尺寸(7,6)的尺寸如下。启动和退出位置显示为 'S' 和 'E'。路径显示为红色到出口。
+You will be given a map of a maze and a path. Check ifthe path is a correct way to the exit. You will start at position (1,1), and exit is at (1, m—1). An example maze of size (7, 6) is given below. Starting and exit locations
+are shown as *S' and lE'. A path is shown with red color to the exit.
 
 ![](http://legendary.cdn.play8.io/learnpython/img/day12/d12-p2.png)
 
 
 ```
-样本输入：                  样本输出：
+Sample input:               Sample output:
 7 6                         Right path!
 1 1 1 1 1 1
 1 0 1 0 0 0
@@ -34,5 +36,8 @@ matrix = [[1, 2, 2, 1], [4, 5, 5, 3], [2, 3, 5, 3]]
 ddrdrruulurr
 ```
 
-您将首先读取迷宫的大小(n, m)。然后迷宫将作为一个矩阵大小为(n，m); 1是墙，0是空位。矩阵的大小不会超过(100,100)。路径以四个字符串组成不同的字母;'l' 的意思是'左'，'r'的意思是"右"， 'u'的意思是"向上"，而 'd'的意思是 "向下"。
+You will first read the size of the maze (n, m). Then the maze will be given as a matrix size of (n, m); 1 's are walls, 0's are empty locations. The size of the matrix will not be more than (100, 100). The path is given as a string composed of four different letters; 'l' means 'left', 'r' means 'right', 'u' means 'up', and 'd' means 'down'.
 
+<br>
+
+<center> - 94 - </center>

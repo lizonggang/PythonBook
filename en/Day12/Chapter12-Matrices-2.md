@@ -1,17 +1,19 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
-例12.1：读取两个整数n和m，然后读取一个大小为(n，m)的矩阵输入。将每个位置的值平方并输出。矩阵的大小将不超过(100, 100)。
+Example 12.1: Read two integers n and m then a matrix of size («, m) from the
+input. Square the values in each position and output it. The size of the matrix will
+not be more than (100, 100).
 
 ```
-样本输入：                  样本输出：
+Sample input:               Sample output:
 3 4                         1 4 4 1
 1 2 2 1                     16 25 25 9
 4 5 5 3                     4 9 25 9
 2 3 5 3
 ```
 
-解决方案：
+Solution:
 
 ```python
 n, m = input().split()
@@ -34,9 +36,19 @@ for row in range (n):
 
 ```
 
-例12.2：读取两个整数n和m，然后读取一个大小为(n, m)的矩阵输入。水平翻转矩阵并输出。矩阵的大小不会超过(100,100)。
+Example 12.2: Read two integers n and m then a matrix of size («, m) from the
+input. Horizontally flip the matrix and output it. The size of the matrix will not be more than (100, 100).
+
+```
+Sample input:               Sample output:
+3 4                         1 2 2 1
+1 2 2 1                     3 5 5 4
+4 5 5 3                     3 5 5 2
+2 3 5 3
+```
 
 
+Solution:
 ```python
 n, m = input().split ()
 n = int(n)
@@ -66,3 +78,6 @@ for row in range (n):
 ```
 
 
+<br>
+
+<center> - 92 - </center>

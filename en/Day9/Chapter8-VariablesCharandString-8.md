@@ -1,55 +1,59 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
-举个例子，
+As an example,
 
 ```python
 x = int("12345")
 ```
+will store “``123456``” in interger ``x``.
 
 > [!NOTE]
-> 注意：int()函数的字符串参数必须是有效数字，否则它将是一个错误。
+> The string parameter of int function has to be a valid number otherwise it
+ will be a error.
 
 
-将数字转换为字符串也存在相反的功能。
-例如，s = str(x)将数字x转换为字符串s。
+The opposite function also exists for converting a number into a string. For
+example, ``s = str(x)`` will convert number ``x`` into string ``s``.
 
- 举个例子，
+As an example,
 
 ```python
 s = str(12345)
 ```
 
-将“12345”存储在字符串s中。
+will store “``123456``” in string s.
 
-### 8.6. 字符串数组
+### 8.6. Array of Strings
 
-请记住，我们声明了由整数值组成的数组：
+Remember that we declared arrays that are composed of integer values:
 
 ```python
 mylntArray = [0] * 10
 ```
 
-声明一个包含10个整数的数组。同样，我们可以使用字符串声明数组值：
+declares an array of 10 integers. Similarly, we can declare arrays with string values:
 
 ```python
 myStrArray = [""] * 10
 ```
 
-声明一个包含10个字符串的数组。我们可以读取和输出数组位置以同样的方式。
+declares an array of 10 strings. We can read from and write to the array locations
+in the same way.
 
-例8.6：读取输入中的整数n和n个单词并写入单词以相反的顺序。输入中最多有100个字符串。
+Example 8.6: Read an integer n then n words from the input and write the words
+in reverse order. There will be maximum 100 strings in the input.
 
 ```
-样本输入                    样本输出
-4                           About
-Helloworld!                 TryIt!
-Hello                       Hello
-TryIt!                      HelloWrold!
+Sample input:                   Sample output:   
+4                               About
+Helloworld!                     TryIt!
+Hello                           Hello
+TryIt!                          HelloWrold!
 About
 ```
 
-解决方案：
+Solution:
 
 ```python
 n = int(input())
@@ -63,3 +67,8 @@ for counter in range(n):
 for counter in range (n-1, -1, -1):
     print(words[counter])
 ```
+
+<br>
+
+<center> - 68 - </center>
+

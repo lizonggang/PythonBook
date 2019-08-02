@@ -1,55 +1,65 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
-### 8.7. 练习
+### 8.7. Exercises
 
-**8.11)** 露西想要计算她在购物时获得的奖励积分- 她知道她在最近的N =<100购物中花了多少钱，所有这些都是面包店,农产品或饮料。
-- 如果他们是面包店，她每美元可获得5分。
-- 如果是产品，她每美元可获得2分。
-- 如果他们是饮料，她每美元赚1点。
+**8.11)** Lucy wants to calculate her bonus points she earned while shopping- She knows how much she spent in her last N =< 100 shopping, and all of them are
+``bakery`` ``produce``, or ``drinks``.
 
-当她在一次购物中花费超过M美元时，她获得奖励积分。你将首先阅读N和N对应于露西花钱的数字。在最后，你会看到M然后购物项目的类型。输出总奖金屏幕上的点。
+- If they are bakery, she earns 5 points per dollar.
+- If they are produce, she earns 2 points per dollar.
+- If they are drinks, she earns 1 point per dollar.
+
+She earns bonus points when she spends more than M dollars in one shopping.
+You will first read N then N numbers corresponding to the money Lucy spend. At
+the end, you will read M then the type of shopping items. Write the total bonus
+points on the screen.
 
 ```
-样本输入                    样本输出
-5                           800
+Sample input:                    Sample output:
+5                                800
 41 13 88 50 72
 50 bakery
 ```
 
 
-购买超过50美元的露西获得积分，因此88美元和72美元有资格获得奖金。她在面包店购物，每美元带5点积分。总共得到（88 + 72)* 5 = 800奖励积分。
+Lucy receives bonus points for shopping more than $50 hence $88 and $72 are
+qualified for bonus. Her shopping was on bakery which brings 5 points per dollar.
+In total, she got (88 + 72) * 5 = 800 bonus points.
 
 <br>
 
-**8.12\*)** 编写一个程序，输出给定字符串中的字母数。
+**8.12\*)** Write a program that outputs the number of letters in a given string.
 
 ```
-样本输入                    样本输出
-I8-10caKes!                 6
+Sample input:                    Sample output:
+I8-10caKes!                      6
 ```
 
-I，c，a，K，e和s是字母。
+I, c, a, K, e, and s are the letters.
 
 <br>
 
-**8.13\*)** 编写一个程序，将给定字符串中的所有字母转换为大写。
+**8.13\*)** Write a program that converts all letters to uppercase in a given string.
 
 ```
-样本输入                    样本输出
-I8-10caKes！                I8-10CAKES！
+Sample input:                    Sample output:
+I8-10caKes！                     I8-10CAKES！
 ```
 
 <br>
 
-**8.14\*\*)** 编写一个程序，检查两个给定的字符串是否相同案件差异。如果字符串相同，写'same'否则'not same'。
+**8.14\*\*)** Write a program that checks if two given strings are the same regardless of the case differences. If the strings are same, write 'same' otherwise 'not same'。
 
 ```
-样本输入                    样本输出
-Trivial Trival              not same
+Sample input:                    Sample output:
+Trivial Trival                   not same
 ```
 
 ```
-样本输入                    样本输出
-tRiViAl TrIvIaL             same
+Sample input:                    Sample output:
+tRiViAl TrIvIaL                  same
 ```
+<br>
+
+<center> - 70 - </center>

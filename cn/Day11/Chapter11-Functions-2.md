@@ -23,7 +23,7 @@ def NumLetters(s)：
 练习11.1：编写一个名为Uppercase的函数，将所有字母转换为给定字符串中的大写。例如，
 
 ```python
-print(UpperCase("i8-iocakes!"))
+print(UpperCase("I8-10caKes!"))
 ```
 
 将会在屏幕输出 "I8-10CAKES!"。

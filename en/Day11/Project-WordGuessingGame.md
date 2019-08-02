@@ -1,19 +1,20 @@
-## 猜字游戏
-写一个单词猜词游戏。
+## Word Guessing Game
 
-#### 游戏设计：
-1. 最初老板输入了一个秘密词。
-2. 秘密字将被屏幕上的星号（*）掩盖 - 每个字母一个星号。
-3. 最初玩家有5条命。
-4. 在每个回合中，玩家输入一个字母。 如果秘密词不包含该字母，则该玩家将失去一条生命。
-5. 在每个步骤中，您需要打印使用过的字母并取消屏蔽玩家在密码中找到的字母。
-6. 当生命为0（玩家输了）或玩家找到整个秘密词（玩家获胜）时完成程序。
+Write a one player word guessing game.
 
-### 任务1（总分数的40%）：
-设计游戏并检查抽奖。 在此任务中，测试数据将始终以平局结束。 您无需检查获胜者或领带。 您可以通过“领带！”消息完成游戏。
+#### Game design:
+1. Initially the boss enters a secret word.
+2. The secret word will be masked by asterisks (*) on screen -- one asterisk for each letter.
+3. Initially the player has 5 lives.
+4. In each turn, the player enters a letter. If the secret word doesn’t contain the letter, the player will lose one life.
+5. In each step you need to print the used letters and unmask the letters the player found in the secret word.
+6. Finish the program when the life is 0 (player loses) or player finds the entire secret word (player wins).
 
-##### 样本输入和输出：
-（'>'表示用户输入）
+### Task 1 (%40 of the total points):
+Design the game and check for draw. In this task,  the test data will always end with a tie. You don’t need to check for the winner or tie. You can finish the game with a message “Tie!”.
+
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 >computer
@@ -106,11 +107,11 @@ So far you have used these letters:qecrtyuiopas
 You lost!
 ```
 
-### 任务2（总分的60%）：
-除了任务1之外，这次玩家将输入一个小写字母，但不保证玩家每次都会输入一个不同的字母。 如果玩家输入用过的信件，您需要警告玩家。
+### ask 2 (%60 of the total points):
+In addition to Task 1, this time the player will enter a lowercase letter however it is not guaranteed that the player will enter a distinct letter each time. You need to warn the player if the player enters a used letter.
 
-样本输入和输出：
-（'>'表示用户输入）
+**Sample Input and Output:**
+('>' indicates the user input)
 
 ```
 >alphabet

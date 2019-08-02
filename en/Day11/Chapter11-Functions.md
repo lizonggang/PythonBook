@@ -1,21 +1,23 @@
-###### 函数
+###### Functions
 ---
 
-# <center>第11章: 函数</center>
+# <center>Chapter 11: Functions</center>
 ---
 
 
-考虑一下芝士蛋糕工厂。提供奶酪，牛奶，面粉，糖等...工厂烘烤混合它们并且生产乳酪蛋糕。函数是像工厂一样;他们得到输入，做一些操作，并产生输出。
+Consider a cheesecake factory. Cheese, milk, flour, sugar etc... are supplied to
+the factory; factory bakes mixing them and produces cheesecake. **Functions** are like factories; they get ``input``, makes some ``operations``, and produce ``output``.
 
 ![blockchain](http://legendary.cdn.play8.io/learnpython/img/day11/d11-p1.png)
 
-例如，假设我们有一个叫做power的函数。它接收两个值x和y,然后输出 $x^y$ 。我们可以使用值10和3调用函数，并将函数的返回值放在变量pow中，如下所示：
+For instance, suppose we have a function called power. It receives two values ``x`` and ``y`` then returns the valued x<sup>y</sup>. We can call the function with the values 10 and 3, and put the return value of function in a variable ``pow`` as follows:
+
 
 ```python
 pow = Power(10, 3)
 ```
 
-这里，Power函数将返回 $10^3$ = 1000，并将此值放入pow变量中。我们可以编写包括Power函数在内的整个程序，如下所示：
+Here, Power function will return 10<sup>3</sup> = 1000 and this value is put in the variable pow. We can write the entire program including the ``Power`` function as follows:
 
 ```python
 def Power(x, y):
@@ -28,5 +30,10 @@ pow = Power(10, 3)
 print(pow)
 ```
 
-该函数必须在其调用的代码之上定义。在这段代码中，Power函数在第1行和第5行之间定义。输入和输出类型，以及名称函数的定义在第1行中：它接收两个值x和y。我们写的在缩进的函数体中的操作;第2到第5行。它返回一个值如第5行所示。
+The function has to be defined above the code it's called. In this code, Power
+function is defined between lines 1 and 5. Input and output types, and the name
+of the function are defined in line 1: it receives two values, x and y. We write the operations in the body of the function which is indented; lines 2 to 5. It returns a value as indicated in line 5.
 
+<br>
+
+<center> - 83 - </center>

@@ -84,8 +84,8 @@
     * [第7章：嵌套循环-3](cn/Day8/Chapter7-NestedLoops-3.md)
     * [第7章：嵌套循环-4](cn/Day8/Chapter7-NestedLoops-4.md)
     * [第7章：嵌套循环-5](cn/Day8/Chapter7-NestedLoops-5.md)
-    * [第7章：练习-1](cn/Day8/Chapter7-Exercises.md) <!-- en-->
-    * [第7章：参考答案-1](cn/Day8/Chapter7-Solutions.md) <!-- en-->
+    * [第7章：练习-1](cn/Day8/Chapter7-Exercises.md)
+    * [第7章：参考答案-1](cn/Day8/Chapter7-Solutions.md)
     * [嵌套循环-问题集（可选）](cn/Day8/NestedLoops-ProblemSet-optional.md)
     * [第7章：练习-2（可选）](cn/Day8/Chapter7-Exercises-Part2-optional.md)
     * [视频：嵌套条件](cn/Day8/video-Nestedconditions.md)

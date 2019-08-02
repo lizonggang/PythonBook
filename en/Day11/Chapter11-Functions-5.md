@@ -1,12 +1,10 @@
-###### 函数
+###### Functions
 ---
 
-练习11.5：编写一个程序，读取两个数字，> *和一个字符c
-键盘。程序输出两个大小为x和y的正方形
-人物角色
+Exercise 11.5: Write a program that reads two numbers at, >* and a character c from the keyboard. The program outputs two squares with the sizes x and y filled with character c.
 
 ```
-输入:                       输出:
+input:                      output:
 3 5 #                       ###
                             ###
                             ###
@@ -18,9 +16,10 @@
                             #####
 ```
 
-### 11.3. 本地/全局变量
+### 11.3. Local / Global Variables
 
-函数中定义的变量只能在该函数中使用。看以下示例：
+Variables defined in a function can only be used in that function. Look at the
+example below:
 
 ```python
 def Power(x, y):
@@ -35,9 +34,17 @@ print(Power(10, x))
 print(z)
 ```
 
-在此示例中，第1行中定义的变量y因此属于Power函数它不能在主函数中使用。变量x在第1行和第7行中定义。在第1行中定义x属于Power，而另一个属于主要代码。小心在第16行中，主代码中的x值变为Power中的变量函数，Power函数的x从第9行接收值10.类似地，z第8行属于主代码，它不受电源中z的影响功能。因此，第10行将为z的值输出'11'，因为它已初始化为第8行中的'11'。我们可以将主代码中的x和Power视为两个不同的两个不同房间的名字相同的盒子。 z同样如此。
+In this example, variable y defined in line 1 belongs to the Power function hence
+it can't be used in main. The variable x is defined in lines 1 and 7. x in line 1,
+belongs to the Power whereas the other one belongs to the main code. Be careful
+that in line 16, the value ofx in main code goes to the variable^ in the Power
+function, x of the Power function receives the value 10 from line 9. Similarly, z
+in line 8 belongs to the main code and it is not affected from z in the Power
+function. Hence, line 10 will print 'll' for the value ofz since it is initialized with
+'ll' in line 8. We can consider x's in the main code and Power as two different
+boxes with the same names in two different rooms. Same goes for z.
 
-练习11.6：如果用户输入，以下程序的输出是什么分别来自键盘的'I8cakes'和'try911'。
+Exercise J!.6: What is the output of the following program if user enters 'I8cakes'和'try911' from the keyboard respectively.
 
 ```python
 def NumOfDigits(s, x)
@@ -51,3 +58,7 @@ s = input()
 t = input()
 print(NumOfDigits(t, x + x))
 ```
+
+<br>
+
+<center> - 87 - </center>

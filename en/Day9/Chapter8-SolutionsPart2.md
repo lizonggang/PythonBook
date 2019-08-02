@@ -1,4 +1,4 @@
-**问题1: 练习8.11**
+**Question 1: Exercise 8.11**
 
 ```python
 n = int(input())
@@ -24,7 +24,7 @@ print(points)
 
 <br>
 
-**问题2: 练习8.12\***
+**Question 2: Exercise 8.12\***
 
 ```python
 s = input()
@@ -39,14 +39,14 @@ print(cnt)
 
 <br>
 
-**问题3: 练习8.13\***
+**Question 3: Exercise 8.13\***
 
 ```python
 s = input()
 print(s.upper())
 ```
 
-问题4: 练习8.14**
+Question 4: Exercise8.14**
 
 ```python
    s1, s2 = input().split()
@@ -62,7 +62,7 @@ print(s.upper())
 
 <br>
 
-**问题5: 练习8.15\***
+**Question 5: Exercise 8.15\***
 
 ```python
 s = input()
@@ -77,7 +77,7 @@ print(cnt)
 
 <br>
 
-**问题6: Example 8.17\***
+**Question 6: Example 8.17\***
 
 ```python
 s1,s2 = input().split()
@@ -101,7 +101,7 @@ else:
 
 <br>
 
-**问题7: 练习8.19\***
+**Question 7: Exercise 8.19\***
 
 ```python
 n,c = input().split()
@@ -117,7 +117,7 @@ for i in range(n):
 
 <br>
 
-**问题8: 练习8.20\***
+**Question 8: Exercise 8.20\***
 
 ```python
 n, c = input().split()
@@ -140,7 +140,7 @@ print(topbottom)
 
 <br>
 
-**问题9: 练习8.21\*\***
+**Question 9: Exercise 8.21\*\***
 
 ```python
 n,m = input().split()

@@ -1,6 +1,6 @@
-
-另一方面，我们可以使用变量调用函数。例如，以下程序将 $10^z$ 的值写入从中读取z的屏幕
-键盘。
+###### Functions
+On the other hand, we can call functions using variables. For instance, the
+following program writes the value of 10<sup>z</sup> to the screen where z is read from the keyboard.
 
 ```python
 def Power(x, y)：
@@ -14,22 +14,21 @@ pow =Power(10, z)
 print(pow)
 ```
 
-在上面的程序中，实例化后输出。
-
+In the program above, note that instead of writing,
 ```python
 pow = Power(10, z)
 print(pow)
 ```
 
-我们可以直接输出，
-
+we can directly write,
 ```python
 print(Power(10, z))
 ```
 
-没有定义变量pow。
+without defining the variable ``pow``.
 
-我们也可以用表达式调用函数。例如，以下内容程序将值 10<sup>z * t + 2</sup> 输出屏幕，其中z和t从中读取键盘。
+We can also call the functions with expressions. For instance, the following
+program writes the value of  10<sup>z * t + 2</sup> to the screen where ``z`` and ``t`` is read from the keyboard.
 
 
 ```python
@@ -44,7 +43,7 @@ t = int(input())
 print(Power(10, z * t + 2))
 ```
 
-在函数'return'命令，立即返回指定的值，并且函数中的其余代码不执行。例如，下面的Power功能如果y(指数)的值是负数，则立即返回0。
+In a function '``return``' command immediately returns the specified value, and the rest of the code in the function is not executed. For instance, Power function below immediately returns 0 if Ihe value of ``y``(the exponent) is a negative number.
 
 ```python
 def Power (x, y):
@@ -56,3 +55,7 @@ def Power (x, y):
         prod *= x
     return prod
 ```
+
+<br>
+
+<center> - 85 - </center>

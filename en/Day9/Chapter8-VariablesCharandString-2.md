@@ -1,19 +1,22 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-练习8.1：编写一个程序，从中读取您的姓名和编号n键盘并在屏幕上打印您的名字n次，每次移动一个空格。
+Exercise 8.1: Write a program that reads your name and a number n from the
+keyboard and prints your name on the screen n times, shifting one space each
+time.
 
 ```
-样本输入        样本输出
-Jane            Jane
-4                Jane
-                  Jane
-                   Jane
+Sample input:        Sample output:
+Jane                Jane
+4                    Jane
+                      Jane
+                       Jane
 ```
 
-### 8.2. 字符串操作
+### 8.2. String Operations
 
-我们也可以将数字放在字符串中。但是，它们不是价值观，你不能对它们进行算术运算.
+We can also put numbers in strings. However, they are not values, and you cannot
+make arithmetic operations on them.
 
 ```python
 numberl ="21"
@@ -21,33 +24,35 @@ number2 ="34"
 sum = int(number1 + number2)
 print(sum)
 ```
-这个打印2134因为当添加字符串时，它们组合成一个大字符串。
+This prints 2134 because when strings are added, they combine into one big string.
 
-我们可以用上面提到的字符串做一些操作。我们已经看过，如何在字符串中分配值，例如：
+We can do some operations with strings as mentioned above. We have already
+seen, how to assign a value in a string such as:
 
 ```
 name ="Jane"
 ```
 
-我们还可以使用加法(+)和(+=)运算符来连接字符串：
+We can also use addition (+) and (+=) operators to concatenate strings:
 
 ```
 name ="Jane"
 string ="Hello" + name
 ```
-字符串string里将包含"Hello Jane"。
+The string string will have "Hello Jane" in it.
 
-例8.2：编写一个程序，从中读取名称和数字n键盘并在屏幕上打印名称n次，如下所示：
+Example 8.2: Write a program that reads a name and a number n from the
+keyboard and prints the name on the screen n times as follows:
 
 ```
-样本输入        样本输出
-Jane            *Jane !
-4               **Jane !!
-                ***Jane !!!
-                ****Jane !!!!
+Sample input:        Sample output:
+Jane                *Jane !
+4                   **Jane !!
+                    ***Jane !!!
+                    ****Jane !!!!
 ```
 
-解决方法：
+Solution:
 
 ```python
 name = input()
@@ -57,3 +62,8 @@ for counter in range(n):
     name = "*" + name + "!"
     print(name)
 ```
+
+<br>
+
+<center> - 62 - </center>
+

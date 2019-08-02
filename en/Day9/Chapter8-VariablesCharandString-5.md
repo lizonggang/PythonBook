@@ -1,21 +1,21 @@
-###### 变量 - 字符和字符串
+###### Variables — Char and String
 ---
 
-在上面的代码中，我们写了字符串变量的名称然后是一个点和'len()'获得字符串的大小。上面的代码片段将在屏幕上写入"12"(包括空格和感叹号)。
+In the code above, we wrote the name of the string variable then a dot and ‘``len()``’ to get the size of the string. The code fragment above will write ‘12’ on the screen (including the space and exclamation mark).
 
-例8.5：编写一个输出字符串中间字符的程序。如果它没有，在屏幕上输出'No middle character!'。
-
-```
-样本输入:           样本输出:
-Trial               i
-```
+Example 8.5: Write a program that outputs the middle character of a string. If it doesn't have, write ‘``No middle character!``’ on the screen.
 
 ```
-样本输入:           样本输出:
-Helloworld          No middle character!
+Sample input:           Sample output:
+Trial                   i
 ```
 
-解决方案：
+```
+Sample input:           Sample output:
+Helloworld              No middle character!
+```
+
+Solution:
 
 ```python
 s = input() 
@@ -28,20 +28,25 @@ else:
 ```
 
 
-练习8.3：编写程序从键盘读取一个字符串并写入在屏幕上反转它。
+Exercise 8.3: Write a program reads a string from the keyboard and writes the
+reverse of it on the screen.
 
 ```
-样本输入:           样本输出:
-Trial               lairT
+Sample input:           Sample output:
+Trial                   lairT
 ```
 
-练习8.4：编写程序从键盘读取字符串和整数n并在屏幕上反复写入n次。
+Exercise 8.4: Write a program reads a string and an integer n from Ihe keyboard
+and writes the reverse of it n times on the screen.
 
 ```
-样本输入:           样本输出:
-5                   lairT
-                    lairT
-                    lairT
-                    lairT
-                    lairT
+Sample input:           Sample output:
+5                       lairT
+                        lairT
+                        lairT
+                        lairT
+                        lairT
 ```
+<br>
+
+<center> - 65 - </center>

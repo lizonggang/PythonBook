@@ -24,7 +24,7 @@ s = input()
 a = int(input())
 b = int(input())
 n = int(input())
-substring = s[a:a+bj
+substring = s[a:a+b]
 for counter in range(n):
     print(substring)
 ```

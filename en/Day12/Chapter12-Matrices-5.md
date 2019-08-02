@@ -1,14 +1,15 @@
-###### 矩阵
+###### Matrices
 ---
 
-你会输出'Right path!'如果路径通向出口的出口位置，否则输出 'Wrong path!'在屏幕上。
+You will write ‘Right path!’ if the path leads to the exit from the starting
+location, otherwise write ‘wrong path! ’ on the screen.
 
-### 12.4. 字符矩阵
-例12.3：在练习4中，迷宫以整数矩阵给出。
-例如，我们可以更直观地在字符矩阵中表示它;
+### 12.4. Character Matrix
+Example 12.3'. In exercise 4, the maze was given as an integer matrix. For
+instance, we can more intuitively represent it in a character matrix; the input can be as follows:
 
 ```
-样本输入：                  样本输出：
+Sample input:               Sample output:
 7 6                         Right path!
 ######
 #.#...
@@ -20,8 +21,8 @@
 ddrdrruulurr
 ```
 
-在此表示中，'#'对应于墙，'.'对应于空位置。我们不需要在角色之间留出空间。我们可以阅读输入
-几乎相同的方式：
+In this representation, corresponds to walls and corresponds to empty locations. We don’t need to put space between characters. We can read the input
+almost the same
 
 ```python
 n, m = input().split()
@@ -36,9 +37,11 @@ path = input()
 ```
 
 
-我们也可以使用矩阵来操纵形状。以下练习演示了如何使用矩阵来操纵形状。
+We can also use matrices to manipulate shapes. The following exercise
+demonstrates how matrices can be used to manipulate shapes.
 
-练习12.5：编写一个从键盘读取数字n =< 20的程序并在屏幕上打印星号螺旋，如下所示:
+Exercise 12.5: write a program that reads a number n < 20 from the keyboard
+□nd prints the spiral of asterisks on the screen as shown below.
 
 ```
 样本 n = 5                      n = 8
@@ -54,4 +57,10 @@ path = input()
 
 <br>
 
-**祝贺 - 达到了训练的结束**
+#### Congratulations - end of lesson reached
+
+Well done!
+
+<br>
+
+<center> - 95 - </center>

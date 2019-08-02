@@ -1,30 +1,34 @@
-###### 变量 - 字符和字符串
+###### Variables — Char and String
 
-字符串数组中字符串的特定位置可以如下所示：
+A specific position of a string in a string array can be reached as follows:
 
 ```python
 print(myStrings[5][3])
 ```
 
-在屏幕上的myStrings数组中打印字符串5的位置3处的字符。
+prints the character at position 3 of string 5 in myStrings array on the screen.
 
 ```python
 print(myStrings[5][3:8])
 ```
 
-打印从位置3开始并且长度为6的字符串5的子字符串myStrings数组在屏幕上。
+prints the substring that starts at position 3 and has length 6 of string 5 in myStrings array on the screen.
 
 
-练习10：写一个程序读取一个整数n，然后是n个单词和一个字符串输入。 从包含s的任何单词中删除。 在屏幕上写下新单词。输入中最多有100个字符串。
+Exercise 10: Write a program reads an integer n then n words and a string 5 from the input. Erase s from any word it contains s. Write the new words on the screen. There will be maximum 100 strings in the input.
 
 ```
-样本输入                    样本输出
-4                           Helloworld! 
-Helloworld!                 wer
-lower                       trial
-trial                       Hel
+Sample input:                    Sample output:
+4                                Helloworld! 
+Helloworld!                      wer
+lower                            trial
+trial                            Hel
 Hello
 lo
 ```
 
-字符串 'lo' 从'Helloworld!'，'lower'和'Hello'中删除。
+The string  '``lo``' s erased from the words '``Helloworld!``'，'``lower``'和'``Hello``'.
+
+<br>
+
+<center> - 69 - </center>

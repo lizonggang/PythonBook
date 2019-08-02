@@ -1,16 +1,16 @@
-###### 用python编程
+###### Programnung with Python
 
-练习11.4：编写一个程序，从键盘上读取三个字符串检查这些字符串中的元音数量是否相等。
+Exercise 11.4: Write a program that reads three strings from the keyboard and
+checks if the number of vowels in these strings are equal.
 
 ```
-输入:                       输出:
+input:                     output:
 ThBeE GOOD VoWeLs          Same number of vowels.
 ThBeE equal VoWeLs         Not same number of vowels.
 ```
 
-我们可以在函数内部调用函数。功能的顺序无关紧要。
-例如，
-
+We can call functions inside a function. The order of the functions doesn't matter.
+For example,
 
 ```python
 def PowerOflO(k):
@@ -26,18 +26,21 @@ z = int(input())
 print(PowerOflO(z))
 ```
 
-在上面的代码中，PowerOflO 函数调用Power，因此调用Powr函数低于它。
+In the code above ``PowerOflO`` function calls Fower function hence Power function is below it.
 
 > [!NOTE]
-> 备注：正如您所注意到的，当我们拥有时，功能尤其有用多次做一个过程。他们还组织了一个混> 乱的代码，使它更多可以理解的。
+> As you noticed, functions are especially veiy useful when we have
+to do a process many times. They also organize a messy code, makes it more
+understandable.
 
 <br>
 
-### 11.2. 没有返回值的函数
+### 11.2. Functions with No Return Value
 
-有时我们不需要函数的返回值。
+Sometimes we don't need a return value from a function.
 
-例11.2: 编写一个读取两个字符串并写入数字的程序在屏幕上这些字符串中的数字。
+Example 11.2: Write a program that reads two strings and writes the number of
+digits in these strings on the screen.
 
 ```python
 def NumOfDigits(s):
@@ -52,3 +55,7 @@ s2 = input()
 NumOfDigits(s1)
 NumOfDigits(s2)
 ```
+
+<br>
+
+<center> - 86 - </center>

@@ -1,26 +1,28 @@
-**问题1**
+**Question 1**
 
-编写一个程序，从键盘读取名称并在屏幕上打印5次。 例如，程序将输出“您的名字是约翰”。 五次，如果名字是'约翰'。<br>
-**例子：**
+Write a program that reads a name from the keyboard and prints it on the screen 5 times. For instance, the program will output 'Your name is John.' five times if the name is 'John'.
+
+**For example:**
 
 ```
-样本输入                    样本输出
-John                        Your name is John.
-                            Your name is John.
-                            Your name is John.
-                            Your name is John.
-                            Your name is John.
+Sample input:                   Sample output:
+John                            Your name is John.
+                                Your name is John.
+                                Your name is John.
+                                Your name is John.
+                                Your name is John.
 ```
 
 <br>
 
-**问题2**
+**Question 2**
 
-编写一个程序，从键盘上读取您的姓名和编号n，并在屏幕上打印您的姓名n次，每次移动一个空格。<br>
-**例子：**
+Write a program that reads your name and a number n from the keyboard and prints your name on the screen n times, shifting one space each time.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 John                        Jane
 5                            Jane
                               Jane
@@ -30,14 +32,14 @@ John                        Jane
 
 <br>
 
-**问题3**
+**Question 3**
 
-编写一个从键盘读取名称和编号n的程序，并在屏幕上打印名称n次，如下所示：
-<br>
-**例子：**
+Write a program that reads a name and a number n from the keyboard and prints the name on the screen n times as follows:
+
+**For example:**
 
 ```
-样本输入                    样本输出 
+Sample input:               Sample output: 
 John                        * Jane !
 5                           ** Jane !!
                             *** Jane !!!
@@ -47,13 +49,14 @@ John                        * Jane !
 
 <br>
 
-**问题4**
+**Question 4**
 
-编写一个程序，从键盘上读取两个数字和一个算术运算符（+， - ，*，/）。 程序将操作应用于数字并在屏幕上打印结果：<br>
-**例子：**
+Write a program that reads two numbers and an arithmetic operator (+, -, *, /) from the keyboard. The program applies the operation to the numbers and prints the result on the screen:
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 5                           105
 21
 *
@@ -61,28 +64,28 @@ John                        * Jane !
 
 <br>
 
-**问题5**
+**Question 5**
 
-编写一个输出字符串中间字符的程序。 如果没有，请写上“没有中间人物！” 屏幕上。
-<br>
-**例子：**
+Write a program that outputs the middle character of a string. If it doesn't have, write 'No middle character!' on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Trial                       i
 Helloworld                  No middle character!
 ```
 
 <br>
 
-**问题6**
+**Question 6**
 
-读取输入中的整数n和n个单词，然后按相反的顺序写入单词。 输入文件中最多有100个字符串。
-<br>
-**例子：**
+Read an integer n then n words from the input, and write the words in reverse order. There will be maximum 100 strings in the input file.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 4                           About
 HelloWorld!                 TryIt!
 Hello                       Hello
@@ -92,15 +95,14 @@ About
 
 <br>
 
-**问题7**
+**Question 7**
 
-根据字母顺序对给定的三个字符串进行排序，但大写字母优先于小写字母。
+Sort given three strings according to alphabetical order but upper case letters have the priority over lowercase letters.
 
-<br>
-**例子：**
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 hello                       Try
 about                       about
 Try                         hello
@@ -108,27 +110,27 @@ Try                         hello
 
 <br>
 
-**问题8**
+**Question 8**
 
-编写程序从键盘读取一个字符串，并将其反向写入屏幕。
-<br>
-**例子：**
+Write a program reads a string from the keyboard and writes the reverse of it on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Trial                       lairT
 ```
 
 <br>
 
-**问题9**
+**Question 9**
 
-编写程序从键盘读取一个字符串和一个整数n，并在屏幕上反复写入n次。
-<br>
-**例子：**
+Write a program reads a string and an integer n from the keyboard and writes the reverse of it n times on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Trial                       lairT
 5                           lairT
                             lairT
@@ -138,13 +140,14 @@ Trial                       lairT
 
 <br>
 
-**问题10**
+**Question 10**
 
-编写程序从键盘读取字符串s和三个整数a，b和n，并从屏幕上写入从第一个位置开始并继续b个字符的s的子字符串。<br>
-**例子：**
+Write a program reads a string s and three integers a, b and n from the keyboard, and writes the substring of s that starting from a'th position and continues b characters, n times on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Helloworld!                 oworl
 4 5 5                       oworl
                             oworl
@@ -154,13 +157,14 @@ Helloworld!                 oworl
 
 <br>
 
-**问题11**
+**Question 11**
 
-编写程序从键盘读取两个字符串s1，s2和两个整数a，n。 在s1的th位置插入s2，然后在屏幕上写入新字符串n次。<br>
-**例子：**
+Write a program reads two string s1, s2 and two integers a, n from the keyboard. Insert s2 at a th position of s1 then write the new string n times on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Helloworld!                 HelloNewWorld!
 New 5 3                     HelloNewWorld!
                             HelloNewWorld!
@@ -168,13 +172,14 @@ New 5 3                     HelloNewWorld!
 
 <br>
 
-**问题12**
+**Question 12**
 
-编写程序从键盘读取字符串s和三个整数a，b，n。 从位置a开始删除s中的b个字符，然后在屏幕上写入新字符串n次。<br>
-**例子：**
+Write a program reads a string s and three integers a, b, n from the keyboard. Delete b characters in s starting at position a then write the new string n times on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Helloworld!                 Herld!
 2 5 3                       Herld!
                             Herld!
@@ -182,13 +187,14 @@ Helloworld!                 Herld!
 
 <br>
 
-**问题13**
+**Question 13**
 
-编写程序从键盘读取两个字符串s1，s2和三个整数a，b，n。 用字符串s2替换从位置a开始的s1中的b个字符，然后在屏幕上写入新字符串n次。<br>
-**例子：**
+Write a program reads two strings s1, s2 and three integers a, b, n from the keyboard. Replace b characters in s1 starting at position a with the string s2 then write the new string n times on the screen.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 Helloworld!                 NewWorld!
 New 0 5 3                   NewWorld!
                             NewWorld!
@@ -196,13 +202,14 @@ New 0 5 3                   NewWorld!
 
 <br>
 
-**问题14**
+**Question 14**
 
-如果在s1中找到s2，则编写程序从键盘读取两个字符串s1，s2然后在s1中写入s2的位置。 否则它会写'未找到！'。<br>
-**例子：**
+Write a program reads two strings s1, s2 from the keyboard then writes the position of s2 in s1 if s2 is found in s1. Otherwise it writes 'not found!'.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 HelloWorld!                 3
 loW 
 HelloWorld!                 not found!
@@ -212,13 +219,14 @@ Low
 
 <br>
 
-**问题15**
+**Question 15**
 
-写一个程序从输入读取一个整数n，然后是n个单词和一个字符串。 从包含的任何单词中删除s（仅在单词中出现的第一个单词）。 在屏幕上写下新单词。 输入文件中最多有100个字符串。<br>
-**例子：**
+Write a program reads an integer n then n words and a string s from the input. Erase s from any word it contains s (only the first occurrence in a word). Write the new words on the screen. There will be maximum 100 strings in the input file.
+
+**For example:**
 
 ```
-样本输入                    样本输出
+Sample input:               Sample output:
 4                           HelWorld!
 HelloWorld!                 wer
 lower                       trial

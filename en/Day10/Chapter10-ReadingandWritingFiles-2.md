@@ -1,8 +1,8 @@
-###### 用python编程
+###### Programming with Python
 ---
 
 
-例子10.1 写一个程序读取数字N，N从文件获取。 程序将这些数字和和写入文件。
+Example 10.1 Write a program reads a number N, and after that N numbers from a file. The program  will write the sum of these N numbers to the output file.
 
 ```
 infile.txt:                 outfile.txt
@@ -22,10 +22,9 @@ fout.write(str(sum)+"\n")
 fout.close()
 ```
 
-首先，我们从第3行的文件中读取N。然后，我们读取一行中的所有数字
-并使用split()将它们转换为数组。 接下来，我们添加数字在第7-8行遍历数组的循环。 最后在第9行，我们写出答案在文件中。
+First we read ``N`` from the file at line 3. Then, we read all the numbers in one line and convert them to an array using ``split()``. Next, we add the numbers up in a ``for`` loop which traverses the array at lines 7-8. Finally at line 9, we write the answer to the file.
 
-在例子中，N在开头给出。 假设没有给出N，我们必须读取数字直到文件末尾。
+In the example above,N is given in the beginning. Suppose N is not given and we have to read the numbers till the end of the file.
 
 ```
 infile.txt:                 outfile.txt
@@ -37,7 +36,7 @@ infile.txt:                 outfile.txt
 6
 ```
 
-我们写一个程序像这样：
+We can write the program as follows:
 
 ```python
 fin = open("infile.txt", "r")
@@ -56,4 +55,8 @@ for i in range(N):
 fout.write(str(sum) + "\n")
 fout.close()
 ```
+
+<br>
+
+<center> - 80 - </center>
 

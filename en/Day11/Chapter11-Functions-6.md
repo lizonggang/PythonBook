@@ -1,8 +1,8 @@
-###### 用python编程
+###### Programming with Python
 ---
 
-主代码中定义的变量可从所有函数访问。对于
-例如，
+The variables defined in the main code are accessible from all functions. For
+instance,
 
 ```python
 def Power (x, y):
@@ -16,12 +16,14 @@ Power(10, x)
 print(prod)
 ```
 
-prod在第2行中使用关键字 "global" 定义。这次，prod是一样的主代码和Power函数使用的代码。这些类型的变量被称为全局变量而其他变量是本地变量。请注意，如果我们不使用在第2行的定义中，Python会认为prod只属于Power函数并将在第9行给出错误。
+``prod`` is defined in line 2 using the keyword "global". This time, ``prod`` is the same box that is used by both the main code and ``Power`` function. These type of variables are called **global** variables whereas the others are **local**. Note that if we don't use the definition in line 2, Python will consider prod belongs to only ``Power`` function and will give an error in line 9.
 
 > [!NOTE]
-> 避免使用与本地变量相同的名称定义全局变量。这使代码更加混乱。
+> Avoid defining a global variable with the same name of a local variable.
+That makes more confusion in the code.
 
-练习11.7：如果用户输入，以下程序的输出是什么分别来自键盘的'I8cakes'和'try911'。
+Exercise 11.7: What is the output of the following program if user enters
+``‘I8cakes’`` and ``‘try911``' from the keyboard respectively.
 
 ```python
 global y
@@ -43,10 +45,15 @@ y = x * 2
 ```
 
 > [!NOTE]
-> 备注：最好尽可能多地定义局部变量。我们大多数当我们需要在许多函数中使用相同的变量时，定义全局变量。
+> REMARK: It is better to define local variables as much as possible. We mostly
+define global variables when we need to use the same variable in many functions.
 
 <br>
 
-**祝贺 - 达到了教训的结束** <br>
-**做得好！**
+#### Congratulations - end of lesson reached
 
+Well done!
+
+<br>
+
+<center> - 88 - </center>

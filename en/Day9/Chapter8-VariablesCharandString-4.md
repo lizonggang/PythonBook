@@ -1,60 +1,63 @@
-###### 用Python编程
+###### Programming with Python
 ---
 
 
-练习8.2：根据字母顺序对给定的三个字符串进行排序。
+Exercise 8.2: Sort given three strings according to alphabetical order.
 
 ```
-样本输入            样本输出
-hello               Try
-about               about
-Try                 hello
+Sample input:            Sample output:
+hello                    Try
+about                    about
+Try                      hello
 ```
 
-### 8.3. 字符串作为字符数组
+### 8.3. Strings as Character Arrays
 
-实际上，我们可以将字符串视为一个字符数组。也就是说，我们可以取到字符串的特定字符，类似于数组，如下所示：
+We can in fact consider strings as an array of characters. That is, we can reach a specific character of a string similar to the arrays as follows:
 
 ```python
 print(name[3])
 ```
 
-上面的代码将在屏幕上打印字符串名称的第4个位置的字符。注意字符串的第一个字符位于0位置与数组相同。
+The code above will print the 4lh character of the string name on the screen. Note
+that the first character of the string is located at the position 0 - the same as arrays.
 
-但是，以下代码会产生错误：
+However the following code produces an error:
 
 ```python
 name[3] = 'z'
 ```
 
-要更改字符串中的字符，我们不能如上所述。我们将重新审视如何更改字符串。
+To change a character in a string, we cannot do it as above. We will revisit how
+to change a string later.
 
-我们可以使用list()函数将字符串转换为字符数组。例如：
+We can convert a string to a character array using ``list()`` function. For instance:
 
 ```python
 s = "testing"
 chararray = list(s)
 ```
 
-chararray 将是 ['t', 'e', 's', 't, 'i ', 'n', 'g']。
+chararray will be ['t', 'e', 's', 't, 'i ', 'n', 'g']。
 
-同样，我们也可以使用join()函数将字符数组转换为字符串！）
+Similarly, we can also convert a character array to a string using ``join()`` function:
 
 ```python
 s = "".join(chararray)
 ```
 
-这里的值告诉join() 如何合并数组的元素。 例如：
+Here the value inside tells join n how to merge the elements of the array. For
+instance:
 
 ```python
 s = "-".join(chararray)
 ```
 
-在这种情况下，s变为“t-e-s-t-i-n-g”。
+``s`` becomes “t-e-s-t-i-n-g”。
 
-### 8.4. 字符串函数
+### .4. String Functions
 
-字符串具有不同的有用功能。其中一个是len()函数给出了字符串中的长度。请记住，我们使用len()来获得大小,一个阵列也是。它可以使用如下：
+Strings have different useful functions. One of them is len function that gives the number of characters in a string. Remember that we used ``len()`` to get the size of an array too. It can be used as follows:
 
 ```python
 s = "Hello world!"
@@ -62,3 +65,6 @@ theLength = len(s)
 print(theLength)
 ```
 
+<br>
+
+<center> - 64 - </center>
