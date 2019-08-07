@@ -29,6 +29,8 @@
     * [第3章：练习](cn/Day1/Chapter3-Exercises.md)
     * [第3章：参考答案](cn/Day1/Chapter3-Solutions.md)
     * [视频：条件](en/Day1/video-Conditions.md)
+    * [USACO问题集1](en/Day1/Problems-USACOProblemset1.md)  <!-- no -->
+    * [答案：USACO问题集1](en/Day1/Solutions-USACOProblemset1.md) <!-- no -->
   * [第2天](cn/README.md)
     * [第4章：while循环-1](cn/Day2/Chapter4-Page1.md)
     * [第4章：while循环-2](cn/Day2/Chapter4-Page2.md)
@@ -44,6 +46,8 @@
     * [第4章：参考答案1](cn/Day2/Chapter4-Solutions-Part1.md)
     * [第4章：视频-for循环](cn/Day2/Chapter4-video-for_loop.md)
     * [第4章：视频-while循环](cn/Day2/Chapter4-video-while_loop.md)
+    * [USACO Problem set 2](en/Day1/Problems-USACOProblemset2.md) <!-- no -->
+    * [Solutions:USACO Problem set 2](en/Day1/Solutions-USACOProblemset2.md) <!-- no -->
   * [第3天](cn/README.md)
     * [第4章：练习2](cn/Day3/Chapter4-Exercises-Part2.md)
     * [第4章：参考答案2](cn/Day3/Chapter4-Solutions-Part2.md)
@@ -54,8 +58,12 @@
   * [第4天](cn/README.md)
     * [项目：猜我的数字](cn/Day4/Project-GuessmyNumber.md)
     * [比赛：猜我的数字(5分)](cn/Day4/Tournament-GuessmyNumber.md)
+    * [USACO Problem set 3](en/Day1/Problems-USACOProblemset3.md) <!-- no -->
+    * [Solutions:USACO Problem set 3](en/Day1/Solutions-USACOProblemset3.md) <!-- no -->
   * [第5天](cn/README.md)
     * [挑战：循环问题集](cn/Day5/Challenge-Looping-Problem-Set.md)
+    * [USACO Problem set 4](en/Day1/Problems-USACOProblemset4.md) <!-- no -->
+    * [Solutions:USACO Problem set 4](en/Day1/Solutions-USACOProblemset4.md) <!-- no -->
   * [第6天](cn/README.md)
     * [第5章：数组-1](cn/Day6/Chapter5-Arrays.md)
     * [第5章：数组-2](cn/Day6/Chapter5-Page2.md)
@@ -172,6 +180,8 @@
     * [Chapter3: Exercises](en/Day1/Chapter3-Exercises.md)
     * [Chapter3: Solutions](en/Day1/Chapter3-Solutions.md)
     * [video: Conditions](en/Day1/video-Conditions.md)
+    * [USACO Problem set 1](en/Day1/Problems-USACOProblemset1.md)
+    * [Solutions:USACO Problem set 1](en/Day1/Solutions-USACOProblemset1.md)
   * [Day 2](en/README.md)
     * [Chapter4: while Looping-1](en/Day2/Chapter4-Page1.md)
     * [Chapter4: while Looping-2](en/Day2/Chapter4-Page2.md)
@@ -187,6 +197,8 @@
     * [Chapter4: Solutions1](en/Day2/Chapter4-Solutions-Part1.md)
     * [Chapter4: video-forLooping](en/Day2/Chapter4-video-for_loop.md)
     * [Chapter4: video-whileLooping](en/Day2/Chapter4-video-while_loop.md)
+    * [USACO Problem set 2](en/Day1/Problems-USACOProblemset2.md)
+    * [Solutions:USACO Problem set 2](en/Day1/Solutions-USACOProblemset2.md)
   * [Day 3](en/README.md)
     * [Chapter4: Exercises2](en/Day3/Chapter4-Exercises-Part2.md)
     * [Chapter4: Solutions2](en/Day3/Chapter4-Solutions-Part2.md)
@@ -197,8 +209,12 @@
   * [Day 4](en/README.md)
     * [Project: Guess my Number](en/Day4/Project-GuessmyNumber.md)
     * [Tournament: Guess my Number (5 points)](en/Day4/Tournament-GuessmyNumber.md)
+    * [USACO Problem set 3](en/Day1/Problems-USACOProblemset3.md)
+    * [Solutions:USACO Problem set 3](en/Day1/Solutions-USACOProblemset3.md)
   * [Day 5](en/README.md)
     * [Challenge: Looping - Problem Set](en/Day5/Challenge-Looping-Problem-Set.md)
+    * [USACO Problem set 4](en/Day1/Problems-USACOProblemset4.md)
+    * [Solutions:USACO Problem set 4](en/Day1/Solutions-USACOProblemset4.md)
   * [Day 6](en/README.md)
     * [Chapter5: Arrays-1](en/Day6/Chapter5-Arrays.md)
     * [Chapter5: Arrays-2](en/Day6/Chapter5-Page2.md)
@@ -215,6 +231,8 @@
     * [Chapter5: Hint for Exercises - Part 2](en/Day7/HintforChapter5-Exercises-Part2.md)
     * [Chapter5: Solutions2](en/Day7/Chapter5-Solutions-Part2.md)
     * [Project: Alpha Maria Game](en/Day7/Project-AlphaMaria.md)
+    * [USACO Problem set 5](en/Day1/Problems-USACOProblemset5.md)
+    * [Solutions:USACO Problem set 5](en/Day1/Solutions-USACOProblemset5.md)
   * [Day 8](en/README.md)
     * [Chapter6: Nested Conditions-1](en/Day8/Chapter6-NestedConditions.md)
     * [Chapter6: Nested Conditions-2](en/Day8/Chapter6-NestedConditions-p2.md)

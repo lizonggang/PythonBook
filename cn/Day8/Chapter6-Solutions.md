@@ -131,7 +131,7 @@ for i in range(d):
     h = int (h)
     if h>=40 and h < 60 :
         # 输出当天
-        print ("Day",st「（i+l)+”："，end = " ")
+        print("Day",str(i+l)+":", end = " ")
         # t < 60 并且 40 <= h < 60
         if t < 60 :
             print ("露西打网球")

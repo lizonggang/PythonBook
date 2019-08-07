@@ -22,4 +22,11 @@ D12-Matrices https://www.youtube.com/watch?v=mYBK8tQP2TY
 /data/shell/iogame_update_version.sh https://www.dropbox.com/s/gzxuq3slcmzn6i2/iogame_release_branch_1.0.0.11_20190802-113841.zip https://www.dropbox.com/s/zlegnuguoz6ar4j/iogame_release_branch_1.0.0.11_20190802-113841_md5.txt
 
 
+Zach 2019-06-20 15:06:04
+i-mebpjwiy  这台机器的带宽由5M 减少到1M
+
+2019/08/07 停止ac项目。
+
+Problems-USACOProblemset1.md
+Solutions-USACOProblemset1.md
 
