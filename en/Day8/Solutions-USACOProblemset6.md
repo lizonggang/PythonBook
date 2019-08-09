@@ -13,7 +13,7 @@ answer = 0
 for b from 1 to 500:
     for a from b + 1 to 500
         if a * a - b * b == N
-                answer = answer + 1
+            answer = answer + 1
 
 output answer
 ```
