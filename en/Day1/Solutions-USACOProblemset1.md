@@ -26,8 +26,8 @@ else:
     minx = xLL2 //so minx = 1 for sample case
 ```
 
-***In our sample case, the minimum x-coordinate would now be 1. We take a similar approach for the minimum y (6) and maximum x (8) and y (9). To solve the problem, we need the area of the square, which means we will
-need the side length. Since the square must encapsulate the rectangle, the side length must be the maximum of the width and height. So, we must find the width and height and then find the side length.***
+**In our sample case, the minimum x-coordinate would now be 1. We take a similar approach for the minimum y (6) and maximum x (8) and y (9). To solve the problem, we need the area of the square, which means we will
+need the side length. Since the square must encapsulate the rectangle, the side length must be the maximum of the width and height. So, we must find the width and height and then find the side length.**
 
 ```python
 width = maxx-minx //8-1 = 7 for sample case

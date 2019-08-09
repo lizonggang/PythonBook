@@ -28,9 +28,9 @@
     * [第3章：练习-2](cn/Day1/Chapter3-Page7.md)
     * [第3章：练习](cn/Day1/Chapter3-Exercises.md)
     * [第3章：参考答案](cn/Day1/Chapter3-Solutions.md)
-    * [视频：条件](en/Day1/video-Conditions.md)
-    * [USACO问题集1](en/Day1/Problems-USACOProblemset1.md)  <!-- no -->
-    * [答案：USACO问题集1](en/Day1/Solutions-USACOProblemset1.md) <!-- no -->
+    * [视频：条件](cn/Day1/video-Conditions.md)
+    * [USACO问题集1](cn/Day1/Problems-USACOProblemset1.md)
+    * [答案：USACO问题集1](cn/Day1/Solutions-USACOProblemset1.md)
   * [第2天](cn/README.md)
     * [第4章：while循环-1](cn/Day2/Chapter4-Page1.md)
     * [第4章：while循环-2](cn/Day2/Chapter4-Page2.md)
@@ -46,8 +46,8 @@
     * [第4章：参考答案1](cn/Day2/Chapter4-Solutions-Part1.md)
     * [第4章：视频-for循环](cn/Day2/Chapter4-video-for_loop.md)
     * [第4章：视频-while循环](cn/Day2/Chapter4-video-while_loop.md)
-    * [USACO Problem set 2](en/Day1/Problems-USACOProblemset2.md) <!-- no -->
-    * [Solutions:USACO Problem set 2](en/Day1/Solutions-USACOProblemset2.md) <!-- no -->
+    * [USACO问题集2](cn/Day1/Problems-USACOProblemset2.md) <!-- no -->
+    * [答案：USACO问题集2](cn/Day1/Solutions-USACOProblemset2.md) <!-- no -->
   * [第3天](cn/README.md)
     * [第4章：练习2](cn/Day3/Chapter4-Exercises-Part2.md)
     * [第4章：参考答案2](cn/Day3/Chapter4-Solutions-Part2.md)
@@ -58,12 +58,12 @@
   * [第4天](cn/README.md)
     * [项目：猜我的数字](cn/Day4/Project-GuessmyNumber.md)
     * [比赛：猜我的数字(5分)](cn/Day4/Tournament-GuessmyNumber.md)
-    * [USACO Problem set 3](en/Day1/Problems-USACOProblemset3.md) <!-- no -->
-    * [Solutions:USACO Problem set 3](en/Day1/Solutions-USACOProblemset3.md) <!-- no -->
+    * [USACO问题集3](cn/Day1/Problems-USACOProblemset3.md) <!-- no -->
+    * [答案：USACO问题集3](cn/Day1/Solutions-USACOProblemset3.md) <!-- no -->
   * [第5天](cn/README.md)
     * [挑战：循环问题集](cn/Day5/Challenge-Looping-Problem-Set.md)
-    * [USACO Problem set 4](en/Day1/Problems-USACOProblemset4.md) <!-- no -->
-    * [Solutions:USACO Problem set 4](en/Day1/Solutions-USACOProblemset4.md) <!-- no -->
+    * [USACO问题集4](cn/Day1/Problems-USACOProblemset4.md) <!-- no -->
+    * [答案：USACO问题集4](cn/Day1/Solutions-USACOProblemset4.md) <!-- no -->
   * [第6天](cn/README.md)
     * [第5章：数组-1](cn/Day6/Chapter5-Arrays.md)
     * [第5章：数组-2](cn/Day6/Chapter5-Page2.md)
@@ -80,8 +80,8 @@
     * [第5章：练习提示-第2部分](cn/Day7/HintforChapter5-Exercises-Part2.md)
     * [第5章：参考答案2](cn/Day7/Chapter5-Solutions-Part2.md)
     * [项目：Alpha Maria Game](cn/Day7/Project-AlphaMaria.md)
-    * [USACO Problem set 5](en/Day1/Problems-USACOProblemset5.md) <!-- no -->
-    * [Solutions:USACO Problem set 5](en/Day1/Solutions-USACOProblemset5.md) <!-- no -->
+    * [USACO问题集5](cn/Day1/Problems-USACOProblemset5.md) <!-- no -->
+    * [答案：USACO问题集5](cn/Day1/Solutions-USACOProblemset5.md) <!-- no -->
   * [第8天](cn/README.md)
     * [第6章：嵌套条件-1](cn/Day8/Chapter6-NestedConditions.md)
     * [第6章：嵌套条件-2](cn/Day8/Chapter6-NestedConditions-p2.md)
@@ -100,8 +100,8 @@
     * [第7章：练习-2（可选）](cn/Day8/Chapter7-Exercises-Part2-optional.md)
     * [视频：嵌套条件](cn/Day8/video-Nestedconditions.md)
     * [视频：嵌套循环](cn/Day8/video-Nestedloops.md)
-    * [USACO Problem set 6](en/Day8/Problems-USACOProblemset6.md) <!-- no -->
-    * [Solutions:USACO Problem set 6](en/Day8/Solutions-USACOProblemset6.md) <!-- no -->
+    * [USACO问题集6](cn/Day8/Problems-USACOProblemset6.md) <!-- no -->
+    * [答案：USACO问题集6](cn/Day8/Solutions-USACOProblemset6.md) <!-- no -->
   * [第9天](cn/README.md)
     * [第8章：变量-字符和字符串-1](cn/Day9/Chapter8-VariablesCharandString.md)
     * [第8章：变量-字符和字符串-2](cn/Day9/Chapter8-VariablesCharandString-2.md)
@@ -128,8 +128,8 @@
     * [第10章：读和写文件-1](cn/Day10/Chapter10-ReadingandWritingFiles.md)
     * [第10章：读和写文件-2](cn/Day10/Chapter10-ReadingandWritingFiles-2.md)
     * [第10章：读和写文件-3](cn/Day10/Chapter10-ReadingandWritingFiles-3.md)
-    * [USACO Problem set 7](en/Day10/Problems-USACOProblemset7.md) <!-- no -->
-    * [Solutions:USACO Problem set 7](en/Day10/Solutions-USACOProblemset7.md) <!-- no -->
+    * [USACO问题集7](cn/Day10/Problems-USACOProblemset7.md) <!-- no -->
+    * [答案：USACO问题集7](cn/Day10/Solutions-USACOProblemset7.md) <!-- no -->
   * [第11天](cn/README.md)
     * [第11章：函数-1](cn/Day11/Chapter11-Functions.md)
     * [第11章：函数-2](cn/Day11/Chapter11-Functions-2.md)
@@ -141,6 +141,8 @@
     * [第11章：参考答案](cn/Day11/Chapter11-Solutions.md)
     * [第11章：视频-函数](cn/Day11/video-Functions.md)
     * [第11章：项目-猜字游戏](cn/Day11/Project-WordGuessingGame.md)
+    * [USACO问题集8](cn/Day11/Problems-USACOProblemset8.md) <!-- no -->
+    * [答案：USACO问题集8](cn/Day11/Solutions-USACOProblemset8.md) <!-- no -->
   * [第12天](cn/README.md)
     * [第12章：矩阵-1](cn/Day12/Chapter12-Matrices.md)
     * [第12章：矩阵-2](cn/Day12/Chapter12-Matrices-2.md)
@@ -151,10 +153,16 @@
     * [第12章：参考答案](cn/Day12/Chapter12-Solutions.md)
     * [第12章：视频-矩阵](cn/Day12/video-Matrices.md)
     * [项目：蟾蜍和青蛙](cn/Day12/Project-ToadsandFrogs.md)
+    * [USACO问题集9](cn/Day12/Problems-USACOProblemset9.md) <!-- no -->
+    * [答案：USACO问题集9](cn/Day12/Solutions-USACOProblemset9.md) <!-- no -->
   * [第13天](cn/README.md)
     * [项目：Tic-Tac-Toe](cn/Day13/Project-Tic-Tac-Toe.md)
+    * [USACO问题集10](cn/Day13/Problems-USACOProblemset10.md) <!-- no -->
+    * [答案：USACO问题集10](cn/Day13/Solutions-USACOProblemset10.md) <!-- no -->
   * [第14天](cn/README.md)
     * [项目：AlphaMan游戏](cn/Day14/Project-AlphamanGame.md)
+    * [USACO问题集11](cn/Day14/Problems-USACOProblemset11.md) <!-- no -->
+    * [答案：USACO问题集11](cn/Day14/Solutions-USACOProblemset11.md) <!-- no -->
   * [第15天](cn/README.md)
     * [考试：期末考试](cn/Day15/Exam-Finalexam.md)
 * [Meta Python(English)](en/README.md)

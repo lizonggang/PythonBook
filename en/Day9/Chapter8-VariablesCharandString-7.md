@@ -44,13 +44,13 @@ else:
     print(found)
 ```
 
-Here, 's1 .find(s2>' searches for s2 in the string If 52 is found inii, it gives the pos1tion in s1, otherwise it gives '-1
+Here, '``s1.find(s2)``' searches for ``s2`` in the string If ``s2`` is found in ``s1``, it gives the pos1tion in ``s1``, otherwise it gives '``-1``'.
 
 ###  8.5. String <=> Integer Convers1ons
 
 Strings have functions to convert a number into text or to convert a text into a number.
 
-If s is a string then, x = int(s) will convert the string s into an integer and will store it in variable x.
+If s is a string then, ``x = int(s)`` will convert the string ``s`` into an integer and will store it in variable ``x``.
 
 <br>
 

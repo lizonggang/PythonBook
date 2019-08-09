@@ -49,7 +49,7 @@ I8-10caKes！                     I8-10CAKES！
 
 <br>
 
-**8.14\*\*)** Write a program that checks if two given strings are the same regardless of the case differences. If the strings are same, write 'same' otherwise 'not same'。
+**8.14\*\*)** Write a program that checks if two given strings are the same regardless of the case differences. If the strings are same, write '``same``' otherwise '``not same``'。
 
 ```
 Sample input:                    Sample output:

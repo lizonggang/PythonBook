@@ -1,8 +1,7 @@
 ###### Programming with Python
 ---
 
-For instance, in Python, ‘``Mybox = 4``’ doesn’t mean ‘Mybox and 4 are equal’; it
-means ‘put 4 into Mybox’.
+For instance, in Python, '``Mybox = 4``' doesn't mean '``Mybox`` and 4 are equal'; it means 'put 4 into ``Mybox``'.
 
 We can also put a decimal number into a variable. For example,
 
@@ -10,16 +9,14 @@ We can also put a decimal number into a variable. For example,
 Mybox = 4.78
 ```
 
-puts 4.78 in ``Mybox``. If we would like to make a decimal an integer, we do it as
-follows:
+puts 4.78 in ``Mybox``. If we would like to make a decimal an integer, we do it as follows:
 
 ```python
 number = 4.78
 Mybox = int(number)
 ```
 
-Here, int() just converts the decimal number by just taking die integer part of
-number. The value in Mybox becomes 4.
+Here, ``int()`` just converts the decimal number by just taking die integer part of ``number``. The value in ``Mybox`` becomes 4.
 
 2.2. Writing Numbers in the Variables to the Screen
 
@@ -29,13 +26,11 @@ Example 2.2: Consider the following example.
 nicebox = 10
 ```
 
-**Question: ** When you run that program, you did not see anything on the screen.
-Why?
+**Question: ** When you run that program, you did not see anything on the screen.  Why?
 
-Suppose we would like to write the money in ‘nicebox’ to the screen.
+Suppose we would like to write the money in '``nicebox``' to the screen.
 
-Open a new file, write the code below, name it as ‘nicebox2.py’, save it on the
-desktop and run it.
+Open a new file, write the code below, name it as '``nicebox2.py``', save it on the desktop and run it.
 
 ```python
 nicebox = 10
@@ -63,7 +58,7 @@ print(nicebox)
 print(anotherbox)
 ```
 
-We can output multiple expressions with print. For instance,
+We can output multiple expressions with ``print``. For instance,
 
 <br>
 

@@ -15,7 +15,7 @@ Helloworld!                     oworl
 
 
 
-In the example above, the substring starting from 4<sup>th</sup> position is ‘``oworl``’. 
+In the example above, the substring starting from 4<sup>th</sup> position is ``oworl``. 
 
 We can get a part of a string similar to arrays. We can write the simplified code in the previous exercise as follows:
 
@@ -29,7 +29,7 @@ for counter in range(n):
     print(substring)
 ```
 
-s[a:a+b] is the substring of s from index a to index a+b (excluding a+b).
+``s[a:a+b]`` is the substring of s from index ``a`` to index ``a+b`` (excluding a+b).
 
 
 Exercise 8.6: Write a program reads two string si, s2 and two integers a, n from

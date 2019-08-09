@@ -5,9 +5,9 @@
 
 ```
 Sample input:                      Sample output:
-12                              7
-1                               11
-11                              12
+12                                  7
+1                                   11
+11                                  12
 ```
 
 3.12) Every morning at 10 am, Lucy looks at the thermometer and the humidity meter and decides what to eat or drink according to the temperature and the humidity levels. The following table shows what Lucy eats or drinks in what conditions. For example, if the temperature is 45°F and the humidity is 53% then Lucy eats cake.
@@ -20,8 +20,7 @@ Humidity >= 40%       Lucy eats cake                     Lucy eats ice cream
 ```
 
 
-Write a program that reads two integers, the temperature and the humidity
-accordingly, and writes what Lucy does.
+Write a program that reads two integers, the temperature and the humidity accordingly, and writes what Lucy does.
 
 ```
 Sample input:                      Sample output:

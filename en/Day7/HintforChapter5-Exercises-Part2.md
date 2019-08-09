@@ -65,16 +65,16 @@ Pros and Cons of regular index and reverse index
 
 Now here are the hints:
 
-Question 1: Simple application of reverse index. All numbers are positive and the limit is 1000. (doable)
+**Question 1:** Simple application of reverse index. All numbers are positive and the limit is 1000. (doable)
 
-Question 2: All numbers are positive, distinct,  and the limit is 1000. (doable)
+**Question 2:** All numbers are positive, distinct,  and the limit is 1000. (doable)
 
-Question 3:  All numbers are positive and the limit is 1000. (doable) This time you need to consider that the numbers can repeat. They may not be distinct. When you print the result you will have a nested loop (preferable a while loop) that will continue printing the index(if the content at that index is greater then 0), decrease the index for each print. Stop printing the index once the content becomes 0
+**Question 3:**  All numbers are positive and the limit is 1000. (doable) This time you need to consider that the numbers can repeat. They may not be distinct. When you print the result you will have a nested loop (preferable a while loop) that will continue printing the index(if the content at that index is greater then 0), decrease the index for each print. Stop printing the index once the content becomes 0
 
-Question 4: Shift all numbers by 1000. (Because the minimum number is -1000. If you shift each and every number by 1000 then the minimum number will be stored in the 0th index of array. You need to create your array as large as 2001 in this question. Why ?
-Question 5: There are 2 groups of data. The same reverse index array will be used for both groups of data. The limits are -1000 to 1000. A shift will be needed. The array size is around 2 thousands. (Doable)
+**Question 4:** Shift all numbers by 1000. (Because the minimum number is -1000. If you shift each and every number by 1000 then the minimum number will be stored in the 0th index of array. You need to create your array as large as 2001 in this question. Why ?
+**Question 5:** There are 2 groups of data. The same reverse index array will be used for both groups of data. The limits are -1000 to 1000. A shift will be needed. The array size is around 2 thousands. (Doable)
 
-Question 6: You can not use reverse indexing because the numbers are not limited as they were in Question 5. Therefore you need to find an alternative way.
+**Question 6:** You can not use reverse indexing because the numbers are not limited as they were in Question 5. Therefore you need to find an alternative way.
 
 
 
@@ -82,7 +82,7 @@ Assume there are two variables. (I will call them indicator1 and indicator 2) in
 
 And there are two array. array a[] and array b[]
 
-Array a has n numbers in it , and array b has m numbers in it.  So far so good
+Array **a** has **n** numbers in it , and array **b** has **m** numbers in it.  So far so good
 
 Now i1=0 and i2=0
 
@@ -94,4 +94,3 @@ You need to be careful if i1 reaches its limit (which is n) and i2 reaches its l
 
 Once one array is done (I mean finished) you need to print the other array's remaining numbers. After all both arrays are sorted initially.
 
-Last modified: Saturday, 15 June 2019, 10:23 AM

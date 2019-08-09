@@ -86,8 +86,7 @@ Let’s examine a sample case:
 3 1
 ```
 
-In this case, there are 8 observations regarding the 10 cows. We spot cow 3 on side 1, then side 0, then side 0 again, and finally side 1. With these observations, we can be sure that cow 3 switched sides at least twice. We
-only observe cows 6 and 2 once, so we cannot be sure if they switch sides at all. With cow 4, we observe him on side 1 and then on side 0, so we know that he switched sides at least once. Thus, in total, the number of switches we can confirm is 3.
+In this case, there are 8 observations regarding the 10 cows. We spot cow 3 on side 1, then side 0, then side 0 again, and finally side 1. With these observations, we can be sure that cow 3 switched sides at least twice. We only observe cows 6 and 2 once, so we cannot be sure if they switch sides at all. With cow 4, we observe him on side 1 and then on side 0, so we know that he switched sides at least once. Thus, in total, the number of switches we can confirm is 3.
 
 ```python
 read n

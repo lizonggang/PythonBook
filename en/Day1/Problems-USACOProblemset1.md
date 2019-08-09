@@ -1,4 +1,4 @@
-Question 1
+**Question 1**
 
 ```
 Square Pasture
@@ -61,7 +61,7 @@ could have been shifted vertically a bit.
 
 
 
-Question 2
+**Question 2**
 
 ```
 Contest Timing

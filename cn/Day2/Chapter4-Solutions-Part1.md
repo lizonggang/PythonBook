@@ -69,7 +69,7 @@ print(power)
 ```python
 n = int(input())
 counter = 0                     # 初始化counter为0
-total = 0;                      # 初始化 total 为0
+total = 0                       # 初始化 total 为0
 while counter < n:              # 重复循环n次
        number = int(input())    # 读取 number
        total = total + number   # 将数字添加到总数中

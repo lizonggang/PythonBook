@@ -1,10 +1,10 @@
 
-###### Nested Loops
+###### Programming with Python
 ---
 
-Solution 2: Now, we will use nested loops instead. Using nested loops, we just
-need to make a loop for 10s digit from 5 down to 1, and for each decrement in 10s
-digit, we make an inner loop for Is digit from 0 to 5.
+Solution 1: We will try to do it without using nested loops - only using one for
+loop. In this problem two digit numbers start from 10 and goes up to 55. Be careful
+that Is digit starts from 0 and goes up to 5. Hence, we will only write Ihe two digit numbers between 10 and 55 which has Is digit less than or equal to 5.
 
 ```python
 for number in range (10, 56):

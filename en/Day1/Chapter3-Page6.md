@@ -2,8 +2,7 @@
 ---
 
 ### 3.6. Exercises
-3.6) Write a program that writes “This is an even number” if the given positive
-integer is even, and  “This is an odd number” otherwise.
+**3.6)** Write a program that writes “This is an even number” if the given positive integer is even, and  “This is an odd number” otherwise.
 
 ```
 Sample input:                      Sample output:
@@ -11,7 +10,7 @@ Sample input:                      Sample output:
 ```
                            
 
-3.7*) Write a program that finds the smallest of three numbers given.
+**3.7\*)** Write a program that finds the smallest of three numbers given.
 
 ```
 Sample input:                      Sample output:
@@ -20,9 +19,7 @@ Sample input:                      Sample output:
 10
 ```
 
-3.8**) Write a program that finds the greatest two of three given integers. The
-order is not important. You cannot use nested conditions or logical operators such
-as ‘and’.
+**3.8\*\*)** Write a program that finds the greatest two of three given integers. The order is not important. You cannot use nested conditions or logical operators such as ‘and’.
 
 ```
 Sample input:                      Sample output:
@@ -31,8 +28,7 @@ Sample input:                      Sample output:
 10
 ```
 
-3.9) Write a program that writes “divisible” if the first number is divisible by the
-second, “not divisible” otherwise. Both numbers are positive integers.
+**3.9)** Write a program that writes “divisible” if the first number is divisible by the second, “not divisible” otherwise. Both numbers are positive integers.
 
 ```
 Sample input:                      Sample output:
@@ -40,9 +36,7 @@ Sample input:                      Sample output:
 5
 ```
 
-3.10*) Write a program that outputs “sum of two” if the sum of any two of the
-three given numbers is equal to the other one. If the product of any two is equal
-to the remaining one then write “product of two”. The user will enter three numbers from the keyboard.
+**3.10\*)** Write a program that outputs “sum of two” if the sum of any two of the three given numbers is equal to the other one. If the product of any two is equal to the remaining one then write “product of two”. The user will enter three numbers from the keyboard.
 
 ```
 Sample input1:                      Sample output1:

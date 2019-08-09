@@ -12,8 +12,7 @@ will output;
 There are 86400 seconds in one day.
 ```
 
-In Python, it doesn’t matter if an expression is in one line or separated into
-multiple lines. For example, the following codes are the same:
+In Python, it doesn’t matter if an expression is in one line or separated into multiple lines. For example, the following codes are the same:
 
 <table><tr><td bgcolor=#FFE4C4>
 
@@ -32,9 +31,7 @@ Similarly, suppose we have three variables named ``Box1``, ``box2``, and ``Box1`
 ![](http://legendary.cdn.play8.io/learnpython/img/day1/2.3.png)
 
 
-Example 2.3: Suppose you have two three boxes, Box1, Box2, and Box3. Box1 and
-Box2 contain 11 and 5 respectively. Write a Python program that adds the numbers
-in two boxes, puts it in Box3, and outputs Box3 to the screen.
+Example 2.3: Suppose you have two three boxes, ``Box1``, ``Box2``, and ``Box3``. ``Box1`` and ``Box2`` contain ``11`` and ``5`` respectively. Write a Python program that adds the numbers in two boxes, puts it in ``Box3``, and outputs ``Box3`` to the screen.
 
 ```python
 Box1 = 11
@@ -49,8 +46,7 @@ Output.
 16
 ```
 
-We can use the arithmetic operators, addition (+), subtraction (-), division (/),
-multiplication (*) and parenthesis ‘()’ in the same way we use in math.
+We can use the arithmetic operators, addition (+), subtraction (-), division (/), multiplication (*) and parenthesis ‘()’ in the same way we use in math.
 
 
 

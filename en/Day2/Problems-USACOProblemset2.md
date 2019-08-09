@@ -1,4 +1,4 @@
-Question 1
+**Question 1**
 
 ```
 Promotion Counting
@@ -73,6 +73,8 @@ bronze.
 
 
 <br>
+
+**Question 2**
 
 ```
 Bedtime Reading, I

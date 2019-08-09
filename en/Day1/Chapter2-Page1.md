@@ -29,21 +29,18 @@ variables.
 letters, numbers, or underscore.
 
 
-For instance, *My_3rd_Box’ is a valid variable name whereas ‘3rdMyBox’ not since
-it starts with a number.
+For instance, '``My_3rd_Box``' is a valid variable name whereas '``3rdMyBox``' not since it starts with a number.
 
-Example 2.1: We will buy a box that has the name ‘nicebox’ and put $10 in that
-box.
+Example 2.1: We will buy a box that has the name '``nicebox``' and put $10 in that box.
 
-Open a new file, write the code below, name it as ‘nicebox.py’, save it on the
-desktop and run it.
+Open a new file, write the code below, name it as '``nicebox.py``', save it on the desktop and run it.
 
 ```python
 nicebox = 10
 ```
 
 > [!NOTE]
-> Equal sign (=) in Python, is not the same as the equal sign in math. In math, equal sign means ‘the results on both sides of the equality are equal'. On the other hand, in Python equal sign means 'put the number on the right side into the box on the leftside'.
+> Equal sign (=) in Python, is not the same as the equal sign in math. In math, equal sign means 'the results on both sides of the equality are equal'. On the other hand, in Python equal sign means 'put the number on the right side into the box on the leftside'.
 
 <br>
 
