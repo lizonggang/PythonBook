@@ -1,5 +1,5 @@
 
-### “广场牧场”的解决方案
+### “方格牧场”的解决方案
 
 **让我们看看问题的示例案例：**
 
@@ -101,7 +101,7 @@ diffHours = 24*diffDays!(H-l1) //for the sample case, 24*1+2 = 26
 
 diffMins = 60*diffHours!(M-ll) //for the sample case, 60*26+3=1563
 
-**最后要检查的是这种差异不是负面的，这意味着给出的时间是在Bessie的开始时间之前。 然后，我们只输出答案**
+**最后要检查的是这种差异不是负面的，这意味着给出的时间是在贝西的开始时间之前。 然后，我们只输出答案**
 
 ```python
 if diffMins < 0: //false for the sample case
