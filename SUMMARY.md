@@ -58,12 +58,12 @@
   * [第4天](cn/README.md)
     * [项目：猜我的数字](cn/Day4/Project-GuessmyNumber.md)
     * [比赛：猜我的数字(5分)](cn/Day4/Tournament-GuessmyNumber.md)
-    * [USACO问题集3](cn/Day1/Problems-USACOProblemset3.md) <!-- no -->
-    * [答案：USACO问题集3](cn/Day1/Solutions-USACOProblemset3.md) <!-- no -->
+    * [USACO问题集3](cn/Day4/Problems-USACOProblemset3.md) <!-- no -->
+    * [答案：USACO问题集3](cn/Day4/Solutions-USACOProblemset3.md) <!-- no -->
   * [第5天](cn/README.md)
     * [挑战：循环问题集](cn/Day5/Challenge-Looping-Problem-Set.md)
-    * [USACO问题集4](cn/Day1/Problems-USACOProblemset4.md) <!-- no -->
-    * [答案：USACO问题集4](cn/Day1/Solutions-USACOProblemset4.md) <!-- no -->
+    * [USACO问题集4](cn/Day5/Problems-USACOProblemset4.md) <!-- no -->
+    * [答案：USACO问题集4](cn/Day5/Solutions-USACOProblemset4.md) <!-- no -->
   * [第6天](cn/README.md)
     * [第5章：数组-1](cn/Day6/Chapter5-Arrays.md)
     * [第5章：数组-2](cn/Day6/Chapter5-Page2.md)
@@ -80,8 +80,8 @@
     * [第5章：练习提示-第2部分](cn/Day7/HintforChapter5-Exercises-Part2.md)
     * [第5章：参考答案2](cn/Day7/Chapter5-Solutions-Part2.md)
     * [项目：Alpha Maria Game](cn/Day7/Project-AlphaMaria.md)
-    * [USACO问题集5](cn/Day1/Problems-USACOProblemset5.md) <!-- no -->
-    * [答案：USACO问题集5](cn/Day1/Solutions-USACOProblemset5.md) <!-- no -->
+    * [USACO问题集5](cn/Day7/Problems-USACOProblemset5.md) <!-- no -->
+    * [答案：USACO问题集5](cn/Day7/Solutions-USACOProblemset5.md) <!-- no -->
   * [第8天](cn/README.md)
     * [第6章：嵌套条件-1](cn/Day8/Chapter6-NestedConditions.md)
     * [第6章：嵌套条件-2](cn/Day8/Chapter6-NestedConditions-p2.md)
