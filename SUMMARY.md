@@ -46,8 +46,8 @@
     * [第4章：参考答案1](cn/Day2/Chapter4-Solutions-Part1.md)
     * [第4章：视频-for循环](cn/Day2/Chapter4-video-for_loop.md)
     * [第4章：视频-while循环](cn/Day2/Chapter4-video-while_loop.md)
-    * [USACO问题集2](cn/Day1/Problems-USACOProblemset2.md) <!-- no -->
-    * [答案：USACO问题集2](cn/Day1/Solutions-USACOProblemset2.md) <!-- no -->
+    * [USACO问题集2](cn/Day2/Problems-USACOProblemset2.md) <!-- no -->
+    * [答案：USACO问题集2](cn/Day2/Solutions-USACOProblemset2.md) <!-- no -->
   * [第3天](cn/README.md)
     * [第4章：练习2](cn/Day3/Chapter4-Exercises-Part2.md)
     * [第4章：参考答案2](cn/Day3/Chapter4-Solutions-Part2.md)
