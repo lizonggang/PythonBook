@@ -28,7 +28,7 @@
     * [第3章：练习-2](cn/Day1/Chapter3-Page7.md)
     * [第3章：练习](cn/Day1/Chapter3-Exercises.md)
     * [第3章：参考答案](cn/Day1/Chapter3-Solutions.md)
-    * [视频：条件](cn/Day1/video-Conditions.md)
+    * [视频：条件](en/Day1/video-Conditions.md)
     * [USACO问题集1](cn/Day1/Problems-USACOProblemset1.md)
     * [答案：USACO问题集1](cn/Day1/Solutions-USACOProblemset1.md)
   * [第2天](cn/README.md)
