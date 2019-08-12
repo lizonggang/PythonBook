@@ -89,7 +89,7 @@ The goal is to find the closest pair of cows. The distance is defined as sqrt(xd
 
 Check all pairs of cows with a nested for loop; update the stored values every time a smaller distance is found. After determining the pair of cows with the minimum distance, output the answer. 
  
-In addition, note that the multiplication process may overflow an integer (use long long or something in C++). As another implementation tip, we don’t need square root function since we don’t need the actual distance but we just compare them. So, comparing the square root of two numbers is the same as comparing without square root.  
+In addition, note that the multiplication process may overflow an integer (use long long or something in C++). As another implementation tip, we don't need square root function since we don’t need the actual distance but we just compare them. So, comparing the square root of two numbers is the same as comparing without square root.  
 
 ```python
 read N 

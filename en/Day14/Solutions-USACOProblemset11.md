@@ -68,7 +68,7 @@ In our solution, we must simulate this process and create an array such as the f
 0 0 0 0 8 
 ```
 
-Then, we print the array while replacing all 0’s with blanks. To create this array, we place down 1 number in the first column, then two in the second column, up to n numbers in the nth column. Each number we place down is one greater than the previous one, except we take each number mod 9 (other than 9 itself) because we only want the digits 1-9.  
+Then, we print the array while replacing all 0's with blanks. To create this array, we place down 1 number in the first column, then two in the second column, up to n numbers in the nth column. Each number we place down is one greater than the previous one, except we take each number mod 9 (other than 9 itself) because we only want the digits 1-9.  
  
 ```python
 read n,s 
