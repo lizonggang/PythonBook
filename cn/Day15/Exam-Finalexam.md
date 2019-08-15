@@ -7,11 +7,11 @@
 - 您可以使用旧代码
 - 您<u>不能使用</u>课程手册或任何其他材料
 - 没有网站，除了：
-  - Pyton参考：https：//docs.python.org/3/tutorial/
-  - 在线编译器，例如：https：//ideone.com/
+  - Pyton参考：https://docs.python.org/3/tutorial/
+  - 在线编译器，例如：https://ideone.com/
 
 ### 作弊
-- 别人的代码或代码
+- 别人的代码
 - 硬编码输出
 
 祝好运。
