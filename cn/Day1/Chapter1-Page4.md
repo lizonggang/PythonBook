@@ -14,7 +14,7 @@ print("hello world!")
 
 ![blockchain](http://legendary.cdn.play8.io/learnpython/img/day1/1.4.1.png)
 
-如上图所示，在我们写下“你好世界！”之后 程序在编辑器中运行它，程序会写'hello world!' 在窗口底部所示的屏幕上，我们在编辑器中编写程序，在“shell”选项卡的窗口底部看到我们程序的输出。
+如上图所示，在我们写下'hello world!'之后 程序在编辑器中运行它，程序会写'hello world!' 在窗口底部所示的屏幕上，我们在编辑器中编写程序，在“shell”选项卡的窗口底部看到我们程序的输出。
 
 
 

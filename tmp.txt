@@ -30,3 +30,144 @@ i-mebpjwiy  这台机器的带宽由5M 减少到1M
 Problems-USACOProblemset1.md
 Solutions-USACOProblemset1.md
 
+CREATE DATABASE IF NOT EXISTS jumpserver default charset utf8 COLLATE utf8_general_ci;
+
+bHmHg9PZ7rTB1z0yJkx3g9Bn6DJW2QZySRzqpKd1SmIvgfLjR
+
+GRANT ALL PRIVILEGES ON jumpserver.* TO 'jumpserver'@'172.31.0.10' IDENTIFIED BY 'jumpserver';
+FLUSH PRIVILEGES;
+
+http://lms.metaschool.cn
+admin
+Admin@2019
+
+
+
+
+172.31.1.20 tk_online
+18.196.92.209 er_online
+185.99.9.139 mc_online
+54.233.172.138 sa_online
+13.250.236.55 sg_online
+34.218.201.191 us_online
+
+zabbix_get -s 172.31.1.20 -k "tk_online"
+zabbix_get -s 18.196.92.209 -k "er_online"
+zabbix_get -s 185.99.9.139 -k "mc_online"
+zabbix_get -s 54.233.172.138 -k "sa_online"
+zabbix_get -s 13.250.236.55 -k "sg_online"
+zabbix_get -s 34.218.201.191 -k "us_online"
+
+
+
+AccessKeyID：
+LTAI5oW6hGmZljsE
+AccessKeySecret：
+3vjGB1I7IvylrjYeKjSYjeunAd4f1d
+    
+Vue.js 教程
+Bootstrap 教程
+
+13521126197
+
+      
+
+LOAD DATA INFILE '/data/logs/mysql-files/1host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA INFILE '/data/logs/mysql-files/2host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA INFILE '/data/logs/mysql-files/4host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA INFILE '/data/logs/mysql-files/5host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA INFILE '/data/logs/mysql-files/6host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+LOAD DATA INFILE '/data/logs/mysql-files/8host/2019-08-26/t_human.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+
+
+LOAD DATA INFILE '/data/logs/mysql-files/test.csv' INTO TABLE fact_human COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n';
+
+
+SELECT
+                8 as 'serverSn',
+                id,
+                sid,
+                serverId,
+                account,
+                password,
+                keyActivate,
+                timeSecOnline,
+                timeSecOnlineToday,
+                timeLogin,
+                timeLogout,
+                timeCreate,
+                sessionKey,
+                gameOptions,
+                name,
+                level,
+                photo,
+                photoFrame,
+                sex,
+                expCur,
+                expUpgrade,
+                vipLevel,
+                chargeDiamond,
+                diamond,
+                gem,
+                gold,
+                token,
+                spendDiamond,
+                0,
+                levelScore,
+                totalBattle,
+                win,
+                mvp,
+                maxKills,
+                godl,
+                chestLockTime,
+                maxDeads,
+                totalScore,
+                totalScoreUpdateTime,
+                highestScore,
+                heroCount,
+                skinCount,
+                coinGachaCount,
+                gemGachaCount,
+                lastFreeGemGachaTime,
+                weekCardExpireTime,
+                monthCardExpireTime,
+                lifeCardExpireTime,
+                payChargeOnceIds,
+                unionId,
+                unionName,
+                unionPoint,
+                unionDonationCount,
+                unionTimeExit,
+                mailGrantJson,
+                channelType,
+                socialType,
+                socialAccount,
+                crossSocialType,
+                crossSocialAccount,
+                countryCode
+        FROM
+                t_human INTO OUTFILE '/var/lib/mysql-files/t_human_test.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
+#!/bin/bash
+cd /data/iogame/logs/
+find /data/iogame/logs/ -mtime +3 -delete
+find /tmp/*tar.gz -mtime +1 -delete
+find /tmp/*sql -mtime +1 -delete
+find /tmp/*sh -mtime +1 -delete
+老窖　山西汾酒　山东药玻　海康　海螺水泥
+
+P/E 就是　　每股股价　/ 每股 EPS 。比如说老窖 股价 90 / 每股 EPS 2.69 = 33 倍
+就是投资老窖 33 年会回本的意思。E/P 是 0.03 = 3% 等于投资老窖年化 3%。感觉很低。
+感觉报酬率很低，但为什么还会在 90 买老窖呢？因为老窖有非常高的成长率。每年利润成长率都在 33-35% 以上。
+但是机构估 20-22% 左右。这就是错杀。
+我回答一下 EPS 是啥。EPS 就是每股赚多少
+每股利润 Earing Per Share 简称 EPS
+讲一下 DCF 是什么。DCF 是打折现金流法。基本上他的概念就是假设现在老窖 EPS 2.69 然后预计他每年 EPS 增长 25%。连续增长 10 年。然后就十年会赚一堆钱。但是未来的钱比较不值钱，把这十年赚的钱算通澎折现，折回来现在值多少钱。
+
+pyenv+virtualenv 应该是最佳搭配实践了吧！比较懒，一直用的pycharm的virtualenv，貌似逃过一劫
+virtualenvwrapper
+conda
+
+anaconda
+https://app.schoology.com
+
